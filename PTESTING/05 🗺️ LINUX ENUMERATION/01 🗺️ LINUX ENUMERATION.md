@@ -21,6 +21,14 @@ find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -lsa {} \; 2> /dev/nul
 find / -perm -u=s -type f 2>/dev/null
 ```
 
+Find all files owned by current user:
+
+```shell
+find / -user $(whoami) 2>/dev/null | grep -v "^/run\|^/proc\|^/sys"
+```
+
+Others
+
 ```bash
 for file in $(find / -type -f -name *.conf 2>/dev/null); do grep -lF nopass $file;done
 ```
