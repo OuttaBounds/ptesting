@@ -6,7 +6,14 @@ Connect to MYSQL server:
 ```shell
 mysql -h $TARGET_IP -u $USER -p
 ```
-
+Show list of databases:
+```sql
+show databases;
+```
+Show list of tables in current DB:
+```sql
+show tables;
+```
 Priv esc if running as root:
 #mysql #privesc #priv-esc
 
