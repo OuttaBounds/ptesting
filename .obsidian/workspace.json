@@ -1,0 +1,181 @@
+{
+  "main": {
+    "id": "c5a3d243b2ac87b0",
+    "type": "split",
+    "children": [
+      {
+        "id": "c43610248b18c8f3",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "c1bf37f51a2bd3e4",
+            "type": "leaf",
+            "state": {
+              "type": "diff-view",
+              "state": {
+                "file": ".obsidian/workspace.json",
+                "staged": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "8657bc300b34fd90",
+    "type": "split",
+    "children": [
+      {
+        "id": "c115cea7b0fae39c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7fa3f8571c7b8b79",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "df9186ae701d0fee",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "Open Source Control View",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4f7858ee7cf0faed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "105ce5f8e9b9f99c",
+    "type": "split",
+    "children": [
+      {
+        "id": "b31826fedad153bc",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "99b5b93bd803f923",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "24d14401b04d7c9a",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "dbe0cf37f87f740a",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "c9353739277b0843",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "98983ce99de16196",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "7fa3f8571c7b8b79",
+  "lastOpenFiles": [
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+    "PTESTING/02 😼 NC/01 😼 NC.md",
+    "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
+    "PTESTING/03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
+    "PTESTING/03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
+    "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
+    "PTESTING/07 📍 KALI Specific/01 📍 KALI Specific.md",
+    "PTESTING/09 🌐 NFS or MOUNTD/01 🌐 NFS or MOUNTD.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
+    "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
+    "PTESTING/03 🕸️ WEB ENUMERATION/05 👤 GOBUSTER.md",
+    "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
+    "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md"
+  ]
+}
