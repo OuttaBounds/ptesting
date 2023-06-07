@@ -1,9 +1,9 @@
 {
   "commitMessage": "PTESTING backup: {{date}}",
   "commitDateFormat": "YYYY-MM-DD HH:mm:ss",
-  "autoSaveInterval": 10,
+  "autoSaveInterval": 15,
   "autoPushInterval": 0,
-  "autoPullInterval": 60,
+  "autoPullInterval": 120,
   "autoPullOnBoot": true,
   "disablePush": false,
   "pullBeforePush": true,
