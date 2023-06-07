@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "subdom",
+                "query": "lfi",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md"
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md"
               }
             }
           },
@@ -154,15 +155,15 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fa3f8571c7b8b79",
+  "active": "6478fda78066e096",
   "lastOpenFiles": [
+    "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
-    "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",

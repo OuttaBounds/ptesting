@@ -23,6 +23,8 @@ LFI Common Files
 /proc/cmdline
 /proc/self/cmdline
 /etc/issue
+/var/www/.htaccess
+/var/www/.htpasswd
 /etc/shadow
 /etc/group
 /etc/motd
