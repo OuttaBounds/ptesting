@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "linpea",
+                "query": "writeable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,7 +155,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6478fda78066e096",
+  "active": "df9186ae701d0fee",
   "lastOpenFiles": [
     "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
