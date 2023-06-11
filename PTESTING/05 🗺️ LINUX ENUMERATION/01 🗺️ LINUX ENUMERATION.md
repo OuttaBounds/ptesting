@@ -27,6 +27,12 @@ Find all files owned by current user:
 find / -user $(whoami) 2>/dev/null | grep -v "^/run\|^/proc\|^/sys"
 ```
 
+All writeable files by current user:
+
+```shell
+find / -writable -type f 2>/dev/null | grep -v "^/run\|^/proc\|^/sys"
+```
+
 Others
 
 ```bash
