@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "find",
+                "query": "subd",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md"
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "6478fda78066e096",
   "lastOpenFiles": [
+    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
@@ -179,7 +180,6 @@
     "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md"
