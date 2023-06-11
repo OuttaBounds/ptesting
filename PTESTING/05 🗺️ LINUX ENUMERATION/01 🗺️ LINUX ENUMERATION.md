@@ -173,7 +173,9 @@ Files for auto enumeration:
 #lse #linpeas #enumeration #enum4linux 
 
 LinPEAS:
-curl -L https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh | sh
+```shell
+wget https://github.com/carlospolop/PEASS-ng/releases/latest/download/linpeas.sh
+```
 
 Linux Smart Enumeration (LSE):
 ```
