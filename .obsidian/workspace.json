@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "<?php",
+                "query": "writeable",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md"
+                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md"
               }
             }
           },
@@ -156,12 +157,14 @@
   },
   "active": "6478fda78066e096",
   "lastOpenFiles": [
+    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+    "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+    "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/09 🌐 NFS or MOUNTD/01 🌐 NFS or MOUNTD.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
-    "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
@@ -171,13 +174,11 @@
     "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
-    "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/07 📍 KALI Specific/01 📍 KALI Specific.md",
     "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/05 👤 GOBUSTER.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
