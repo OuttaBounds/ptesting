@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "find",
+                "query": "linpea",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -155,12 +155,12 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6478fda78066e096",
+  "active": "df9186ae701d0fee",
   "lastOpenFiles": [
+    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/09 🌐 NFS or MOUNTD/01 🌐 NFS or MOUNTD.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
