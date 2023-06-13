@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
                 "mode": "preview",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md"
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md"
               }
             }
           },
@@ -157,6 +156,7 @@
   },
   "active": "6478fda78066e096",
   "lastOpenFiles": [
+    "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/99 Addendum/JS PAYLOADS.md",
     "PTESTING/99 Addendum/LFI.md",
     "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
@@ -170,7 +170,6 @@
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/09 🌐 NFS or MOUNTD/01 🌐 NFS or MOUNTD.md",
-    "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",

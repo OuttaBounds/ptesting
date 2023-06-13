@@ -3,7 +3,7 @@ SUBDOMAIN ENUMERATION:
 #subdomain #vhost #sub-domain #sub-domains #WFUZZ
 
 ```bash
-wfuzz -H "Host: FUZZ.$TARGET_URL" --hc 200 -H "User-Agent: PENTEST" -c -z file,"/usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt" $TARGET_URL
+wfuzz -H "Host: FUZZ.$TARGET_URL" --hc 302,400 -H "User-Agent: PENTEST" -c -z file,"/usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt" $TARGET_URL
 ```
 
 ```bash
