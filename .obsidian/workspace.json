@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/CTF Notes/Derailed.md",
+                "file": "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sqlite3",
+                "query": "john",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/CTF Notes/Derailed.md",
+                "file": "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/CTF Notes/Derailed.md",
+                "file": "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/CTF Notes/Derailed.md"
+                "file": "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md"
               }
             }
           },
@@ -156,8 +157,8 @@
   },
   "active": "6478fda78066e096",
   "lastOpenFiles": [
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "PTESTING/CTF Notes/Derailed.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "PTESTING/CTF Notes",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/99 Addendum/JS PAYLOADS.md",
