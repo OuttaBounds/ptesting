@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "escape",
+                "query": "wpscan",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md"
+                "file": "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "6478fda78066e096",
   "lastOpenFiles": [
+    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
@@ -169,7 +170,6 @@
     "PTESTING/CTF Notes",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/99 Addendum",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/09 🌐 NFS or MOUNTD/01 🌐 NFS or MOUNTD.md",
