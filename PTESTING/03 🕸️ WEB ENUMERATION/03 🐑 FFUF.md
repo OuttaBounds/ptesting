@@ -44,6 +44,16 @@ ffuf -w /usr/share/seclists/Fuzzing/6-digits-000000-999999.txt -request $BURPREQ
 ffuf -u $TARGET_URL/$FILE.php?FUZZ=/etc/passwd -w /usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt -ac
 ```
 
+FFUF Basic Authentication Auth
+---
+#basic-auth #basic #auth 
+Generate header using:
+```
+export WUSER=$USER
+export WPASS=$PASS
+ffuf -u http://$TARGET_IP/FUZZ -w $WDIRS -H "Authorization: Basic $(echo $WUSER:$WPASS | base64)" -ac
+```
+
 FFUF File extensions(i.e. .php, .txt...):
 ---
 #extensions #file-extensions
