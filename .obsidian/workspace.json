@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -155,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6478fda78066e096",
+  "active": "7fa3f8571c7b8b79",
   "lastOpenFiles": [
     "PTESTING/11 🔨 Brute Force/02 🕸️ WEB.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 SNMP.md",
