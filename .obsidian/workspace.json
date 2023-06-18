@@ -25,26 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b08bf5edb2fb330",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
                 "mode": "preview",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -73,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#vulnerable-template",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -111,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md"
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md"
               }
             }
           },
@@ -180,13 +167,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6b08bf5edb2fb330",
+  "active": "38ef1e3af4a77f93",
   "lastOpenFiles": [
+    "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/99 Addendum/JS PAYLOADS.md",
     "PTESTING/CTF Notes/Sandworm.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
@@ -206,9 +196,6 @@
     "PTESTING/CTF Notes",
     "PTESTING/99 Addendum",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
-    "PTESTING/09 🌐 NFS or MOUNTD/01 🌐 NFS or MOUNTD.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-    "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md"
+    "PTESTING/09 🌐 NFS or MOUNTD/01 🌐 NFS or MOUNTD.md"
   ]
 }
