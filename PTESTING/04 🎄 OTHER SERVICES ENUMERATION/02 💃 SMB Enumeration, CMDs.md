@@ -3,6 +3,9 @@ Enumerate with empty / guest credentials:
 ---
 #cme #crackmapexec #smb #shares #samba
 
+Put IP after protocol or the CME crashes!
+---
+
 Enumerate SAMBA shares without specifying user:
 ```bash
 crackmapexec smb $TARGET_IP -u '' -p '' --shares
@@ -14,9 +17,12 @@ or using "guest" user
 crackmapexec smb $TARGET_IP -u 'guest' -p '' --shares
 ```
 
-```bash
-crackmapexec smb $TARGET_IP -u '' -p ''
+try again with a non-existing username
+
+```shell
+crackmapexec smb $TARGET_IP -u 'NonExistingUser' -p '' --shares
 ```
+
 
 Connect to IP to share backups:
 ---
