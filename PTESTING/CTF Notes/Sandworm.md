@@ -249,3 +249,8 @@ def save(msg, ip):
     with open(f"SSA/submissions/{fname}", "w") as f:
         f.write(msg)
 ```
+
+```c
+app.config['SECRET_KEY'] = '91668c1bc67132e3dcfb5b1a3e0c5c21'
+app.config['SQLALCHEMY_DATABASE_URI'] = 'mysql://atlas:GarlicAndOnionZ42@127.0.0.1:3306/SSA'
+```

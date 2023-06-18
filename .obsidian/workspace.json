@@ -14,12 +14,25 @@
               "type": "markdown",
               "state": {
                 "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
-                "mode": "preview",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3f257c15c3270e06",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -48,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "gene",
+                "query": "mysql",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md"
+                "file": "PTESTING/02 😼 NC/01 😼 NC.md"
               }
             }
           },
@@ -155,12 +167,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6478fda78066e096",
+  "active": "3f257c15c3270e06",
   "lastOpenFiles": [
+    "PTESTING/CTF Notes/Sandworm.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/99 Addendum/LFI.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
-    "PTESTING/CTF Notes/Sandworm.md",
     "PTESTING/CTF Notes/Derailed.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
@@ -174,12 +188,10 @@
     "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
     "PTESTING/99 Addendum/JS PAYLOADS.md",
     "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 Addendum",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/09 🌐 NFS or MOUNTD/01 🌐 NFS or MOUNTD.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
