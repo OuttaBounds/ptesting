@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
                 "mode": "preview",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md"
+                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md"
               }
             }
           },
@@ -157,9 +156,10 @@
   },
   "active": "6478fda78066e096",
   "lastOpenFiles": [
+    "PTESTING/CTF Notes/Sandworm.md",
+    "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
-    "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/11 🔨 Brute Force/02 🕸️ WEB.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 SNMP.md",
     "PTESTING/07 📍 KALI Specific/01 📍 KALI Specific.md",
@@ -183,7 +183,6 @@
     "PTESTING/03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
-    "PTESTING/03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md"
+    "PTESTING/03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md"
   ]
 }
