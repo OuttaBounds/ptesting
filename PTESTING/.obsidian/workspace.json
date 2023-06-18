@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -129,13 +128,21 @@
                 "file": "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md"
               }
             }
+          },
+          {
+            "id": "b7799271b94a58ee",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -150,31 +157,33 @@
   "active": "c3ebdcd005fb96e4",
   "lastOpenFiles": [
     "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+    "05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
+    "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
+    "07 📍 KALI Specific/01 📍 KALI Specific.md",
+    "06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
     "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
-    "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-    "11 🔨 Brute Force/03 🧨 WIN HASH CRACKING.md",
-    "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
-    "04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
     "04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
-    "04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
+    "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
-    "03 🕸️ WEB ENUMERATION/10 💬 Wordlist Generation.md",
-    "03 🕸️ WEB ENUMERATION/09 🍪 Cookies.md",
-    "03 🕸️ WEB ENUMERATION/08 🇼 WordPress.md",
-    "03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
-    "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
-    "03 🕸️ WEB ENUMERATION/05 👤 GOBUSTER.md",
-    "03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
-    "03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
-    "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
-    "03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
+    "04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+    "04 🎄 OTHER SERVICES ENUMERATION/09 SSL Certificate Enumeration.md",
+    "10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
+    "CTF Notes/Sandworm.md",
     "02 😼 NC/01 😼 NC.md",
     "01 👁️ NMAP/01 👁️ NMAP.md",
-    "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
-    "06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
+    "99 Addendum/02 ☿️ LFI.md",
+    "03 🕸️ WEB ENUMERATION/08 🍪 Cookies.md",
+    "03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
+    "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
+    "03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
+    "11 🔨 Brute Force/01 🗄️ DB Service.md",
+    "11 🔨 Brute Force/02 🕸️ WEB.md",
+    "CTF Notes",
+    "99 Addendum",
     "02 😼 NC",
     "01 👁️ NMAP",
     "12 🦘 PIVOTING",
@@ -183,8 +192,6 @@
     "09 🌐 NFS or MOUNTD",
     "08 🧂 HASH OPS or HASHCRACKING",
     "07 📍 KALI FILE LOCATIONS",
-    "06 🔎 WIN ENUMERATION",
-    "05 🗺️ LINUX ENUMERATION",
     "Untitled.canvas"
   ]
 }
