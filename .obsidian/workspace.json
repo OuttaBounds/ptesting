@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "3f257c15c3270e06",
+            "id": "38ef1e3af4a77f93",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -167,15 +167,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3f257c15c3270e06",
+  "active": "38ef1e3af4a77f93",
   "lastOpenFiles": [
-    "PTESTING/02 😼 NC/01 😼 NC.md",
-    "PTESTING/CTF Notes/Sandworm.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+    "PTESTING/CTF Notes/Sandworm.md",
+    "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/99 Addendum/LFI.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "PTESTING/CTF Notes/Derailed.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
@@ -183,7 +184,6 @@
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 SNMP.md",
     "PTESTING/07 📍 KALI Specific/01 📍 KALI Specific.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
     "PTESTING/99 Addendum/JS PAYLOADS.md",
