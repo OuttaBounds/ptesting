@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/CTF Notes/Sandworm.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/CTF Notes/Sandworm.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/CTF Notes/Sandworm.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md"
+                "file": "PTESTING/CTF Notes/Sandworm.md"
               }
             }
           },
@@ -169,6 +169,7 @@
   },
   "active": "3f257c15c3270e06",
   "lastOpenFiles": [
+    "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/CTF Notes/Sandworm.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
@@ -176,7 +177,6 @@
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "PTESTING/CTF Notes/Derailed.md",
-    "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/11 🔨 Brute Force/02 🕸️ WEB.md",
