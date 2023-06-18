@@ -17,7 +17,7 @@ show tables;
 Priv esc if running as root:
 #mysql #privesc #priv-esc
 
-```mysql
+```sql
 use mysql;
 show tables;
 select * from func;
