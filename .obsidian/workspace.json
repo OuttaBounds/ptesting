@@ -37,8 +37,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
-                "mode": "source",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mysql",
+                "query": "tag:#vulnerable-template",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,7 +90,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -110,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/02 😼 NC/01 😼 NC.md"
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md"
               }
             }
           },
@@ -179,12 +180,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "98983ce99de16196",
+  "active": "6b08bf5edb2fb330",
   "lastOpenFiles": [
+    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "PTESTING/99 Addendum/JS PAYLOADS.md",
     "PTESTING/CTF Notes/Sandworm.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
@@ -199,7 +202,6 @@
     "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
     "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
-    "PTESTING/99 Addendum/JS PAYLOADS.md",
     "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 Addendum",
@@ -207,7 +209,6 @@
     "PTESTING/09 🌐 NFS or MOUNTD/01 🌐 NFS or MOUNTD.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md"
   ]
 }
