@@ -11,11 +11,11 @@
             "id": "43fad92af09c3ae0",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
-                "staged": false,
-                "hash": "aba1308beaa1cff9de753c88dfd1f11750cc40e7"
+                "file": "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -86,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md"
+              }
             }
           },
           {
@@ -152,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a667009c7768e1e",
+  "active": "43fad92af09c3ae0",
   "lastOpenFiles": [
     "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
