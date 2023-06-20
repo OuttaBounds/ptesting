@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Certificate-Abuse",
+                "query": "%00",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -151,7 +152,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "653b4a2aba5b0052",
+  "active": "0a667009c7768e1e",
   "lastOpenFiles": [
     "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
