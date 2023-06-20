@@ -11,3 +11,10 @@ Seclists RCE Payloads
 ```lists
 /usr/share/seclists/Fuzzing/command-injection-commix.txt
 ```
+
+Bypassing PHP File upload execution:
+---
+.htaccess :
+```
+AddType application/x-httpd-php .php16
+```

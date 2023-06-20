@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
+                "file": "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
                 "mode": "source",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
+                "file": "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
+                "file": "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md"
+                "file": "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md"
               }
             }
           },
@@ -158,6 +157,7 @@
   },
   "active": "43fad92af09c3ae0",
   "lastOpenFiles": [
+    "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
     "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
@@ -183,7 +183,6 @@
     "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
     "03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
     "11 🔨 Brute Force/01 🗄️ DB Service.md",
-    "11 🔨 Brute Force/02 🕸️ WEB.md",
     "CTF Notes",
     "99 Addendum",
     "02 😼 NC",
