@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
                 "mode": "preview",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "pip",
+                "query": "priv",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,8 +78,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md"
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md"
               }
             }
           },
@@ -170,6 +169,8 @@
   },
   "active": "38ef1e3af4a77f93",
   "lastOpenFiles": [
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+    "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "PTESTING/99 Addendum/02 ☿️ LFI.md",
@@ -177,7 +178,6 @@
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/09 SSL Certificate Enumeration.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/99 Addendum/JS PAYLOADS.md",
@@ -189,7 +189,6 @@
     "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/99 Addendum/LFI.md",
     "PTESTING/CTF Notes/Derailed.md",
-    "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/11 🔨 Brute Force/02 🕸️ WEB.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 SNMP.md",
