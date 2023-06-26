@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "rdp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -78,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -169,20 +170,23 @@
   },
   "active": "38ef1e3af4a77f93",
   "lastOpenFiles": [
+    "PTESTING/06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/10 Others.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "PTESTING/99 Addendum/02 ☿️ LFI.md",
     "PTESTING/99 Addendum/01 📜 JS PAYLOADS.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/09 SSL Certificate Enumeration.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/99 Addendum/JS PAYLOADS.md",
     "PTESTING/CTF Notes/Sandworm.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
@@ -192,9 +196,6 @@
     "PTESTING/CTF Notes/Derailed.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/11 🔨 Brute Force/02 🕸️ WEB.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 SNMP.md",
-    "PTESTING/07 📍 KALI Specific/01 📍 KALI Specific.md",
-    "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 Addendum"
   ]
