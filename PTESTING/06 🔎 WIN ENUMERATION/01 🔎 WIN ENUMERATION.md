@@ -35,3 +35,10 @@ evil-winrm -i $TARGET_IP -u administrator -H $HASH
 ```sh
 crackmapexec winrm $TARGET_IP -u $USER -p $PASSWORD
 ```
+
+
+Port 3389 RDP:
+
+```sh
+xfreerdp /v:$TARGET_IP /u:$USER
+```
