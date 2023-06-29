@@ -77,7 +77,18 @@ SELECT * FROM SYSOBJECTS WHERE xtype = 'U';
 SELECT name FROM $DB_NAME..sysobjects WHERE xtype = 'U' order by name offset 1 rows fetch next 1 rows only)
 ```
 
-List 
+List columns:
+---
+```sql
+SELECT name FROM syscolumns WHERE id = (SELECT id FROM sysobjects WHERE name = '$COLUMN') order by name offset 1 rows fetch next 1 rows only
+```
+and offset for each entry
+
+List column:
+---
+```sql
+SELECT top 1 $COLUMN from $TABLE ORDER BY $COLUMN asc;
+```
 
 Leak NetNTLM hashes
 ---
