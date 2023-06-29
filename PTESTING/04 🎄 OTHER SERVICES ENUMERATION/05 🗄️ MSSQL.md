@@ -87,7 +87,11 @@ and offset for each entry
 List column:
 ---
 ```sql
-SELECT top 1 $COLUMN from $TABLE ORDER BY $COLUMN asc;
+SELECT top 1 $COLUMN from $TABLE ORDER BY $COLUMN;
+```
+
+```sql
+SELECT top 1 $COLUMN from $TABLE ORDER BY $COLUMN offset 1 rows fetch next 1 rows only;
 ```
 
 Leak NetNTLM hashes
