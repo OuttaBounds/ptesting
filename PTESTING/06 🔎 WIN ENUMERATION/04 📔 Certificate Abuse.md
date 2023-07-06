@@ -114,6 +114,10 @@ cp ticket.ccache /tmp/krb5cc_0
 export KRB5CCNAME=/home/kali/box-$TARGET_NAME/files/ticket.ccache
 ```
 
+```
+impacket-
+```
+
 Check with:
 
 ```shell

@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "continu",
+                "query": "ccache",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md"
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md"
               }
             }
           },
@@ -170,8 +170,8 @@
   },
   "active": "38ef1e3af4a77f93",
   "lastOpenFiles": [
-    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
