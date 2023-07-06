@@ -22,7 +22,13 @@ try again with a non-existing username
 ```shell
 crackmapexec smb $TARGET_IP -u 'NonExistingUser' -p '' --shares
 ```
-
+Enumerate users:
+```sh
+crackmapexec smb $TARGET_IP -u $USER -p $PASS --users > users.txt
+cat users.txt | awk '{print $5}' | grep $DOMAIN > users.txt
+#strip users from domain
+cat users.txt | awk 'BEGIN{ FS = "\\"} ; {print $2}' > users
+```
 
 Connect to IP to share backups:
 ---
