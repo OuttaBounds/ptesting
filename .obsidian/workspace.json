@@ -26,7 +26,7 @@
               "type": "markdown",
               "state": {
                 "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -168,7 +168,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df9186ae701d0fee",
+  "active": "38ef1e3af4a77f93",
   "lastOpenFiles": [
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
