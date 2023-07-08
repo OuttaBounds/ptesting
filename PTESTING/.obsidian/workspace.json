@@ -4,17 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "caf444a51128f929",
+        "id": "a3e491da9a64957c",
         "type": "tabs",
         "children": [
           {
-            "id": "de028892c8204047",
+            "id": "7494fa1d9f3f2e6a",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
-                "staged": false
+                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -84,6 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,6 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -121,7 +124,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md"
+              }
             }
           },
           {
@@ -157,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "de028892c8204047",
+  "active": "6996b5a56e599898",
   "lastOpenFiles": [
     "conflict-files-obsidian-git.md",
     "04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
