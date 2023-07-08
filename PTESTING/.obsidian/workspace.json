@@ -11,11 +11,10 @@
             "id": "7494fa1d9f3f2e6a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-                "mode": "source",
-                "source": false
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md"
-              }
+              "state": {}
             }
           },
           {
@@ -162,11 +157,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "6996b5a56e599898",
+  "active": "7494fa1d9f3f2e6a",
   "lastOpenFiles": [
+    "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "conflict-files-obsidian-git.md",
     "04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
-    "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "04 🎄 OTHER SERVICES ENUMERATION/10 Others.md",
     "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
     "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
