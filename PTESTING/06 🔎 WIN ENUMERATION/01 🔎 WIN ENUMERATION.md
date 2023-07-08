@@ -12,6 +12,10 @@ Show all files and DIRs for guest:
 crackmapexec smb $TARGET_IP -u 'guest' -p '' -M spider_plus
 ```
 
+```shell
+crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD -M spider_plus --spider users
+```
+
 Parse the JSON from the previous cmd into readable form:
 
 ```shell

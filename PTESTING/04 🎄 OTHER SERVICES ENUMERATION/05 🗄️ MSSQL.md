@@ -1,5 +1,9 @@
 **MSSQL:**
 ---
+```sh
+sqsh -S $TARGET_IP:$PORT -U $DOMAIN\\$USER -P $PASS
+```
+
 ```shell
 crackmapexec mssql $TARGET_IP -u $USER -p $PASSWORD
 ```
