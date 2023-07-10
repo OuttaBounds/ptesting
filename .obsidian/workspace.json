@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "190e2b8fb832c8ba",
+        "id": "c9140ac2600b3d39",
         "type": "tabs",
         "children": [
           {
-            "id": "6478fda78066e096",
+            "id": "92adc767cd871b39",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
+                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "38ef1e3af4a77f93",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -78,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -99,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "PTESTING/02 😼 NC/01 😼 NC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md"
+                "file": "PTESTING/02 😼 NC/01 😼 NC.md"
               }
             }
           },
@@ -168,10 +154,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "38ef1e3af4a77f93",
+  "active": "92adc767cd871b39",
   "lastOpenFiles": [
-    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
