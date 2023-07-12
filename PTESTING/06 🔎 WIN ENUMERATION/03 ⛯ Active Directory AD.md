@@ -148,3 +148,5 @@ Password spraying with CME
 ```shell
 crackmapexec smb $DOMAIN -u users  -p $PASS --continue-on-success
 ```
+
+
