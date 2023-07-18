@@ -22,7 +22,13 @@ Get installed patches:
 wmic qfe
 ```
 
+Search for cleartext passwords:
+```powershell
+findstr /si password *.txt
+findstr /spin "password" *.*
+```
 
+```
 
 Add domain NB name to /etc/hosts
 
