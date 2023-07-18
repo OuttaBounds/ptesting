@@ -1,3 +1,27 @@
+Check OS architecture / version:
+```powershell
+ver
+wmic os get osarchitecture
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version" /C:"System Type"
+```
+
+Get routes:
+```powershell
+route PRINT
+```
+
+Get running processes:
+
+```powershell
+tasklist /SVC
+```
+
+Get installed patches:
+
+```powershell
+wmic qfe
+```
+
 
 
 Add domain NB name to /etc/hosts

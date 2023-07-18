@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CTF Notes/AD.md",
+                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CTF Notes/AD.md",
+                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CTF Notes/AD.md",
+                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CTF Notes/AD.md"
+                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md"
               }
             }
           },
@@ -164,8 +164,9 @@
   },
   "active": "7494fa1d9f3f2e6a",
   "lastOpenFiles": [
-    "CTF Notes/Derailed.md",
+    "03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
     "CTF Notes/AD.md",
+    "CTF Notes/Derailed.md",
     "CTF Notes/Sandworm.md",
     "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
@@ -189,7 +190,6 @@
     "10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "02 😼 NC/01 😼 NC.md",
     "01 👁️ NMAP/01 👁️ NMAP.md",
-    "99 Addendum/02 ☿️ LFI.md",
     "CTF Notes",
     "99 Addendum",
     "02 😼 NC",
