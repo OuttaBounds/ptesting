@@ -41,9 +41,9 @@ We will discuss the “why” behind each of these tools in the next section, wh
 
 ## An overview of the Active Directory enumeration and pentesting process
 
-Methodologies for attacking Active Directory will vary from pentester to pentester, but one thing that will be true across all internal assessments is that we will start from either: 
+Methodologies for attacking Active Directory will start from either: 
 
-- An uncredentialed standpoint: No AD user account and just an internal network connection.
+- An uncredentialled standpoint: No AD user account and just an internal network connection.
     
 - A credentialed standpoint: Typically a low privileged, standard AD user account. 
     

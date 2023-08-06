@@ -13,24 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
+                "file": "PTESTING/CTF Notes/AD.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "3536b814486b6637",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.3.7"
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
+                "file": "PTESTING/CTF Notes/AD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
+                "file": "PTESTING/CTF Notes/AD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md"
+                "file": "PTESTING/CTF Notes/AD.md"
               }
             }
           },
@@ -165,8 +154,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3536b814486b6637",
+  "active": "92adc767cd871b39",
   "lastOpenFiles": [
+    "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/CTF Notes/AD.md",
@@ -192,7 +182,6 @@
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/09 SSL Certificate Enumeration.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "PTESTING/99 Addendum/JS PAYLOADS.md",
-    "PTESTING/CTF Notes/Sandworm.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 Addendum"
   ]
