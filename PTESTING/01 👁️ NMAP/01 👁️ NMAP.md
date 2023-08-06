@@ -13,7 +13,7 @@ Then do:
 export TARGET_PORTS=1,2,3
 nmap -Pn -p $TARGET_PORTS -sCV -oN $TARGET_NAME.services.txt $TARGET_IP
 ```
-
+and run the script:
 ```bash
 nmap $TARGET_IP -Pn --script=/usr/share/nmap/scripts/
 ```

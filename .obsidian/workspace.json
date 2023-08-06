@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "3536b814486b6637",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -154,7 +165,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "92adc767cd871b39",
+  "active": "3536b814486b6637",
   "lastOpenFiles": [
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
