@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/CTF Notes/AD.md",
+                "file": "PTESTING/99 Addendum/01 📜 JS PAYLOADS.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/CTF Notes/AD.md",
+                "file": "PTESTING/99 Addendum/01 📜 JS PAYLOADS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/CTF Notes/AD.md",
+                "file": "PTESTING/99 Addendum/01 📜 JS PAYLOADS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/CTF Notes/AD.md"
+                "file": "PTESTING/99 Addendum/01 📜 JS PAYLOADS.md"
               }
             }
           },
@@ -156,10 +156,12 @@
   },
   "active": "92adc767cd871b39",
   "lastOpenFiles": [
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/09 🔐 SSL Certificate Enumeration.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
+    "PTESTING/CTF Notes/AD.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
-    "PTESTING/CTF Notes/AD.md",
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
@@ -175,11 +177,9 @@
     "PTESTING/06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
     "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
     "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/10 Others.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/99 Addendum/02 ☿️ LFI.md",
     "PTESTING/99 Addendum/01 📜 JS PAYLOADS.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/09 SSL Certificate Enumeration.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "PTESTING/99 Addendum/JS PAYLOADS.md",
     "PTESTING/CTF Notes",
