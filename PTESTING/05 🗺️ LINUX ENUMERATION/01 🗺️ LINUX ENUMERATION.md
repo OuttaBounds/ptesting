@@ -7,8 +7,17 @@ cat /etc/passwd
 ```
 
 Get users with shell rights:
+
 ```shell
 cat /etc/passwd | grep sh$
+```
+
+Get only usernames:
+
+```sh
+cat /etc/passwd | grep sh$ | cut -d: -f1
+#OR
+cat /etc/passwd | grep sh$ | sed 's/ *:.*//'
 ```
 
 Get all files with SUID / SGID bit set:
