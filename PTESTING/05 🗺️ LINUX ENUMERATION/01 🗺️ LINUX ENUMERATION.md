@@ -6,7 +6,7 @@ File enumeration:
 cat /etc/passwd
 ```
 
-Get users with shell rights:
+Get users with shell:
 
 ```shell
 cat /etc/passwd | grep sh$
