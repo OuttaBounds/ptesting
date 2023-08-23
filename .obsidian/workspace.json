@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "hydra",
+                "query": "zip",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,13 +156,15 @@
   },
   "active": "92adc767cd871b39",
   "lastOpenFiles": [
-    "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
+    "PTESTING/02 😼 NC/01 😼 NC.md",
+    "PTESTING/11 🔨 Brute Force/05 🤐 ZIP.md",
+    "PTESTING/03 🕸️ WEB ENUMERATION/05 👤 GOBUSTER.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "PTESTING/11 🔨 Brute Force/01 🗄️ DB Service.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/11 🔨 Brute Force/02 🕸️ WEB.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
-    "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/99 Addendum/01 📜 JS PAYLOADS.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/09 🔐 SSL Certificate Enumeration.md",
@@ -180,8 +182,6 @@
     "PTESTING/06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
     "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
     "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
-    "PTESTING/99 Addendum/02 ☿️ LFI.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 Addendum"
   ]
