@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9abf3e5d204e8f2c",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.3.7"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,8 +173,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7494fa1d9f3f2e6a",
+  "active": "9abf3e5d204e8f2c",
   "lastOpenFiles": [
+    "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
+    "04 🎄 OTHER SERVICES ENUMERATION/09 🔐 SSL Certificate Enumeration.md",
     "03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
     "CTF Notes/AD.md",
     "CTF Notes/Derailed.md",
@@ -188,8 +201,6 @@
     "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
     "04 🎄 OTHER SERVICES ENUMERATION/09 SSL Certificate Enumeration.md",
     "10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
-    "02 😼 NC/01 😼 NC.md",
-    "01 👁️ NMAP/01 👁️ NMAP.md",
     "CTF Notes",
     "99 Addendum",
     "02 😼 NC",
