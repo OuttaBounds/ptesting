@@ -13,19 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "file": "99 Addendum/03 ➰ cURL Usage.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "9abf3e5d204e8f2c",
+            "id": "12a45b4f601fdfb3",
             "type": "leaf",
             "state": {
               "type": "release-notes",
               "state": {
-                "currentVersion": "1.3.7"
+                "currentVersion": "1.4.12"
               }
             }
           }
@@ -96,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "file": "99 Addendum/03 ➰ cURL Usage.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "file": "99 Addendum/03 ➰ cURL Usage.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md"
+                "file": "99 Addendum/03 ➰ cURL Usage.md"
               }
             }
           },
@@ -173,8 +173,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9abf3e5d204e8f2c",
+  "active": "12a45b4f601fdfb3",
   "lastOpenFiles": [
+    "99 Addendum/02 ⛩️ LFI.md",
+    "99 Addendum/03 ➰ cURL Usage.md",
+    "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
     "04 🎄 OTHER SERVICES ENUMERATION/09 🔐 SSL Certificate Enumeration.md",
     "03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
@@ -191,7 +194,6 @@
     "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
-    "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
     "07 📍 KALI Specific/01 📍 KALI Specific.md",
     "06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
@@ -199,8 +201,6 @@
     "04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
     "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
-    "04 🎄 OTHER SERVICES ENUMERATION/09 SSL Certificate Enumeration.md",
-    "10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "CTF Notes",
     "99 Addendum",
     "02 😼 NC",
