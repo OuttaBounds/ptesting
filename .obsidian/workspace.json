@@ -4,33 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "c9140ac2600b3d39",
+        "id": "e08adcb1646d4446",
         "type": "tabs",
         "children": [
           {
-            "id": "92adc767cd871b39",
+            "id": "87972b81a6a09b61",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PTESTING/99 Addendum/03 ➰ cURL Usage.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "3030870366aa2569",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.4.12"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +81,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/99 Addendum/03 ➰ cURL Usage.md",
+                "file": "PTESTING/99 💰 Addendum/01 📜 JS PAYLOADS.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +98,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/99 Addendum/03 ➰ cURL Usage.md",
+                "file": "PTESTING/99 💰 Addendum/01 📜 JS PAYLOADS.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/99 Addendum/03 ➰ cURL Usage.md"
+                "file": "PTESTING/99 💰 Addendum/01 📜 JS PAYLOADS.md"
               }
             }
           },
@@ -165,11 +150,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3030870366aa2569",
+  "active": "7fa3f8571c7b8b79",
   "lastOpenFiles": [
-    "PTESTING/99 Addendum/01 📜 JS PAYLOADS.md",
-    "PTESTING/99 Addendum/02 ⛩️ LFI.md",
-    "PTESTING/99 Addendum/03 ➰ cURL Usage.md",
+    "PTESTING/99 💰 Addendum/01 📜 JS PAYLOADS.md",
+    "PTESTING/99 💰 Addendum/02 ⛩️ LFI.md",
+    "PTESTING/99 💰 Addendum/03 ➰ cURL Usage.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
@@ -194,6 +179,6 @@
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "PTESTING/CTF Notes",
-    "PTESTING/99 Addendum"
+    "PTESTING/99 💰 Addendum"
   ]
 }
