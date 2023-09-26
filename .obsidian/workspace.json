@@ -14,8 +14,19 @@
               "type": "empty",
               "state": {}
             }
+          },
+          {
+            "id": "55a2233cb46b1221",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.13"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -150,7 +161,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fa3f8571c7b8b79",
+  "active": "55a2233cb46b1221",
   "lastOpenFiles": [
     "PTESTING/99 💰 Addendum/01 📜 JS PAYLOADS.md",
     "PTESTING/99 💰 Addendum/02 ⛩️ LFI.md",
