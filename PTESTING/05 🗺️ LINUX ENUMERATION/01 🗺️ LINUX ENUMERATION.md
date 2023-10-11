@@ -45,7 +45,8 @@ find / -writable -type f 2>/dev/null | grep -v "^/run\|^/proc\|^/sys"
 Others
 
 ```bash
-#Get all 
+env
+#Get all env vars
 printenv
 ```
 
