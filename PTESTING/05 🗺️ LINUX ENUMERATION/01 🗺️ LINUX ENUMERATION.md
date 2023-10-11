@@ -45,6 +45,11 @@ find / -writable -type f 2>/dev/null | grep -v "^/run\|^/proc\|^/sys"
 Others
 
 ```bash
+#Get all 
+printenv
+```
+
+```bash
 for file in $(find / -type -f -name *.conf 2>/dev/null); do grep -lF nopass $file;done
 ```
 
