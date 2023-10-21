@@ -23,9 +23,11 @@
             "id": "ad9395f896c5409b",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.14"
+                "file": "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -59,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "responder",
+                "query": "chisel",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -76,7 +78,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -96,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md"
+                "file": "12 🦘 PIVOTING/01 🦘 PIVOTING.md"
               }
             }
           },
