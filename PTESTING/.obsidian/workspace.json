@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
+                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "chisel",
+                "query": "grep",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
+                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
+                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "12 🦘 PIVOTING/01 🦘 PIVOTING.md"
+                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "ad9395f896c5409b",
   "lastOpenFiles": [
+    "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "99 💰 Addendum/03 ➰ cURL Usage.md",
     "99 💰 Addendum/01 📜 JS PAYLOADS.md",
     "99 💰 Addendum/02 ⛩️ LFI.md",
@@ -204,7 +205,6 @@
     "05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
     "07 📍 KALI Specific/01 📍 KALI Specific.md",
     "06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
-    "06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
     "CTF Notes",
     "99 Addendum",
     "02 😼 NC",
