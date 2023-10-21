@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
                 "mode": "source",
                 "source": false
               }
@@ -61,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "grep",
+                "query": "sudo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -99,7 +99,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -116,7 +116,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -139,7 +139,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md"
+                "file": "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md"
               }
             }
           },
@@ -178,6 +178,7 @@
   },
   "active": "ad9395f896c5409b",
   "lastOpenFiles": [
+    "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "99 💰 Addendum/03 ➰ cURL Usage.md",
     "99 💰 Addendum/01 📜 JS PAYLOADS.md",
@@ -199,7 +200,6 @@
     "04 🎄 OTHER SERVICES ENUMERATION/10 Others.md",
     "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
     "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
-    "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
