@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "ad9395f896c5409b",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -162,7 +173,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "27b5705c214bdc36",
+  "active": "ad9395f896c5409b",
   "lastOpenFiles": [
     "99 💰 Addendum/03 ➰ cURL Usage.md",
     "99 💰 Addendum/01 📜 JS PAYLOADS.md",
