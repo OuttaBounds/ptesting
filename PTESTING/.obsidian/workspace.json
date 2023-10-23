@@ -30,9 +30,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "300be945c7e85322",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.16"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -176,7 +186,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ad9395f896c5409b",
+  "active": "300be945c7e85322",
   "lastOpenFiles": [
     "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
