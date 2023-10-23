@@ -31,9 +31,11 @@
             "id": "06019659c03e8861",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.14"
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -67,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rpc",
+                "query": "username",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +107,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +124,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +147,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md"
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md"
               }
             }
           },
@@ -174,8 +176,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df9186ae701d0fee",
+  "active": "06019659c03e8861",
   "lastOpenFiles": [
+    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/07 📍 KALI Specific/01 📍 KALI Specific.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
@@ -193,15 +198,12 @@
     "PTESTING/03 🕸️ WEB ENUMERATION/05 👤 GOBUSTER.md",
     "PTESTING/11 🔨 Brute Force/01 🗄️ DB Service.md",
     "PTESTING/11 🔨 Brute Force/02 🕸️ WEB.md",
-    "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/09 🔐 SSL Certificate Enumeration.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
     "PTESTING/CTF Notes/AD.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-    "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 💰 Addendum"
   ]
