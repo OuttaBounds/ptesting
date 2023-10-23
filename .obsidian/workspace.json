@@ -26,9 +26,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "06019659c03e8861",
+            "type": "leaf",
+            "state": {
+              "type": "release-notes",
+              "state": {
+                "currentVersion": "1.4.14"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -57,7 +67,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "find",
+                "query": "rpc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -164,7 +174,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "55a2233cb46b1221",
+  "active": "df9186ae701d0fee",
   "lastOpenFiles": [
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/07 📍 KALI Specific/01 📍 KALI Specific.md",
