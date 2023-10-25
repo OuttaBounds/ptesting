@@ -35,9 +35,11 @@
             "id": "300be945c7e85322",
             "type": "leaf",
             "state": {
-              "type": "release-notes",
+              "type": "markdown",
               "state": {
-                "currentVersion": "1.4.16"
+                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "mode": "preview",
+                "source": false
               }
             }
           }
@@ -71,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "sudo",
+                "query": "есц",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -109,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
+                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
+                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md"
+                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md"
               }
             }
           },
@@ -186,7 +188,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "300be945c7e85322",
+  "active": "0a667009c7768e1e",
   "lastOpenFiles": [
     "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
