@@ -226,7 +226,7 @@ ESC7
 ---
 #esc7
 
-```sh
+```shell
 certipy find -u $USER -p PASSWORD -dc-ip $TARGET_IP -vulnerable -stdout -text
 
 #ESC7

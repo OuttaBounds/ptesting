@@ -36,6 +36,15 @@ Add domain NB name to /etc/hosts
 crackmapexec smb $TARGET_IP -u '' -p ''
 ```
 
+Enumerate users by bruteforcing RID
+#rid #bruteforce-rid
+
+```shell
+crackmapexec smb $AD_DOMAIN -u $USER -p '' --rid-brute 10000
+#extract usernames
+crackmapexec smb $AD_DOMAIN -u $USER -p '' --rid-brute 10000 | grep -o '\\[^ ]*' | awk -F'\\' '{print $2}' | uniq
+```
+
 Show all files and DIRs for guest:
 
 ```shell

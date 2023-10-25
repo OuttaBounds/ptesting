@@ -8,39 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "87972b81a6a09b61",
+            "id": "ebb1b13dedf02b1a",
             "type": "leaf",
             "state": {
               "type": "empty",
               "state": {}
             }
-          },
-          {
-            "id": "55a2233cb46b1221",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "06019659c03e8861",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
-                "mode": "preview",
-                "source": false
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -69,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "esc7",
+                "query": "inet",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -107,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -124,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md"
-              }
+              "state": {}
             }
           },
           {
@@ -177,26 +148,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "06019659c03e8861",
+  "active": "ebb1b13dedf02b1a",
   "lastOpenFiles": [
-    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+    "PTESTING/99 💰 Addendum/02 ⛩️ LFI.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
     "PTESTING/11 🔨 Brute Force/03 🧨 WIN HASH CRACKING.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/07 📍 KALI Specific/01 📍 KALI Specific.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "PTESTING/99 💰 Addendum/03 ➰ cURL Usage.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
     "PTESTING/99 💰 Addendum/01 📜 JS PAYLOADS.md",
-    "PTESTING/99 💰 Addendum/02 ⛩️ LFI.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🏋️ Payloads or Reverse Shells.md",
     "PTESTING/11 🔨 Brute Force/05 🤐 ZIP.md",
