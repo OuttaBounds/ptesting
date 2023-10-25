@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "mode": "preview",
                 "source": false
               }
@@ -73,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "есц",
+                "query": "esc7",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +111,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +128,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -151,7 +151,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md"
+                "file": "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md"
               }
             }
           },
@@ -188,8 +188,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a667009c7768e1e",
+  "active": "300be945c7e85322",
   "lastOpenFiles": [
+    "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "99 💰 Addendum/03 ➰ cURL Usage.md",
@@ -206,7 +207,6 @@
     "CTF Notes/Derailed.md",
     "CTF Notes/Sandworm.md",
     "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-    "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "conflict-files-obsidian-git.md",
     "04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "04 🎄 OTHER SERVICES ENUMERATION/10 Others.md",
