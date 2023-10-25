@@ -54,7 +54,8 @@ List files:
 ---
 
 ```sql
-xp_dirtree "c:\inetpub\wwwroot";
+xp_dirtree "c:\inetpub\";
+xp_dirtree "c:\inetpub\",2,2;
 ```
 
 **List databases:**

