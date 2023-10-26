@@ -5,7 +5,7 @@ KERBRUTE:
 Sync time to DC, otherwise password spray / enum / brute force may fail!
 
 ```shell
-sudo rdate -n $DCNAME
+sudo ntpdate -s $TARGET_IP
 ```
 
 then

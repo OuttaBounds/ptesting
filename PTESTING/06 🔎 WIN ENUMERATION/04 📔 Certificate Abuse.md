@@ -4,11 +4,11 @@ Using Certipy
 
 First sync time to DC (in case of time skew):
 ```shell
-sudo rdate -n $DCNAME
+sudo rdate -n $TARGET_IP
 ```
 OR
 ```shell
-sudo ntpdate -s $DCNAME
+sudo ntpdate -s $TARGET_IP
 ```
 and then restore
 ```shell

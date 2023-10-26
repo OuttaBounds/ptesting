@@ -5,9 +5,8 @@ Use RPC client
 ```shell
 #enumerate users
 rpcclient -U "" -N -c enumdomusers $TARGET_IP
-#extract username
+#extract usernames
 grep -o 'user:\[[^]]*\]' users | awk -F'[][]' '{print $2}'
-
 ```
 
 ```shell
