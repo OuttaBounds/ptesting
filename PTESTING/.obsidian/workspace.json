@@ -11,8 +11,12 @@
             "id": "c9164b3cc073e1e8",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "rpc",
+                "query": "rpcclient",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -82,6 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -98,6 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -119,7 +125,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md"
+              }
             }
           },
           {
@@ -143,7 +151,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,13 +163,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a667009c7768e1e",
+  "active": "c9164b3cc073e1e8",
   "lastOpenFiles": [
+    "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+    "06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
+    "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
+    "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
     "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-    "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
-    "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "99 💰 Addendum/03 ➰ cURL Usage.md",
     "99 💰 Addendum/01 📜 JS PAYLOADS.md",
@@ -169,7 +180,6 @@
     "99 💰 Addendum",
     "99 Addendum/02 ⛩️ LFI.md",
     "99 Addendum/03 ➰ cURL Usage.md",
-    "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
     "04 🎄 OTHER SERVICES ENUMERATION/09 🔐 SSL Certificate Enumeration.md",
     "03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
@@ -182,8 +192,6 @@
     "03 🕸️ WEB ENUMERATION/02 🕹️ RCE Code.md",
     "03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
     "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
-    "05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
-    "07 📍 KALI Specific/01 📍 KALI Specific.md",
     "CTF Notes",
     "99 Addendum",
     "02 😼 NC",
