@@ -4,47 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "a3e491da9a64957c",
+        "id": "08b298fa06752799",
         "type": "tabs",
         "children": [
           {
-            "id": "27b5705c214bdc36",
+            "id": "c9164b3cc073e1e8",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ad9395f896c5409b",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "300be945c7e85322",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -73,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "inetpub\\wwwroot",
+                "query": "rpc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -111,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -128,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,9 +119,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md"
-              }
+              "state": {}
             }
           },
           {
@@ -188,11 +155,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "300be945c7e85322",
+  "active": "0a667009c7768e1e",
   "lastOpenFiles": [
+    "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+    "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
+    "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
-    "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "12 🦘 PIVOTING/01 🦘 PIVOTING.md",
     "99 💰 Addendum/03 ➰ cURL Usage.md",
     "99 💰 Addendum/01 📜 JS PAYLOADS.md",
@@ -207,7 +176,6 @@
     "CTF Notes/AD.md",
     "CTF Notes/Derailed.md",
     "CTF Notes/Sandworm.md",
-    "04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "conflict-files-obsidian-git.md",
     "04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
     "04 🎄 OTHER SERVICES ENUMERATION/10 Others.md",
@@ -216,7 +184,6 @@
     "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
     "07 📍 KALI Specific/01 📍 KALI Specific.md",
-    "06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
     "CTF Notes",
     "99 Addendum",
     "02 😼 NC",
