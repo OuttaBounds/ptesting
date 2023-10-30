@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
+                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ldapsearch ",
+                "query": "impacket-GetNPUsers",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
+                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
+                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md"
+                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md"
               }
             }
           },
@@ -163,8 +163,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "0a667009c7768e1e",
+  "active": "c9164b3cc073e1e8",
   "lastOpenFiles": [
+    "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
     "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
@@ -180,7 +181,6 @@
     "99 💰 Addendum",
     "99 Addendum/02 ⛩️ LFI.md",
     "99 Addendum/03 ➰ cURL Usage.md",
-    "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
     "04 🎄 OTHER SERVICES ENUMERATION/09 🔐 SSL Certificate Enumeration.md",
     "03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
     "CTF Notes/AD.md",
