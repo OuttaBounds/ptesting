@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "impacket-GetNPUsers",
+                "query": "getad",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -163,7 +163,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "c9164b3cc073e1e8",
+  "active": "0a667009c7768e1e",
   "lastOpenFiles": [
     "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
     "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
