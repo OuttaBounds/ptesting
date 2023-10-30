@@ -45,7 +45,9 @@ And then brute force:
 #ntlm #bruteforce 
 
 ```shell
-hashcat -m 18200 hashes wordlist.dict
+hashcat -m 18200 hashes $ROCKYOU
+#Print pass
+hashcat -m 18200 hashes $ROCKYOU --show | awk -F':' '{print $3}'
 ```
 
 Dump hashes using account credentials:
