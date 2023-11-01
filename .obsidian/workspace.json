@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "certipy",
+                "query": "ldap",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebb1b13dedf02b1a",
+  "active": "df9186ae701d0fee",
   "lastOpenFiles": [
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
