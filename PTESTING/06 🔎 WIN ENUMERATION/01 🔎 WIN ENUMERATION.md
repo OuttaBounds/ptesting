@@ -28,15 +28,15 @@ findstr /si password *.txt
 findstr /spin "password" *.*
 ```
 
-```
-
 Add domain NB name to /etc/hosts
 
-```shell
+```bash
 crackmapexec smb $TARGET_IP -u '' -p ''
+#check for open shares
+crackmapexec smb $TARGET_IP -u '' -p '' --shares
 ```
 
-Enumerate users by bruteforcing RID
+Enumerate users by brute forcing RID
 #rid #bruteforce-rid
 
 ```shell
