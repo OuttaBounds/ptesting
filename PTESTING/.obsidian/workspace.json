@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "GetNPUsers",
+                "query": "exec smb",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
