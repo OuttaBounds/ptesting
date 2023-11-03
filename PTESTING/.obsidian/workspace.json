@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",

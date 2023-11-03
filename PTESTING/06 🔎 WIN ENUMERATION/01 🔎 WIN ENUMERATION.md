@@ -2,7 +2,18 @@ Check OS architecture / version:
 ```powershell
 ver
 wmic os get osarchitecture
+hostname
 systeminfo | findstr /B /C:"OS Name" /C:"OS Version" /C:"System Type"
+```
+
+Get OS patches:
+```powershell
+wmic qfe get Caption,Description,HotFixID,InstalledOn
+```
+
+Get OS drives:
+```powershell
+wmic logicaldisk get caption,description,providername
 ```
 
 Get routes:
