@@ -15,6 +15,11 @@ Get OS drives:
 ```powershell
 wmic logicaldisk get caption,description,providername
 ```
+Get network adapters and open ports:
+```powershell
+ipconfig /all
+netstat -ano
+```
 
 Get routes:
 ```powershell
