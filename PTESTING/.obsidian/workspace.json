@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "file": "07 📍 KALI Specific/01 📍 KALI Specific.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "exec smb",
+                "query": "word",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "file": "07 📍 KALI Specific/01 📍 KALI Specific.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "file": "07 📍 KALI Specific/01 📍 KALI Specific.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md"
+                "file": "07 📍 KALI Specific/01 📍 KALI Specific.md"
               }
             }
           },
@@ -164,11 +165,11 @@
   },
   "active": "c9164b3cc073e1e8",
   "lastOpenFiles": [
+    "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "04 🎄 OTHER SERVICES ENUMERATION/10 🤘 Others.md",
     "06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
-    "06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
     "05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
