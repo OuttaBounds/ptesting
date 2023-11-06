@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "mode": "preview",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "secret",
+                "query": "wmic",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md"
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md"
               }
             }
           },
@@ -158,9 +158,9 @@
   },
   "active": "ebb1b13dedf02b1a",
   "lastOpenFiles": [
+    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
