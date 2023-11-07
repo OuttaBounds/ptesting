@@ -80,7 +80,7 @@ cat $TARGET_IP.json | jq '. |map_values(keys)'
 Try to connect to console:
 
 ```shell
-impacket-psexec $USER@$TARGET_IP
+impacket-psexec $USER:$PASSWORD@$TARGET_IP
 ```
 
 ```shell
