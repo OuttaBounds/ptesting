@@ -9,6 +9,8 @@ rpcclient -U "" -N -c enumdomusers $TARGET_IP
 rpcclient -U "" -N -c enumdomusers $TARGET_IP | grep -o 'user:\[[^]]*\]' | awk -F'[][]' '{print $2}'
 ```
 
+
+
 ```shell
 rpcclient -U "" $TARGET_IP
 ```
@@ -18,8 +20,8 @@ or with user "guest":
 ```bash
 rpcclient -U guest $TARGET_IP
 # lookupsids = sids -> username
-#  querydispinfo 
-```
+enumdomusers
+querydispinfo 
 ```
 
 Impacket RPC dump
