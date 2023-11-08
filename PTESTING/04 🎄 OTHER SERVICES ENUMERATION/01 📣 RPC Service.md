@@ -18,6 +18,8 @@ or with user "guest":
 ```bash
 rpcclient -U guest $TARGET_IP
 # lookupsids = sids -> username
+#  querydispinfo 
+```
 ```
 
 Impacket RPC dump

@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
-                "mode": "preview",
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "smb",
+                "query": "rpc",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md"
+                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md"
               }
             }
           },
@@ -156,12 +156,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df9186ae701d0fee",
+  "active": "ebb1b13dedf02b1a",
   "lastOpenFiles": [
-    "PTESTING/2023-11-08.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+    "PTESTING/99 💰 Addendum/02 ⛩️ LFI.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
+    "PTESTING/2023-11-08.md",
+    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
@@ -169,12 +171,10 @@
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-    "PTESTING/99 💰 Addendum/02 ⛩️ LFI.md",
     "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
     "PTESTING/11 🔨 Brute Force/03 🧨 WIN HASH CRACKING.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/07 📍 KALI Specific/01 📍 KALI Specific.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "PTESTING/99 💰 Addendum/03 ➰ cURL Usage.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
