@@ -160,4 +160,12 @@ Password spraying with CME
 crackmapexec smb $DOMAIN -u users  -p $PASS --continue-on-success
 ```
 
+Start collecting data for BloodHound:
+---
+#sharphound #bloodhound #ad
+
+```powershell
+powershell -ep bypass
+. .\SharpHound.ps1
+```
 

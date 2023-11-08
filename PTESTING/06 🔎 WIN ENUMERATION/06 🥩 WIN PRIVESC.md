@@ -7,7 +7,6 @@ net user
 net user $USER
 ```
 
-
 ```powershell
 netstat -an
 netstat -an | findstr $PORT
