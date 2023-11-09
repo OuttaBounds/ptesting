@@ -1,3 +1,9 @@
+Port scan for Win:
+
+```bash
+nmap -sC -sV -A -Pn -p 53,88,135,139,445 $TARGET_IP -vv
+```
+
 Check OS architecture / version:
 ```powershell
 ver
