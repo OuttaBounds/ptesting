@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
-                "mode": "preview",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "445",
+                "query": "ldapsea",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
