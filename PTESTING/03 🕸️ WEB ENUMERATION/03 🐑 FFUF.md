@@ -22,6 +22,7 @@ ffuf -u $TARGET_URL/FUZZ -X POST -w /usr/share/seclists/Discovery/Web-Content/ra
 
 ```bash
 ffuf -u http://$TARGET_IP -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -H "Host: FUZZ.$TARGET_URL" -ac
+#don't forget HTTPS
 ```
 
 ```bash
