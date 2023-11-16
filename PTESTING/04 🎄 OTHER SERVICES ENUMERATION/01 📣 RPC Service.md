@@ -21,7 +21,9 @@ or with user "guest":
 rpcclient -U guest $TARGET_IP
 # lookupsids = sids -> username
 enumdomusers
-querydispinfo 
+querydispinfo
+enumprivs
+enumprinters
 ```
 
 Impacket RPC dump
