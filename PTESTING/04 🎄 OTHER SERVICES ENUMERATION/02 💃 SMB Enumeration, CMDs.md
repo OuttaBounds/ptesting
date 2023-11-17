@@ -109,3 +109,9 @@ cat cap.txt | grep -i "samba\|s.a.m" | tr -d '.' | grep -oP 'UnixSamba.*[0-9a-z]
 ```bash
 cat cap.txt | grep -i "samba\|s.a.m" | tr -d '.' | grep -oP 'Samba.*[0-9a-z]' | tr -d '\n'
 ```
+
+Create/Spin SMB server
+---
+```bash
+impacket-smbserver -smb2support s .
+```
