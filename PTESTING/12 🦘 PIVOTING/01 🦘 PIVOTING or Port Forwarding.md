@@ -1,7 +1,11 @@
-Forward port from $TARGET_IP to localhost with SSH
+Port forwarding from $TARGET_IP to localhost with SSH
 ---
 ```shell
 ssh -N -L $PORT:localhost:$PORT $USER@$TARGET_IP
+```
+
+```bash
+sshpass -p 'L1k3B1gBut7s@W0rk' ssh $USER@$TARGET_IP -L $PORT:127.0.0.1:$PORT
 ```
 
 or run in background with -f option

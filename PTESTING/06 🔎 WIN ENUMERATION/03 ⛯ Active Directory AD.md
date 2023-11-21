@@ -29,16 +29,17 @@ nmap -n -sV --script "ldap* and not brute" $TARGET_IP
 ```
 
 ```bash
-ldapsearch -x -H ldap://$TARGET_IP -b 'DC=$DOMAIN$,DC=$DOMEXT' | grep -B2 Person | grep "@" | awk '{print $2}'
+ldapsearch -H ldap://$TARGET_IP -x -s base namingcontexts
+```
+
+```bash
+ldapsearch -x -H ldap://$TARGET_IP -b 'DC=$DOMAIN,DC=$DOMEXT' | grep -B2 Person | grep "@" | awk '{print $2}'
 ```
 
 ```bash
 ldapsearch -H ldap://$TARGET_IP -x -b "DC=$DOMAIN,DC=local" '(objectClass=person)'
 ```
 
-```bash
-ldapsearch -H ldap://$TARGET_IP -x -s base namingcontexts
-```
 AS-REP Roasting
 ---
 #as-rep-roasting #kerberos #asrep-roasting
