@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
-                "mode": "preview",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "show ",
+                "query": "enum",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md"
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md"
               }
             }
           },
@@ -155,8 +156,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebb1b13dedf02b1a",
+  "active": "df9186ae701d0fee",
   "lastOpenFiles": [
+    "PTESTING/12 🦘 PIVOTING/02 🧊 ligolo-ng.md",
+    "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING or Port Forwarding.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
@@ -165,7 +169,6 @@
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
-    "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING or Port Forwarding.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
     "PTESTING/06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
     "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
@@ -174,7 +177,6 @@
     "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/99 💰 Addendum/01 📜 JS PAYLOADS.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
@@ -182,7 +184,6 @@
     "PTESTING/99 💰 Addendum/02 ⛩️ LFI.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "PTESTING/2023-11-08.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 💰 Addendum"
   ]
