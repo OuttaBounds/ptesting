@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+                "file": "PTESTING/12 🦘 PIVOTING/02 🧊 ligolo-ng.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+                "file": "PTESTING/12 🦘 PIVOTING/02 🧊 ligolo-ng.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
+                "file": "PTESTING/12 🦘 PIVOTING/02 🧊 ligolo-ng.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md"
+                "file": "PTESTING/12 🦘 PIVOTING/02 🧊 ligolo-ng.md"
               }
             }
           },
@@ -157,6 +157,7 @@
   },
   "active": "ebb1b13dedf02b1a",
   "lastOpenFiles": [
+    "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/12 🦘 PIVOTING/02 🧊 ligolo-ng.md",
     "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING or Port Forwarding.md",
@@ -182,7 +183,6 @@
     "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
     "PTESTING/99 💰 Addendum/02 ⛩️ LFI.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
-    "PTESTING/2023-11-08.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 💰 Addendum"
   ]
