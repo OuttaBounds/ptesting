@@ -83,6 +83,11 @@ Parse the JSON from the previous cmd into readable form:
 cat $TARGET_IP.json | jq '. |map_values(keys)'
 ```
 
+Mount windows share:
+```bash
+sudo mount -o username=$USER,password=$PASSWORD -t cifs \\\\$IPD
+```
+
 Try to connect to console:
 
 ```shell
