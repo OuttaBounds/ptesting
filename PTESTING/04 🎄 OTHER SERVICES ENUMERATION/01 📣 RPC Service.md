@@ -25,7 +25,7 @@ enumprivs
 enumprinters
 ```
 
-Change user password
+Change user password via RPC
 ---
 use net
 ```bash
