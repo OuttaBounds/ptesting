@@ -85,7 +85,7 @@ cat $TARGET_IP.json | jq '. |map_values(keys)'
 
 Mount windows share:
 ```bash
-sudo mount -o username=$USER,password=$PASSWORD -t cifs \\\\$IPD
+sudo mount -o username=$USER,password=$PASSWORD -t cifs \\\\$TARGET_IP\$SHARE /mnt
 ```
 
 Try to connect to console:
