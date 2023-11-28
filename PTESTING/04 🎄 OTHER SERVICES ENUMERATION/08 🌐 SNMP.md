@@ -50,12 +50,12 @@ Enumerate entire MIB tree:
 snmpwalk -c public -v1 -t 10 $TARGET_IP
 ```
 
-Show running software:
+Show software running on the machine:
 ```bash
-snmpwalk -c public -v1 -t $TARGET_IP 1.3.6.1.2.1.25.6.3.1.2
+snmpwalk -c public -v1 -t $TARGET_IP 1.3.6.1.4.1.77.1.2.25
 ```
 
-Query installed software:
+Query what software is installed on the machine:
 
 ```bash
 snmpwalk -c public -v1 -t $TARGET_IP 1.3.6.1.2.1.25.6.3.1.2
