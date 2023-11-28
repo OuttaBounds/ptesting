@@ -61,7 +61,12 @@ impacket-goldenPac -dc-ip $TARGET_IP -target-ip $TARGET_IP '$DOMAIN/$USER:$PASSW
 
 Port scanning from PowerShell:
 
+Scan if single port is open:
+```powershell
+Test-NetConnection 127.0.0.1 -Port $port
+```
 
+scan ports from 1 to 1024(slow):
 ```powershell
 foreach ($port in 1..1024){If(($a=Test-NetConnection 127.0.0.1 -Port $port -WarningAction SilentlyContinue).TcpTestSucceeded -eq $true){"TCP port $port is open"}}
 ```
