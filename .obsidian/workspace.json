@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "e08adcb1646d4446",
+        "id": "54cfd5e2519decff",
         "type": "tabs",
         "children": [
           {
-            "id": "ebb1b13dedf02b1a",
+            "id": "61119f99fe3db180",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
-                "mode": "preview",
-                "source": false
-              }
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -48,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "msfco",
+                "query": "tag:#powershell",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +61,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +82,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +98,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -115,29 +110,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
+                "useHierarchy": false
               }
-            }
-          },
-          {
-            "id": "c9353739277b0843",
-            "type": "leaf",
-            "state": {
-              "type": "outline",
-              "state": {
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md"
-              }
-            }
-          },
-          {
-            "id": "98983ce99de16196",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
@@ -153,10 +131,10 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebb1b13dedf02b1a",
+  "active": "61119f99fe3db180",
   "lastOpenFiles": [
-    "PTESTING/2023-11-08.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
+    "PTESTING/2023-11-08.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
