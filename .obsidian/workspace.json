@@ -15,7 +15,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "stacked": true
       }
     ],
     "direction": "vertical"
@@ -110,8 +111,16 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": false
+                "useHierarchy": true
               }
+            }
+          },
+          {
+            "id": "c7920135f410f54b",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {}
             }
           }
         ],
@@ -119,7 +128,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -131,7 +141,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61119f99fe3db180",
+  "active": "dbe0cf37f87f740a",
   "lastOpenFiles": [
     "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
     "PTESTING/2023-11-08.md",
