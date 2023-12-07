@@ -4,7 +4,7 @@ MSFconsole
 ```
 search $TARGET_SERVICE
 use X
- options
+options
 set LHOST
 set RHOST
 exploit
