@@ -4,23 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "54cfd5e2519decff",
+        "id": "e08adcb1646d4446",
         "type": "tabs",
         "children": [
           {
-            "id": "61119f99fe3db180",
+            "id": "ebb1b13dedf02b1a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
-                "mode": "source",
+                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
+                "mode": "preview",
                 "source": false
               }
             }
           }
-        ],
-        "stacked": true
+        ]
       }
     ],
     "direction": "vertical"
@@ -44,20 +43,12 @@
             }
           },
           {
-            "id": "4f7858ee7cf0faed",
-            "type": "leaf",
-            "state": {
-              "type": "bookmarks",
-              "state": {}
-            }
-          },
-          {
             "id": "df9186ae701d0fee",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "lolba",
+                "query": "getloc",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,9 +56,17 @@
                 "sortOrder": "alphabetical"
               }
             }
+          },
+          {
+            "id": "4f7858ee7cf0faed",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -87,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
+                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -104,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
+                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -122,17 +121,25 @@
             }
           },
           {
-            "id": "c7920135f410f54b",
+            "id": "c9353739277b0843",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md"
+                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md"
               }
+            }
+          },
+          {
+            "id": "98983ce99de16196",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -149,11 +156,8 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "61119f99fe3db180",
+  "active": "df9186ae701d0fee",
   "lastOpenFiles": [
-    "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
-    "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
-    "PTESTING/2023-11-08.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
@@ -166,17 +170,20 @@
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
+    "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
     "PTESTING/12 🦘 PIVOTING/03 ⛏️ Chisel.md",
     "PTESTING/12 🦘 PIVOTING/02 🧊 ligolo-ng.md",
     "PTESTING/12 🦘 PIVOTING/01 🦘 PIVOTING or Port Forwarding.md",
     "PTESTING/99 💰 Addendum/02 ⛩️ LFI.md",
     "PTESTING/CTF Notes/Sandworm.md",
+    "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/02 💃 SMB Enumeration, CMDs.md",
     "PTESTING/06 🔎 WIN ENUMERATION/05 📣 WINDOWS CMDs.md",
     "PTESTING/CTF Notes/AD.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 💰 Addendum"
   ]
