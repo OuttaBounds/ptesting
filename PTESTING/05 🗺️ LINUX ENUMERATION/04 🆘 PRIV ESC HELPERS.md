@@ -6,7 +6,7 @@ LOLBAS / WINDOWS
 Pwnkit
 dirty pipe
 +w docker.sock
-
+reddit overlayfs
 
 ```shell
 (cat /proc/version || uname -a ) 2>/dev/null
