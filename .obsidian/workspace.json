@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
                 "mode": "preview",
                 "source": false
               }
@@ -65,8 +65,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -86,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md"
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md"
               }
             }
           },
@@ -158,6 +157,7 @@
   },
   "active": "ebb1b13dedf02b1a",
   "lastOpenFiles": [
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
@@ -169,7 +169,6 @@
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
     "PTESTING/11 🔨 Brute Force/01 🗄️ DB Service.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",

@@ -7,6 +7,11 @@ net user
 Get-LocalUser
 ```
 
+```powershell
+GCI -hidden -recurse
+ls -force
+```
+
 ```cmd
 net user $USER
 ```
