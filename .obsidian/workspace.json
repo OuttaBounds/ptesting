@@ -13,8 +13,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
-                "mode": "preview",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "mode": "source",
                 "source": false
               }
             }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md"
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md"
               }
             }
           },
@@ -157,12 +157,12 @@
   },
   "active": "ebb1b13dedf02b1a",
   "lastOpenFiles": [
+    "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
