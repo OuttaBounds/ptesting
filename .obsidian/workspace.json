@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "file": "PTESTING/CTF Notes/AD.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "snmp",
+                "query": "crackma",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -65,7 +65,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "file": "PTESTING/CTF Notes/AD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "file": "PTESTING/CTF Notes/AD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md"
+                "file": "PTESTING/CTF Notes/AD.md"
               }
             }
           },
@@ -157,6 +158,7 @@
   },
   "active": "ebb1b13dedf02b1a",
   "lastOpenFiles": [
+    "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
@@ -169,7 +171,6 @@
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
     "PTESTING/11 🔨 Brute Force/01 🗄️ DB Service.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "PTESTING/06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
