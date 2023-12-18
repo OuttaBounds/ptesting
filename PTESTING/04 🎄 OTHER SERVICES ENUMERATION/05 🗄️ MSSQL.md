@@ -39,6 +39,10 @@ Or use impacket to open console:
 impacket-mssqlclient $TARGET_DOMAIN/$TARGET_USER:$TARGET_PASSWORD@$TARGET_NAME
 ```
 
+```bash
+impacket-mssqlclient $USER:$PASS@$TARGET_IP -windows-auth
+```
+
 Try:
 
 ```mssql
