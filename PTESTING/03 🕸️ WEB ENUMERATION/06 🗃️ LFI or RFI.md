@@ -39,9 +39,10 @@ LFI Common Files
 
 Windows:
 
-```lists
+```text
 c:\apache\logs\access.log
 c:\apache\logs\error.log
+C:\inetpub\wwwroot\
 ```
 
 Word / file lists:
