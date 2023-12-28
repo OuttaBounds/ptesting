@@ -1,7 +1,7 @@
 .obsidian/**
 PTESTING/.obsidian/
 PTESTING/.obsidian/**
-.obsidian/workspace
+.obsidian/workspace**
 # to exclude Obsidian workspace settings (including plugin and hotkey configurations)
 .obsidian/*
 # OR only to exclude workspace cache
@@ -16,3 +16,4 @@ null*
 .trash/
 .DS_Store
 *.json*
+.obsidian/workspace.json
