@@ -13,8 +13,13 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
                 "mode": "source",
+=======
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+                "mode": "preview",
+>>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
                 "source": false
               }
             }
@@ -85,7 +90,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
+=======
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+>>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +111,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
+=======
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
+>>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md"
+=======
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md"
+>>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
               }
             }
           },
@@ -156,6 +173,7 @@
   },
   "active": "ebb1b13dedf02b1a",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🔃 Payloads or Reverse Shells.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
@@ -164,6 +182,9 @@
     "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
     "01 Payloads or Reverse Shells.md",
+=======
+    "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
+>>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL and POSTGRES.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "01 Payloads or Reverse Shell.md",
