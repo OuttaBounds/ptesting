@@ -13,18 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-<<<<<<< HEAD
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
+                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🔃 Payloads or Reverse Shells.md",
                 "mode": "source",
-=======
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
-                "mode": "preview",
->>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c78be6e7b852035e",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -90,11 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
-=======
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
->>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,11 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
-=======
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
->>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,11 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-<<<<<<< HEAD
-                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md"
-=======
-                "file": "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md"
->>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
+                "file": "conflict-files-obsidian-git.md"
               }
             }
           },
@@ -171,20 +167,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ebb1b13dedf02b1a",
+  "active": "c78be6e7b852035e",
   "lastOpenFiles": [
-<<<<<<< HEAD
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🔃 Payloads or Reverse Shells.md",
+    "conflict-files-obsidian-git.md",
+    "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
-    "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
     "01 Payloads or Reverse Shells.md",
-=======
-    "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
->>>>>>> 60352950636fdd5d1d82ec54c1ed5e62e02ceae1
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL and POSTGRES.md",
     "PTESTING/06 🔎 WIN ENUMERATION/01 🔎 WIN ENUMERATION.md",
     "01 Payloads or Reverse Shell.md",
@@ -202,7 +195,6 @@
     "PTESTING/11 🔨 Brute Force/01 🗄️ DB Service.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "PTESTING/06 🔎 WIN ENUMERATION/02 🔌 POWERSHELL.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/01 📣 RPC Service.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 💰 Addendum"
   ]
