@@ -2,6 +2,15 @@ KERBRUTE:
 ---
 #kerbrute #ad #enum #passwordspray #userenum #kerberos 
 
+Install/Build latest kerbrute:
+```bash
+go install github.com/ropnop/kerbrute@latest
+#or the good old-fashioned
+git clone https://github.com/ropnop/kerbrute
+cd kerbrute
+go build
+```
+
 Sync time to DC, otherwise password spray / enum / brute force may fail!
 
 ```shell
