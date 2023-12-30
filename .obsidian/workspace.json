@@ -11,8 +11,12 @@
             "id": "d5aabd69d91a2c94",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🔃 Payloads or Reverse Shells.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -150,7 +154,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7fa3f8571c7b8b79",
+  "active": "d5aabd69d91a2c94",
   "lastOpenFiles": [
     "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
