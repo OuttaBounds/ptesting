@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "john",
+                "query": "hashcat",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,7 +156,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "d5aabd69d91a2c94",
+  "active": "df9186ae701d0fee",
   "lastOpenFiles": [
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
