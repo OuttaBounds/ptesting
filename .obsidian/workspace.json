@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "mode": "preview",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md"
+                "file": "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md"
               }
             }
           },
@@ -156,8 +156,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "df9186ae701d0fee",
+  "active": "d5aabd69d91a2c94",
   "lastOpenFiles": [
+    "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
     "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
@@ -183,7 +184,6 @@
     "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
     "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 💰 Addendum"
   ]
