@@ -8,6 +8,14 @@
 john -w=/usr/share/wordlists/rockyou.txt hashes
 ```
 
+Other formats:
+```bash
+#like: ':HASH$SALT'
+#or format hash like $dynamic_XX$HASH$SALT
+john --list=subformats
+john --format=$FORMAT --wordlist=/usr/share/wordlists/rockyou.txt hashes
+```
+
 ```bash
 hashcat -m $MODE_NO hashes /usr/share/wordlists/rockyou.txt
 ```
