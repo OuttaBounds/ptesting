@@ -14,7 +14,7 @@
               "type": "markdown",
               "state": {
                 "file": "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
-                "mode": "source",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -158,15 +158,19 @@
   },
   "active": "d5aabd69d91a2c94",
   "lastOpenFiles": [
+    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "PTESTING/08 🧂 HASH OPS or HASHCRACKING/01 🧂 HASH OPS or HASHCRACKING.md",
+    "PTESTING/02 😼 NC/01 😼 NC.md",
+    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/07 🔤 DNS ENUMERATION.md",
+    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
+    "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
+    "PTESTING/03 🕸️ WEB ENUMERATION/04 🐙 WFUZZ.md",
     "PTESTING/06 🔎 WIN ENUMERATION/04 📔 Certificate Abuse.md",
     "PTESTING/01 👁️ NMAP/01 👁️ NMAP.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 🔃 Payloads or Reverse Shells.md",
-    "PTESTING/06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/08 🌐 SNMP.md",
     "conflict-files-obsidian-git.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
-    "PTESTING/03 🕸️ WEB ENUMERATION/03 🐑 FFUF.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/01 🗺️ LINUX ENUMERATION.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/06 🗃️ LFI or RFI.md",
     "01 Payloads or Reverse Shells.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL and POSTGRES.md",
@@ -174,16 +178,12 @@
     "01 Payloads or Reverse Shell.md",
     "PTESTING/10 🏋️ Payloads or Reverse Shells/01 ⏪ Payloads and reverse shells.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/02 🐧 LINUX CMDs.md",
-    "PTESTING/02 😼 NC/01 😼 NC.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/01 🕸️ WEB ENUMERATION.md",
     "PTESTING/CTF Notes/Sandworm.md",
     "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/06 🗂️ MYSQL or MARIA DB.md",
     "PTESTING/03 🕸️ WEB ENUMERATION/07 📇 COMMON CMSs.md",
     "PTESTING/06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "PTESTING/05 🗺️ LINUX ENUMERATION/03 🍖 LINUX PRIVESC.md",
-    "PTESTING/05 🗺️ LINUX ENUMERATION/04 🆘 PRIV ESC HELPERS.md",
-    "PTESTING/11 🔨 Brute Force/01 🗄️ DB Service.md",
-    "PTESTING/04 🎄 OTHER SERVICES ENUMERATION/05 🗄️ MSSQL.md",
     "PTESTING/CTF Notes",
     "PTESTING/99 💰 Addendum"
   ]
