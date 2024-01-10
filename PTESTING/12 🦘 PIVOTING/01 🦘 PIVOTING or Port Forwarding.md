@@ -1,7 +1,7 @@
 Port forwarding from $TARGET_IP to localhost with SSH
 ---
 ```bash
-ssh -N -L $PORT:localhost:$PORT $USER@$TARGET_IP
+ssh -N -L $LOCAL_PORT:localhost:$PORT $USER@$TARGET_IP
 ```
 
 ```bash
@@ -27,6 +27,7 @@ ssh -N -R $REMOTE_PORT:localhost:$PORT $USER@$ATTACKER_IP
 ```
 
 Proxy on localhost:9090 using SSH and credentials:
+(WARNING: Proxy is very unstable if it cannot resolve a host, e.g. http page includes)
 ```bash
 #socks5, localhost:9090 in FoxyProxy
 ssh -D 9090 $USER@$TARGET_IP
