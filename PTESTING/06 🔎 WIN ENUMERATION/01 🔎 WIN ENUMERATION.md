@@ -66,7 +66,11 @@ Add domain NB name to /etc/hosts
 
 ```bash
 crackmapexec smb $TARGET_IP -u '' -p ''
-#check for open shares
+```
+
+check for open shares
+
+```bash
 crackmapexec smb $TARGET_IP -u '' -p '' --shares
 ```
 
