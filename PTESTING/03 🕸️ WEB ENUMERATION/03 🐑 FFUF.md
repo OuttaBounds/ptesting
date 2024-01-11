@@ -60,7 +60,7 @@ FFUF File extensions(i.e. .php, .txt...):
 #extensions #file-extensions
 
 ```bash
-ffuf -u $TARGET_URL/FUZZ -w $WFILES -e .php,.txt,.html -ac
+ffuf -u $TARGET_URL/FUZZ -w $WFILES -e .php,.txt,.html,.pdf,.zip,.log -ac
 ```
 
 **Extended Common Wordlists:**
