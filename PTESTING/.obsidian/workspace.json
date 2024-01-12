@@ -4,18 +4,17 @@
     "type": "split",
     "children": [
       {
-        "id": "32ac0ec4e862bdea",
+        "id": "f937a8e30190e548",
         "type": "tabs",
         "children": [
           {
-            "id": "7aa3d5fd50859ead",
+            "id": "b6fd52a6e1a17489",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "diff-view",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
-                "mode": "preview",
-                "source": false
+                "file": "PTESTING/.obsidian/workspace.json",
+                "staged": false
               }
             }
           }
@@ -85,7 +84,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +100,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -124,9 +121,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md"
-              }
+              "state": {}
             }
           },
           {
@@ -162,10 +157,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "7aa3d5fd50859ead",
+  "active": "b6fd52a6e1a17489",
   "lastOpenFiles": [
-    "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
+    "10 🏋️ Payloads or Reverse Shells/02 Ⓜ️ Metasploit or msfvenom.md",
     "06 🔎 WIN ENUMERATION/03 ⛯ Active Directory AD.md",
+    "06 🔎 WIN ENUMERATION/06 🥩 WIN PRIVESC.md",
     "CTF Notes/AD.md",
     "2023-11-08.md",
     "07 📍 KALI Specific/01 📍 KALI Specific.md",
@@ -190,7 +186,6 @@
     "CTF Notes/Sandworm.md",
     "conflict-files-obsidian-git.md",
     "04 🎄 OTHER SERVICES ENUMERATION/04 🗃️ SQL.md",
-    "04 🎄 OTHER SERVICES ENUMERATION/10 Others.md",
     "CTF Notes",
     "99 Addendum",
     "02 😼 NC",
