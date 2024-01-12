@@ -67,6 +67,10 @@ ffuf -u $TARGET_URL/FUZZ -w $WFILES -e .php,.txt,.html,.pdf,.zip,.log -ac
 ---
 #wordlists #web
 
+```bash
+/usr/share/dirbuster/wordlists/directory-list-2.3-small.txt
+```
+
 ```
 /usr/share/seclists/Discovery/Web-Content/combined_directories.txt
 ```
