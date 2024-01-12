@@ -26,16 +26,8 @@ snmpwalk -v2c -c public $TARGET_IP
 
 using metasploit:
 
-```
-msfconsole
-```
-
-then:
-
-```metasploit
-use auxiliary/scanner/snmp/snmp_enum
-set RHOSTS $TARGET_IP
-run
+```bash
+msfconsole -x "use auxiliary/scanner/snmp/snmp_enum; set RHOSTS $TARGET_IP;run;"
 ```
 
 Get target time and date:
