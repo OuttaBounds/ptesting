@@ -125,6 +125,11 @@ crackmapexec winrm $TARGET_IP -u $USER -p $PASSWORD
 
 Port 3389 RDP:
 
-```sh
+```bash
 xfreerdp /v:$TARGET_IP /u:$USER
+```
+
+Connect with shared folder, and NLA :
+```bash
+xfreerdp /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD /drive:shared,/home/kali/shared
 ```
