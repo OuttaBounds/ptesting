@@ -82,6 +82,11 @@ hashcat -m 18200 hashes $ROCKYOU
 hashcat -m 18200 hashes $ROCKYOU --show | awk -F':' '{print $3}'
 ```
 
+NTLM dump from mimikatz brute for OSCP :
+```bash
+hashcat -m 1000 hashes /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force
+```
+
 Dump hashes using account credentials:
 #dump #creds
 

