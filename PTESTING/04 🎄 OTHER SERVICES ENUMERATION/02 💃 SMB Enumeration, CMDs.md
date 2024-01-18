@@ -42,6 +42,11 @@ smbclient \\\\$TARGET_IP\\backups -U ''
 smbclient -L $TARGET_IP -U $TARGET_USER
 ```
 
+null user and password:
+```bash
+smbclient -L $TARGET_IP -N
+```
+
 ```bash
 smbclient  \\\\$TARGET_IP\\Public -N
 ```
