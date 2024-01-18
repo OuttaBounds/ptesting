@@ -23,11 +23,11 @@ cat /etc/passwd | grep sh$ | sed 's/ *:.*//'
 Get all files with SUID / SGID bit set:
 
 ```shell
-find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -lsa {} \; 2> /dev/null
+find / -perm -u=s -type f 2>/dev/null
 ```
 
 ```shell
-find / -perm -u=s -type f 2>/dev/null
+find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -lsa {} \; 2> /dev/null
 ```
 
 Find all files owned by current user:
