@@ -5,6 +5,7 @@ nmap -sC -sV -A -Pn -p 53,88,135,139,445 $TARGET_IP -vv
 ```
 
 OSCP guidance for enumeration:
+---
 #oscp #windows-enum #pen-200
 ```powershell
 whoami /groups
@@ -20,6 +21,11 @@ Get-ItemProperty "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Un
 Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
 Get-Process # or tasklist /SVC
 Get-Process | findstr /V /R "svchost winlogon vm3dservice RuntimeBroker vmtoolsd SearchHost lsass"
+```
+
+```powershell
+Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+Get-ChildItem -Path C:\Users\$USER\ -Include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
 ```
 
 Check OS architecture / version:
