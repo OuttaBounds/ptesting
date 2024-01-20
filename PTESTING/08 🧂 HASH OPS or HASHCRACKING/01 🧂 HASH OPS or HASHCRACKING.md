@@ -25,3 +25,11 @@ Get MD5 hash of $STRING
 ```shell
 echo -n $STRING  | md5sum
 ```
+
+Crack keepass ( .kdbx ) database files:
+---
+```bash
+keepass2john Database.kdbx > hashes
+#remove Database: from the start
+hashcat -m 13400 hashes /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rockyou-30000.rule --force
+```

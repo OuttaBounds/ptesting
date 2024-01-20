@@ -20,9 +20,10 @@ sudo -l
 find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null
 ```
 
----
-Shell SUDO / escape:
+if you can alter /etc/passwd just remove the first x for the root user and then you can su root without a password
 
+Shell SUDO / escape:
+---
 ---
 
 [https://gtfobins.github.io/gtfobins/vi/#sudo](https://gtfobins.github.io/gtfobins/vi/#sudo)

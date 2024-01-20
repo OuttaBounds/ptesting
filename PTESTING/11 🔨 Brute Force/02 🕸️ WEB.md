@@ -1,5 +1,7 @@
 BASIC AUTH BASICAUTH BASIC-AUTH with HYDRA
 ---
+#bruteforce #basic-auth 
+
 ```shell
 hydra -l admin -P /usr/share/wordlists/rockyou.txt -s 80 -f $TARGET_IP http-get
 ```

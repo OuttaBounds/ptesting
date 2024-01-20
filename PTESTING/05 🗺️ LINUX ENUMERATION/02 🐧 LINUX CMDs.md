@@ -40,9 +40,15 @@ Generate user password for use in /etc/passwd
 openssl passwd -1 -salt salt password
 ```
 
+Get all users with history:
+
+```bash
+find /home -name .bash_history -exec wc -l {} \; 2>/dev/null | sort | grep -v "^0"
+```
+
 Find all "test.py" files
 
-```shell
+```bash
 find / -name "test.py" -type f 2>/dev/null
 ```
 
@@ -93,17 +99,17 @@ ssh $USERNAME@TARGET_IP -t "() { :; }; /bin/bash"
 
 Login using SSH key file
 
-```shell
+```bash
 ssh -i private_id_rsa USER@$TARGET_IP -t "bash --noprofile"
 ```
 
 Check for ports that are opened on other network devices
 
-```shell
+```bash
 netstat -antup
 ```
 
-```shell
+```bash
 ss -tunlp
 ```
 
