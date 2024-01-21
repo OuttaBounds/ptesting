@@ -7,6 +7,11 @@ private
 manager
 ```
 
+Set up MIBS:
+```bash
+sudo apt install snmp-mibs-downloader
+sudo nano /etc/snmp/snmp.conf #comment out mibs:
+```
 Get community strings:
 ---
 ```shell
