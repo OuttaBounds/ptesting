@@ -51,9 +51,12 @@ Query what software is installed on the machine:
 
 ```bash
 #-Oa converts hexademical -> string
-snmpwalk -c public -v1 -t 1.3.6.1.2.1.25.6.3.1.2 $TARGET_IP 
+snmpwalk -c public -v1 -t $TARGET_IP 1.3.6.1.2.1.25.6.3.1.2
 ```
 
+```bash
+snmpbulkwalk -c public -v2c -t 1.3.6.1.2.1.25.4.2.1.2 $TARGET_IP | tee snmp-running.txt
+```
 
 |ID|NAME|
 |------------------------|------------------|
