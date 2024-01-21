@@ -32,8 +32,6 @@ use net
 #could be a password, krb5 ccache, no pass, nt hash...
 net rpc password $USER -U $OWNED_USER -S $TARGET_IP -P $PASSWORD
 ```
-
-
 Impacket RPC dump
 ---
 #impacket #impacket-rpc

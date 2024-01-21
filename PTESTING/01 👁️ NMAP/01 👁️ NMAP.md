@@ -3,6 +3,7 @@
 Fastest TCP connect scan with banner grabbing, only on open ports:
 ---
 #enum #nmap #enumeration #scan 
+
 ```bash
 nmap -sTCV -p- -T4 --open --max-retries 2 -v $TARGET_IP -oN $TARGET_NAME.ports.txt
 ```
