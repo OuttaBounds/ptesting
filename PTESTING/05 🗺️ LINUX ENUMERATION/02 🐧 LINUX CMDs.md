@@ -89,7 +89,7 @@ echo os.system("/bin/bash")
 Other methods:
 
 ```shell
-ssh $USERNAME@TARGET_IP -t "/bin/sh" or "/bin/bash"
+ssh $USERNAME@$TARGET_IP -t "/bin/sh" or "/bin/bash"
 ```
 
 ```shell
