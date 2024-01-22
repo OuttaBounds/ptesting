@@ -20,6 +20,19 @@ net user $USER
 netstat -an
 netstat -an | findstr $PORT
 ```
+
+Replace service
+---
+Get list of running services
+```powershell
+Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}
+```
+Check file permissions:
+
+```powershell
+icacls
+```
+
 Search for passwords inside the registry
 ---
 ```powershell

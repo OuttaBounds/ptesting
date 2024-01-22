@@ -165,12 +165,12 @@ crackmapexec winrm $TARGET_IP -u $USER -p $PASSWORD
 Port 3389 RDP with clipboard enabled:
 
 ```bash
-xfreerdp +clipboard /v:$TARGET_IP /u:$USER
+xfreerdp +clipboard /v:$TARGET_IP /u:$USER /cert:ignore
 ```
 
 Connect with shared folder, and NLA :
 ```bash
-xfreerdp +clipboard /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD /drive:shared,/home/kali/shared
+xfreerdp +clipboard /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD  /cert:ignore /drive:shared,/home/kali/shared
 ```
 
 Brute force RDP:
