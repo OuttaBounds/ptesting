@@ -3,13 +3,12 @@ Port scan for Win:
 ```bash
 nmap -sC -sV -A -Pn -p 53,88,135,139,445 $TARGET_IP -vv
 ```
-
 OSCP guidance for enumeration:
 ---
 #oscp #windows-enum #pen-200
 ```powershell
 whoami /groups
-powershell
+(Get-PSReadlineOption).HistorySavePath
 Get-LocalUser
 Get-LocalGroup
 Get-LocalGroupMember "$GROUP"
@@ -26,6 +25,8 @@ Get-Process | findstr /V /R "svchost winlogon vm3dservice RuntimeBroker vmtoolsd
 ```powershell
 Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
 Get-ChildItem -Path C:\Users\$USER\ -Include *.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
+net user $USER
+runas /user:$USER cmd
 ```
 
 Check OS architecture / version:
