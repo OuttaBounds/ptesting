@@ -63,20 +63,21 @@ Get running processes:
 tasklist /SVC
 ```
 
-Get installed patches:
+# Get installed patches:
 
 ```powershell
 wmic qfe
 ```
 
-Search for cleartext passwords:
+# Search for cleartext passwords:
 ```powershell
 findstr /si password *.txt
 findstr /spin "password" *.*
 ```
 
-Dump LSASS:
+# Dump LSASS:
 check for #SEDebugPrivilige
+
 ```powershell
 whoami /priv
 #run mimikatz
