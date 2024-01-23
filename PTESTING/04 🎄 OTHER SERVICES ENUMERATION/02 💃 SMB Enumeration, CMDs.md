@@ -7,6 +7,7 @@ Put IP after protocol or the CME crashes!
 ---
 
 Enumerate SAMBA shares without specifying user:
+#null-session 
 ```bash
 crackmapexec smb $TARGET_IP -u '' -p '' --shares
 ```
@@ -43,6 +44,7 @@ smbclient -L $TARGET_IP -U $TARGET_USER
 ```
 
 null user and password:
+#null-session #
 ```bash
 smbclient -L $TARGET_IP -N
 ```
