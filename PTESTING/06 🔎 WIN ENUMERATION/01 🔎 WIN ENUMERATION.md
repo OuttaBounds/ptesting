@@ -29,6 +29,12 @@ net user $USER
 runas /user:$USER cmd
 ```
 
+```powershell
+$password = ConvertTo-SecureString "$PASS" -AsPlainText -Force
+$cred = New-Object System.Management.Automation.PSCredential("$USER", $password)
+Enter-PSSession -ComputerName CLIENTWK220 -Credential $cred
+```
+
 Check OS architecture / version:
 ```powershell
 ver
