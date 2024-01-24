@@ -29,8 +29,10 @@ net user $USER
 runas /user:$USER cmd
 ```
 
-Start new powershell
+Start new powershell with administrator privs:
+
 ```powershell
+start-process PowerShell -verb runas
 ```
 
 Reboot Windows:

