@@ -45,6 +45,16 @@ Get-ModifiableServiceFile
 Install-ServiceBinary -Name '$SERVICE'
 Restart-Service $SERVICE
 ```
+
+Scheduled Tasks:
+---
+
+#scheduled-tasks
+
+```powershell
+schtasks /query /fo LIST /v | findstr /i "c:\users"
+schtasks /query /fo LIST /v | Select-String -Pattern "c:\\user" -Context 5,5
+```
 Search for passwords inside the registry
 ---
 ```powershell
