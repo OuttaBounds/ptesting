@@ -47,9 +47,14 @@ use winpeas.exe, search for DPAPI: `_Checking for DPAPI Credential Files`_
 ```
 
 ```powershell
-$password = ConvertTo-SecureString "$PASS" -AsPlainText -Force
-$cred = New-Object System.Management.Automation.PSCredential("$USER", $password)
+$password = ConvertTo-SecureString $PASS -AsPlainText -Force
+$cred = New-Object System.Management.Automation.PSCredential($USER, $password)
 Enter-PSSession -ComputerName CLIENTWK220 -Credential $cred
+```
+
+Run as administrator:
+```powershell
+Start-Process PowerShell -Verb RunAs
 ```
 
 Check OS architecture / version:
