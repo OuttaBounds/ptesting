@@ -29,6 +29,10 @@ net user $USER
 runas /user:$USER cmd
 ```
 
+Start new powershell
+```powershell
+```
+
 Reboot Windows:
 
 ```powershell
