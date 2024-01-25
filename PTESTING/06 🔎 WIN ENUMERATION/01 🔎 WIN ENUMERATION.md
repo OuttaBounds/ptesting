@@ -32,7 +32,7 @@ runas /user:$USER cmd
 Start new powershell with administrator privs:
 
 ```powershell
-start-process PowerShell -verb runas
+Start-Process PowerShell -verb runas
 ```
 
 Reboot Windows:
@@ -110,7 +110,7 @@ findstr /spin "password" *.*
 ```
 
 # Dump LSASS:
-check for #SEDebugPrivilige
+check for #SeDebugPrivilege
 
 ```powershell
 whoami /priv

