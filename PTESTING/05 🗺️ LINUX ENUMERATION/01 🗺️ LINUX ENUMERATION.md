@@ -112,6 +112,10 @@ ls -l /etc/passwd /etc/shadow;
 cat /etc/passwd | grep -iE 'sh|bash|zsh'
 ```
 
+List installed software and versions on Ubuntu/Debian
+```bash
+dpkg -l
+```
 Find specific file
 ```shell
 find / -name "$FILE" -type f 2>/dev/null
