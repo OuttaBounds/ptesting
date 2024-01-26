@@ -14,19 +14,6 @@ root ALL=(ALL) ALL
 $USER ALL=(ALL) ALL
 ```
 ---
-
-List if use can execute a cmd as root
-
-```shell
-sudo -l
-```
-
-```shell
-find / -user root -perm -4000 -exec ls -ldb {} \; 2>/dev/null
-```
-
-if you can alter /etc/passwd just remove the first x for the root user and then you can su root without a password
-
 Shell SUDO / escape:
 ---
 ---
