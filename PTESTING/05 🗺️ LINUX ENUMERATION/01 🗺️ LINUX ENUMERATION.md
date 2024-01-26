@@ -213,7 +213,7 @@ Get files with capabilities?:
 #getcap #capabilities
 
 ```shell
-getcap -r / 2>/dev/null
+getcap -r / 2>/dev/null #or /usr/sbin/getcap
 ```
 ---
 
