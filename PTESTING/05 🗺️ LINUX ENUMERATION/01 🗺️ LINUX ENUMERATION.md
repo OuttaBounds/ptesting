@@ -172,6 +172,8 @@ cat /etc/fstab
 
 ```shell
 cat /etc/issue
+uname -r
+arch
 ```
 
 ```shell
