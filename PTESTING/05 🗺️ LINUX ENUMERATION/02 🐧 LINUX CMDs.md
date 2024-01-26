@@ -20,7 +20,6 @@ Print all text between |> and <| on a new line
 
 ```shell
 grep -shzoP "(\|>)(.*?)(<\|)" response | sed  "s/|>/ /g" | sed "s/<|/\n/g"
-find / -name "test.py" -type f 2>/dev/null
 ```
 
 Port knocking:
