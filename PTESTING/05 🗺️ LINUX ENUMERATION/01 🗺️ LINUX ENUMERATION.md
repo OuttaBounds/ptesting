@@ -4,6 +4,30 @@ File enumeration:
 
 ```shell
 cat /etc/passwd
+id
+hostname
+cat /etc/issue
+cat /etc/os-release
+uname -a
+ps aux
+ip a
+routel #or route
+ss -anp
+cat /etc/iptables/rules.v4
+ls -lah /etc/cron*
+crontab -l
+dpkg -l
+```
+
+Find interesting files/dirs:
+
+```bash
+find / -writable -type d 2>/dev/null
+find / -perm -u=s -type f 2>/dev/null
+cat /etc/fstab
+lsblk
+lsmod
+/sbin/modinfo libata
 ```
 
 Get users with shell:
