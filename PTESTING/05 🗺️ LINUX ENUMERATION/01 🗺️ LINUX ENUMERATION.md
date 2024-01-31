@@ -66,7 +66,7 @@ All writeable files by current user:
 find / -writable -type f 2>/dev/null | grep -v "^/run\|^/proc\|^/sys"
 ```
 
-Others
+Others:
 
 ```bash
 env
@@ -190,6 +190,7 @@ find / -writeable -group $GROUP_NAME -type f 2>/dev/null
 ```
 
 find and cat .bash_history
+
 ```shell
 find -name ".bash_history" -exec cat {} \;
 ```
