@@ -46,8 +46,41 @@ OSCP socat
 forward port 22 on internal/unreachable to attacker box to owned box port 2222
 
 ```bash
-socat -ddd TCP-LISTEN:2222,fork TCP:$AFTER_DMZ_IP:22
+socat -ddd TCP-LISTEN:2222,fork TCP:$INTERNAL_IP:22
 ```
+
+![[images/VP9HQuCm58NVyolkikTsrRcnKOJ-Wh6dlOYKDBceD4rASfqje_zzgJCMHp4FeiVp7U-9sNWIZjg3PWzKum51EbfK3j4mPZhLY0f-68JL649daA3mjJXYBhLjLTc_-lhyW8BEGVHTGx8krrDYiRXQUgrojZqEYG3IQkjo_fYbBrcMyK7jSEVHVQDR3u8I97R2uz_pfRyQfCww_JLu6-zZRD3.png]]
+
+```puml
+@startuml
+!theme crt-green
+
+nwdiag {
+    internet [shape=cloud]
+    VPN [type=switch];
+    internet -- VPN
+    group {
+      color="#425444"
+      webserver;
+      database;
+    }
+    network VPN_network {
+      VPN;
+      webserver [address = "192.168.x.101"];
+      attacker [address = "192.168.x.102" shape = entity];
+      address = "192.168.x.x/24"
+    }
+    network internal {
+        address = "10.x.x.x/24"
+        webserver [address = "10.x.x.102" shape = database]
+        database [address = "10.x.x.101" shape = collections];
+        other_server [address = "10.x.x.103" ];
+    }
+
+}
+@enduml
+```
+
 Using SOCAT to send file:
 ---
 On receiving machine
