@@ -4,6 +4,7 @@ File enumeration:
 
 ```shell
 cat /etc/passwd
+sudo -l
 id
 hostname
 cat /etc/issue
