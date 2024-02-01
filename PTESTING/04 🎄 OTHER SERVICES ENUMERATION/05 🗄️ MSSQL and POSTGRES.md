@@ -135,9 +135,11 @@ psql -h $TARGET_IP -U $USER -d postgres
 ```
 
 ```postgresql
+-- list databases
 \l
+-- connect to database
 \c $DATABASE
-# display tables
+-- display tables
 \dt
 ```
 
