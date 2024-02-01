@@ -39,6 +39,15 @@ Forward local port to target IP with SOCAT
 socat TCP-LISTEN:139,reuseaddr,fork TCP:$TARGET_IP:$PORT &
 ```
 
+OSCP socat
+---
+#socat #pivot #port-forwarding
+
+forward port 22 on internal/unreachable to attacker box to owned box port 2222
+
+```bash
+socat -ddd TCP-LISTEN:2222,fork TCP:$AFTER_DMZ_IP:22
+```
 Using SOCAT to send file:
 ---
 On receiving machine
