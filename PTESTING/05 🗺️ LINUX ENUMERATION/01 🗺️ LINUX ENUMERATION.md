@@ -20,6 +20,12 @@ crontab -l
 dpkg -l
 ```
 
+Enumerate other network adapters:
+```bash
+ipaddr
+ip route
+```
+
 Find interesting files/dirs:
 
 ```bash
