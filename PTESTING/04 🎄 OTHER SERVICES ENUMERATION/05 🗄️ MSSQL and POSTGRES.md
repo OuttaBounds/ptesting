@@ -134,6 +134,13 @@ POSTGRES
 psql -h $TARGET_IP -U $USER -d postgres
 ```
 
+```postgresql
+\l
+\c $DATABASE
+# display tables
+\dt
+```
+
 ```sql
 select pg_ls_dir('/var/www');
 select pg_read_file('/var/www/flag.txt' , 0 , 1000000);
