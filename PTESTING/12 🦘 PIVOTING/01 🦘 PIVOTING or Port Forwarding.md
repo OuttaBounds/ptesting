@@ -49,7 +49,7 @@ forward port 22 on internal/unreachable to attacker box to owned box port 2222
 socat -ddd TCP-LISTEN:2222,fork TCP:$INTERNAL_IP:22
 ```
 
-![[images/socat-network-pivot.png]]
+![](images/socat-network-pivot.png)
 
 ```puml
 @startuml
