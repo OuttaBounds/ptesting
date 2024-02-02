@@ -51,7 +51,7 @@ socat -ddd TCP-LISTEN:2222,fork TCP:$INTERNAL_IP:22
 
 ![](images/socat-network-pivot.png)
 
-!()[https://github.com/OuttaBounds/ptesting/blob/main/images/socat-network-pivot.png]
+![github socat pivot](https://github.com/OuttaBounds/ptesting/blob/main/images/socat-network-pivot.png)
 
 ```puml
 @startuml
