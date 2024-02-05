@@ -13,7 +13,7 @@ uname -a
 ps aux
 ip a
 routel #or route
-ss -anp
+ss -anp # or -tunlp / ntplu
 cat /etc/iptables/rules.v4
 ls -lah /etc/cron*
 crontab -l
