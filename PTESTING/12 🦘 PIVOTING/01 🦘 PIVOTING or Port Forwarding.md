@@ -91,6 +91,14 @@ nwdiag {
 @enduml
 ```
 
+Using plink:
+
+#pivot #port-forwarding 
+
+```powershell
+plink.exe -ssh -l kali -pw $KALI_PASSWORD -R 127.0.0.1:$KALI_PORT:127.0.0.1:$LOCAL_PORT $KALI_IP
+```
+
 Using SOCAT to send file:
 ---
 On receiving machine
