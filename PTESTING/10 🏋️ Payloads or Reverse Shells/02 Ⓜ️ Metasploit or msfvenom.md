@@ -3,6 +3,7 @@ MSFconsole
 ---
 ```
 search $TARGET_SERVICE
+# search type:exploit
 use X
 options
 set LHOST
