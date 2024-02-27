@@ -210,3 +210,13 @@ powershell -ep bypass
 . .\SharpHound.ps1
 ```
 
+```powershell
+Import-Module .\PowerView.ps1
+Get-NetDomain
+Get-NetComputer
+Get-NetComputer | select operatingsystem,dnshostname
+Get-NetUser
+Get-NetUser | select cn
+Get-NetGroup
+Get-NetGroup "$GROUP_NAME" | select member
+```
