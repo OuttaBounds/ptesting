@@ -219,4 +219,8 @@ Get-NetUser
 Get-NetUser | select cn
 Get-NetGroup
 Get-NetGroup "$GROUP_NAME" | select member
+Get-NetUser -SPN | select samaccountname,serviceprincipalname
 ```
+
+resolve local machine address
+`nslookup.exe $ADDRESS`
