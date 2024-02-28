@@ -221,6 +221,7 @@ Get-NetGroup
 Get-NetGroup "$GROUP_NAME" | select member
 Get-NetUser -SPN | select samaccountname,serviceprincipalname
 Get-ObjectAcl -Identity $USERNAME
+Convert-SidToName $SID
 ```
 
 resolve local machine address
