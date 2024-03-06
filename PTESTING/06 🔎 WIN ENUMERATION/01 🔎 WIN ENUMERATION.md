@@ -27,6 +27,7 @@ Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyCont
 Get-ChildItem -Path C:\Users\ -Include *.ini,*.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
 net user $USER
 runas /user:$USER cmd
+.\PsLoggedon.exe \\$OTHER_MACHINE # get users logged into $OTHER_MACHINE
 ```
 
 Start new powershell with administrator privs:
