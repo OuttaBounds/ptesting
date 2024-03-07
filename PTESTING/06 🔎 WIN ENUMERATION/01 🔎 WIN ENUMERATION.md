@@ -212,7 +212,8 @@ xfreerdp +clipboard /v:$TARGET_IP /u:$USER /cert:ignore
 
 Connect with shared folder, and NLA :
 ```bash
-xfreerdp +clipboard /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD  /cert:ignore /drive:shared,/home/kali/shared
+xfreerdp +clipboard /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD /cert:ignore /drive:shared,/home/kali/shared
+xfreerdp +clipboard /v:$TARGET_IP /sec:nla /u:$USER /p:$PASSWORD /cert:ignore /drive:shared,/home/kali/shared /d:$AD_DOMAIN
 ```
 
 Brute force RDP:

