@@ -224,6 +224,8 @@ Start collecting data for BloodHound:
 ```powershell
 powershell -ep bypass
 . .\SharpHound.ps1
+Import-Module .\Sharphound.ps1
+Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\$USER\Desktop\ -OutputPrefix "audit"
 ```
 
 ```powershell
