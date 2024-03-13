@@ -223,7 +223,7 @@ crackmapexec smb $TARGET_IP -u $USER -p $PASS --users
 Password spraying with CME
 
 ```shell
-crackmapexec smb $DOMAIN -u users  -p $PASS --continue-on-success
+crackmapexec smb $DOMAIN -u users -p $PASS --continue-on-success
 ```
 
 Start collecting data for BloodHound:
