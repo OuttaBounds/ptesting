@@ -30,7 +30,7 @@ AD Enum and stuff
 ```powershell
 Import-Module ActiveDirectory
 cd AD:
-$acl = Get-Acl 'CN=User,CN=Certificate Templates,CN=Public Key Services,CN=Services,CN=Configuration,DC=$DOMAIN,DC=$AD_DOMAIN_EXT'
+$acl = Get-Acl 'CN=User,CN=Certificate Templates,CN=Public Key Services,CN=Services,CN=Configuration,DC=$TARGET_AD,DC=$AD_DOMAIN_EXT'
 $acl.Access.Count
 $acl.Access | where IdentityReference -match 'Domain Users'
 ```
@@ -67,7 +67,7 @@ Get AD Certificate configuration from the registry:
 #enum #certificate #ad-template 
 
 ```powershell
-reg query $DOMAIN/HKLM/SYSTEM/CurrentControlSet/Services/CertSvc/Configuration/%3c$CA_NAME%3e
+reg query $TARGET_AD/HKLM/SYSTEM/CurrentControlSet/Services/CertSvc/Configuration/%3c$CA_NAME%3e
 ```
 
 STOP AV Protection
