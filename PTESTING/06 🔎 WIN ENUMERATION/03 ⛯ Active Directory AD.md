@@ -256,6 +256,12 @@ Convert-SidToName $SID
 Find-DomainShare #-CheckShareAccess
 ```
 
+```neo4j
+MATCH (m:Computer) RETURN m
+MATCH (m:User) RETURN m
+```
+
+```
 resolve local machine address
 `nslookup.exe $ADDRESS`
 
