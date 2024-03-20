@@ -119,6 +119,7 @@ cat cap.txt | grep -i "samba\|s.a.m" | tr -d '.' | grep -oP 'Samba.*[0-9a-z]' | 
 
 Create/Spin SMB server
 ---
+#smb-server
 ```bash
 #access on windows with \\$LOCAL_IP\s\$FILENAME
 impacket-smbserver -smb2support s .
