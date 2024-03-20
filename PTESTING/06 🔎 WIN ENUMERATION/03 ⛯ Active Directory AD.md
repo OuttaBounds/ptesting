@@ -241,6 +241,16 @@ Import-Module .\Sharphound.ps1
 Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\$USER\Desktop\ -OutputPrefix "audit"
 ```
 
+`List all Kerberoastable Accounts`
+`Find AS-REP Roastable Users`
+
+```neo4j
+MATCH (m:Computer) RETURN m
+MATCH (m:User) RETURN m
+MATCH p = (c:Computer)-[:HasSession]->(m:User) RETURN p
+```
+
+```
 ```powershell
 Import-Module .\PowerView.ps1
 Get-NetDomain
@@ -256,12 +266,6 @@ Convert-SidToName $SID
 Find-DomainShare #-CheckShareAccess
 ```
 
-```neo4j
-MATCH (m:Computer) RETURN m
-MATCH (m:User) RETURN m
-```
-
-```
 resolve local machine address
 `nslookup.exe $ADDRESS`
 
