@@ -25,3 +25,10 @@ NIKTO:
 ```bash
 nikto -h $TARGET_URL
 ```
+
+Whatweb:
+---
+#detect-web-apps
+```bash
+whatweb http://$TARGET_IP
+```
