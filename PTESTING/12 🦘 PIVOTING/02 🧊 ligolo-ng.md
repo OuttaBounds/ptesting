@@ -2,6 +2,7 @@
 on kali machine:
 
 ```bash
+sudo ip tuntap add user kali mode tun ligolo
 sudo ip link set ligolo up
 sudo ip route add $TARGET_IP_2ND.0/24 dev ligolo
 ./ligolo-proxy -selfcert -laddr 0.0.0.0:443
