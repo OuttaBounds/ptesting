@@ -12,6 +12,7 @@ whoami /groups
 Get-LocalUser
 Get-LocalGroup
 Get-LocalGroupMember "$GROUP"
+Get-ChildItem -Recurse
 systeminfo
 ipconfig /all
 route print
