@@ -32,6 +32,11 @@ nmap $TARGET_IP -p 7469,8475,9842 -r --max-retries 0 --max-parallelism 1 -sT --s
 nc -z $TARGET_IP PORT1 PORT2 PORT3
 ```
 
+Grep UTF16 file:
+#utf16 #utf-16
+```bash
+conv -f utf-16 -t utf-8 $UTF16_FILENAME.log | grep -v "SELECT_LINES_NOT_CONTAINING"
+```
 
 Generate user password for use in /etc/passwd
 
