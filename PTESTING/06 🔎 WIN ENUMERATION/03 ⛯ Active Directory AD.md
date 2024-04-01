@@ -250,6 +250,8 @@ MATCH (m:User) RETURN m
 MATCH p = (c:Computer)-[:HasSession]->(m:User) RETURN p
 ```
 
+PowerView.ps1
+#powerview #list-ad-ys 
 ```
 ```powershell
 Import-Module .\PowerView.ps1
