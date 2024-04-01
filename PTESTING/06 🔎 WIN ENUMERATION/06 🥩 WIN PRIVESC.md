@@ -50,6 +50,14 @@ Install-ServiceBinary -Name '$SERVICE'
 Restart-Service $SERVICE
 ```
 
+Evil-WinRM:
+#built-in #winrm #evilwinrm 
+
+```powershell
+services
+download
+upload
+```
 Scheduled Tasks:
 ---
 
