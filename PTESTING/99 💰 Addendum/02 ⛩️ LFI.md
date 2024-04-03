@@ -852,6 +852,8 @@
 ~/.php_history
 ~/.profile
 ~/.ssh/authorized_keys
+~/.ssh/id_ed25519
+~/.ssh/id_ed25519.pub
 ~/.ssh/id_dsa
 ~/.ssh/id_dsa.pub
 ~/.ssh/id_rsa
