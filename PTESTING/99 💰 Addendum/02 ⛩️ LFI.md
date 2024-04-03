@@ -856,6 +856,10 @@
 ~/.ssh/id_dsa.pub
 ~/.ssh/id_rsa
 ~/.ssh/id_rsa.pub
+~/.ssh/id_ecdsa
+~/.ssh/id_ecdsa.pub
+~/.ssh/id_dsa
+~/.ssh/id_dsa.pub
 ~/.ssh/identity
 ~/.ssh/identity.pub
 ~/.viminfo
