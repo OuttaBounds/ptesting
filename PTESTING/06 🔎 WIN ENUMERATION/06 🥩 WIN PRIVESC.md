@@ -40,6 +40,11 @@ icacls 'c:\...'
 ```
 (F) - full permissions, read, write, execute
 
+Check env vars:
+```powershell
+ls env:
+```
+
 or automate the process with PowerUp.ps1
 #powerup #replace-service #privesc 
 ```powershell
