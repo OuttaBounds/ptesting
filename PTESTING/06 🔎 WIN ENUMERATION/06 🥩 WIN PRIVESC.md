@@ -73,6 +73,10 @@ Scheduled Tasks:
 schtasks /query /fo LIST /v | findstr /i "c:\users"
 schtasks /query /fo LIST /v | Select-String -Pattern "c:\\user" -Context 5,5
 ```
+
+```powershell
+schtasks /create /tn "shell" /tr "task.exe" /sc MINUTE /mo 1 /ru "NT AUTHORITY\SYSTEM"
+```
 Search for passwords inside the registry
 ---
 ```powershell
