@@ -25,7 +25,7 @@ Get-Process | findstr /V /R "svchost winlogon vm3dservice RuntimeBroker vmtoolsd
 
 ```powershell
 Get-ChildItem -Path C:\ -Include *.kdbx -File -Recurse -ErrorAction SilentlyContinue
-Get-ChildItem -Path C:\Users\ -Include *.ini,*.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
+Get-ChildItem -Path C:\Users\ -Include *.kdbx,*.ini,*.txt,*.pdf,*.xls,*.xlsx,*.doc,*.docx -File -Recurse -ErrorAction SilentlyContinue
 net user $USER
 runas /user:$USER cmd
 .\PsLoggedon.exe \\$OTHER_MACHINE # get users logged into $OTHER_MACHINE
