@@ -22,7 +22,7 @@ dpkg -l
 
 Enumerate other network adapters:
 ```bash
-ipaddr
+ip addr
 ip route
 ```
 
