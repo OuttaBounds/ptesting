@@ -238,7 +238,7 @@ Start collecting data for BloodHound:
 powershell -ep bypass
 . .\SharpHound.ps1
 Import-Module .\Sharphound.ps1
-Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\Users\$USER\Desktop\ -OutputPrefix "audit"
+Invoke-BloodHound -CollectionMethod All -OutputDirectory C:\tools\ -OutputPrefix "audit"
 ```
 
 `List all Kerberoastable Accounts`
