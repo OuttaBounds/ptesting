@@ -82,3 +82,7 @@ Common Windows/Linux MIBs:
 ```bash
 snmpwalk -v2c -c public $TARGET_IP 1.3.6.1.2.1.25.4.2.1.2
 ```
+
+```bash
+snmpwalk -c public -v2c $TARGET_IP NET-SNMP-EXTEND-MIB::nsExtendObjects
+```
