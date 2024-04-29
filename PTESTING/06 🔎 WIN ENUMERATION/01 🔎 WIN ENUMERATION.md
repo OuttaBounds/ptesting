@@ -9,6 +9,7 @@ OSCP guidance for enumeration:
 ```powershell
 whoami /groups
 (Get-PSReadlineOption).HistorySavePath
+type (Get-PSReadlineOption).HistorySavePath
 Get-LocalUser
 Get-LocalGroup
 Get-LocalGroupMember "$GROUP"
