@@ -37,6 +37,10 @@ lsmod
 /sbin/modinfo libata
 ```
 
+```bash
+find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
+```
+
 Get users with shell:
 
 ```shell
