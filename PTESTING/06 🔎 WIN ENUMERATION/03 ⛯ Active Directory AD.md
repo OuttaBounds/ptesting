@@ -54,6 +54,11 @@ ldapsearch -H ldap://$TARGET_IP -x -b "DC=$TARGET_AD,DC=local" '(objectClass=per
 ```bash
 ldapsearch -v -x -b "DC=$TARGET_AD,DC=local" -H "ldap://$TARGET_IP" "(objectclass=*)"
 ```
+
+Using PowerView.ps1 and if LAPS is installed:
+```powershell
+Get-AdmPwdPassword -ComputerName $(hostname)
+```
 AS-REP Roasting
 ---
 #as-rep-roasting #kerberos #asrep-roasting
