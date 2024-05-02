@@ -130,10 +130,10 @@ python3 -m http.server 80
 ```
 
 Other privileges that can be exploited if enabled: 
-`SeBackupPrivilege` `SeAssignPrimaryToken` `SeLoadDriver` `SeDebug`
+`SeBackupPrivilege` `SeAssignPrimaryToken` `SeLoadDriver` `SeDebugPrivilege` `SeBackupPrivilege`
 
-SeBackupPrivilege Abuse:
-#SEDebugPrivilige 
+ Abuse:
+#SEDebugPrivilege 
 
 ```bash
 impacket-smbserver -smb2support s .
