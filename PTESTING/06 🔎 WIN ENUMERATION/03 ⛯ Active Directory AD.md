@@ -34,6 +34,7 @@ kerbrute userenum --dc $TARGET_IP --domain $TARGET_AD --hash-file hashes --downg
 
 LDAP
 ----
+#ldap #ldapsearch
 ```bash
 nmap -n -sV --script "ldap* and not brute" $TARGET_IP
 ```
@@ -50,6 +51,9 @@ ldapsearch -x -H ldap://$TARGET_IP -b 'DC=$TARGET_AD,DC=$DOMEXT' | grep -B2 Pers
 ldapsearch -H ldap://$TARGET_IP -x -b "DC=$TARGET_AD,DC=local" '(objectClass=person)'
 ```
 
+```bash
+ldapsearch -v -x -b "DC=$TARGET_AD,DC=local" -H "ldap://$TARGET_IP" "(objectclass=*)"
+```
 AS-REP Roasting
 ---
 #as-rep-roasting #kerberos #asrep-roasting
