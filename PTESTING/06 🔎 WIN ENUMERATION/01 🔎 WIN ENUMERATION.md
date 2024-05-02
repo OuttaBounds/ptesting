@@ -22,6 +22,7 @@ Get-ItemProperty "HKLM:\SOFTWARE\Wow6432Node\Microsoft\Windows\CurrentVersion\Un
 Get-ItemProperty "HKLM:\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\*" | select displayname
 Get-Process # or tasklist /SVC
 Get-Process | findstr /V /R "svchost winlogon vm3dservice RuntimeBroker vmtoolsd SearchHost lsass"
+cmdkey /list
 ```
 
 ```powershell
