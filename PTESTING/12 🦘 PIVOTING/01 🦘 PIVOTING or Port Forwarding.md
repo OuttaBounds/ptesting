@@ -37,7 +37,7 @@ Proxy on localhost:9090 using SSH and credentials:
 #socks5, localhost:9090 in FoxyProxy
 ssh -D 9090 $USER@$TARGET_IP
 ```
-OSCP - from first server > second server > third server < from second to first
+From first server > second server > third server < from second to first
 ---
 expose smb shares on 3rd server
 ```bash
@@ -49,7 +49,7 @@ Forward local port to target IP with SOCAT
 socat TCP-LISTEN:139,reuseaddr,fork TCP:$TARGET_IP:$PORT &
 ```
 
-OSCP socat
+## socat
 ---
 #socat #pivot #port-forwarding
 

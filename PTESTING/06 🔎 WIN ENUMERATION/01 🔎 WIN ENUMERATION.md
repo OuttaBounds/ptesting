@@ -3,9 +3,9 @@ Port scan for Win:
 ```bash
 nmap -sC -sV -A -Pn -p 53,88,135,139,445 $TARGET_IP -vv
 ```
-OSCP guidance for enumeration:
+Checklist for enumeration:
 ---
-#oscp #windows-enum #pen-200
+#windows-enum
 ```powershell
 whoami /groups
 (Get-PSReadlineOption).HistorySavePath
