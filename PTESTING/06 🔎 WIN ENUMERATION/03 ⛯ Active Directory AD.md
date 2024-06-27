@@ -268,7 +268,10 @@ MATCH (m:Computer) RETURN m
 MATCH (m:User) RETURN m
 MATCH p = (c:Computer)-[:HasSession]->(m:User) RETURN p
 ```
-
+if you have valid domain user:
+```bash
+bloodhound-python -d $TARGET_DOMAIN -u -p -c All -dc dc.$TARGET_DOMAIN -ns $TARGET_IP
+```
 PowerView.ps1
 #powerview #list-ad
 
