@@ -31,7 +31,6 @@ Dev version of kerbrute auto-checks for AS-REP roastable accounts
 ```bash
 kerbrute userenum --dc $TARGET_IP --domain $TARGET_AD --hash-file hashes --downgrade users
 ```
-
 LDAP
 ----
 #ldap #ldapsearch
