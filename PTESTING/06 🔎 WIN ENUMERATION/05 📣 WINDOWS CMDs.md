@@ -3,7 +3,6 @@ Cross compiling on KALI:
 ```bash
 i686-w64-mingw32-gcc -o test.exe test.c
 ```
-
 Download file using PowerShell:
 ---
 #powershell #download #windows
