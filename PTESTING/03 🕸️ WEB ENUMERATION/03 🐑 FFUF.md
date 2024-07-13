@@ -11,6 +11,7 @@ ffuf -u $TARGET_URL/FUZZ -w /usr/share/seclists/Discovery/Web-Content/common.txt
 ```bash
 ffuf -u http://$TARGET_IP/FUZZ -w /usr/share/seclists/Discovery/Web-Content/raft-medium-directories.txt -recursion -e *.txt,.php,.html,.bak,.jar,.war,.backup,._backup -ac
 ```
+
 **FFUF post request:**
 ---
 #post #post-requests #api
