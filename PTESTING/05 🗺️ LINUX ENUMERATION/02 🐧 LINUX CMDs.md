@@ -13,7 +13,7 @@ cat /etc/passwd | awk -F':' '{print $1}'
 Replace each ',' with a newline:
 
 ```shell
-echo -n 'kas:asddas,asdkjlaskjdlasd:asda,asdasasd:aaaaaa' | sed 's/,/\n/g'
+echo -n 'test:test,test:test,test:test' | sed 's/,/\n/g'
 ```
 
 Print all text between |> and <| on a new line
