@@ -118,6 +118,11 @@ impacket-secretsdump -dc-ip $TARGET_IP $USER:$PASSWORD@$TARGET_DOMAIN
 impacket-secretsdump $USER:$PASSWORD@$TARGET_IP
 ```
 
+```bash
+impacket-samrdump -h
+```
+
+```
 Connect to Windows Machine using obtained hash (pass the hash):
 #winrm #evil-win-rm #evilwinrm #pth #pass-the-hash
 
