@@ -25,7 +25,6 @@ netstat -an | findstr $PORT
 ```powershell
 net accounts
 ```
-
 Replace service
 ---
 Get list of running services
