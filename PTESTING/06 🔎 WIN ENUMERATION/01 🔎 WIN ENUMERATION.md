@@ -198,6 +198,7 @@ smbclient \\\\$TARGET_IP\\$SHARE -U Administrator --pw-nt-hash $HASH
 If there is write access to a share try generating .url, .lnk ..
 
 `https://github.com/xct/hashgrab`
+`https://github.com/Greenwolf/ntlm_theft`
 
 Try to connect to console:
 
