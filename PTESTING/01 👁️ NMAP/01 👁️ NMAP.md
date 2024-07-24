@@ -8,7 +8,7 @@ Fastest TCP connect scan with banner grabbing, only on open ports:
 nmap -sTCV -p- -T4 --open --max-retries 1 -v $TARGET_IP -oN $TARGET_NAME.ports.txt
 ```
 
-Then do:
+Port specific:
 
 ```bash
 export TARGET_PORTS=1,2,3
