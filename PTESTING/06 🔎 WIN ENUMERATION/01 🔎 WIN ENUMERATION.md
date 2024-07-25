@@ -6,6 +6,7 @@ nmap -sC -sV -A -Pn -p 53,88,135,139,445 $TARGET_IP -vv
 Checklist for enumeration:
 ---
 #windows-enum
+
 ```powershell
 whoami /groups
 whoami /priv
