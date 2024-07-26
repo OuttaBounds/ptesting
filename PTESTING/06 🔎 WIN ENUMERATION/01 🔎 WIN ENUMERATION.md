@@ -47,7 +47,8 @@ Reboot Windows:
 shutdown /r /t 0
 ```
 
-Type powershell history:
+Show powershell history:
+
 ```powershell
 type $((Get-PSReadlineOption).HistorySavePath)
 ```
