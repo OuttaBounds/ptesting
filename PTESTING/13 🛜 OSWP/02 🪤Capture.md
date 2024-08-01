@@ -8,4 +8,6 @@ airmon-ng start wlan0
 ifconfig wlan0 down
 iwconfig wlan0 mode monitor
 ifconfig wlan0 up
+airmon-ng check kill
+airodump-ng wlan0
 ```
