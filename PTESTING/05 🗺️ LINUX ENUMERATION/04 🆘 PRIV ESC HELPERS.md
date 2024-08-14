@@ -1,12 +1,12 @@
 GTFObins / LINUX
 
 [https://gtfobins.github.io/](https://gtfobins.github.io/)
-LOLBAS / WINDOWS
+`LOLBAS / WINDOWS`
 [https://lolbas-project.github.io/](https://lolbas-project.github.io/)
-Pwnkit
-dirty pipe
+`Pwnkit`
+`dirty pipe`
 +w docker.sock
-reddit overlayfs
+`reddit overlayfs`
 
 ```shell
 (cat /proc/version || uname -a ) 2>/dev/null
