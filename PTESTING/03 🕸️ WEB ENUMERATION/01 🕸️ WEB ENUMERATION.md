@@ -32,3 +32,5 @@ Whatweb:
 ```bash
 whatweb http://$TARGET_IP
 ```
+
+Check response headers for server/proxy version info.
