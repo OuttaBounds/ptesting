@@ -3,7 +3,6 @@ DIRB CMDs:
 ```bash
 dirb $TARGET_URL
 ```
-
 Append each word with .txt:
 ---
 ```bash
