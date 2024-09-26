@@ -31,9 +31,13 @@ ffuf -u http://$TARGET_IP -w /usr/share/seclists/Discovery/DNS/subdomains-top1mi
 ```
 
 ```bash
-ffuf -u http://$TARGET_URL -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -H "Host: FUZZ.$TARGET_URL" -fs #default size
+ffuf -u http://$TARGET_IP -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -H "Host: FUZZ.$TARGET_URL" -fc 301
+#don't forget HTTPS
 ```
 
+```bash
+ffuf -u http://$TARGET_URL -w /usr/share/seclists/Discovery/DNS/subdomains-top1million-20000.txt -H "Host: FUZZ.$TARGET_URL" -fs #default size
+```
 **FFUF Brute force 2FA TOTP code auth:**
 ---
 #2fa #TOTP #bruteforce 
