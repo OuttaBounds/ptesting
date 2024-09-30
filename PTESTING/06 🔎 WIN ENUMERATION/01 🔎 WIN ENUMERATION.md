@@ -160,19 +160,19 @@ Enumerate users by brute forcing RID
 #rid #bruteforce-rid
 
 ```shell
-crackmapexec smb $AD_DOMAIN -u $USER -p '' --rid-brute 10000
+netexec smb $AD_DOMAIN -u $USER -p '' --rid-brute 10000
 #extract usernames
-crackmapexec smb $AD_DOMAIN -u $USER -p '' --rid-brute 10000 | grep -o '\\[^ ]*' | awk -F'\\' '{print $2}' | uniq
+netexec smb $AD_DOMAIN -u $USER -p '' --rid-brute 10000 | grep -o '\\[^ ]*' | awk -F'\\' '{print $2}' | uniq
 ```
 
 Show all files and DIRs for guest:
 
 ```shell
-crackmapexec smb $TARGET_IP -u 'guest' -p '' -M spider_plus
+netexec smb $TARGET_IP -u 'guest' -p '' -M spider_plus
 ```
 
 ```shell
-crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD -M spider_plus --spider users
+netexec smb $TARGET_IP -u $USER -p $PASSWORD -M spider_plus --spider users
 ```
 
 Parse the JSON from the previous cmd into readable form:
