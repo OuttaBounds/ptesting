@@ -9,23 +9,23 @@ Put IP after protocol or the CME crashes!
 Enumerate SAMBA shares without specifying user:
 #null-session 
 ```bash
-crackmapexec smb $TARGET_IP -u '' -p '' --shares
+netexec smb $TARGET_IP -u '' -p '' --shares
 ```
 
 or using "guest" user
 
 ```bash
-crackmapexec smb $TARGET_IP -u 'guest' -p '' --shares
+netexec smb $TARGET_IP -u 'guest' -p '' --shares
 ```
 
 try again with a non-existing username
 
 ```shell
-crackmapexec smb $TARGET_IP -u 'NonExistingUser' -p '' --shares
+netexec smb $TARGET_IP -u 'NonExistingUser' -p '' --shares
 ```
 Enumerate users:
 ```sh
-crackmapexec smb $TARGET_IP -u $USER -p $PASS --users > users.txt
+netexec smb $TARGET_IP -u $USER -p $PASS --users > users.txt
 cat users.txt | awk '{print $5}' | grep $TARGET_AD > users.txt
 #strip users from domain
 cat users.txt | awk 'BEGIN{ FS = "\\"} ; {print $2}' > users

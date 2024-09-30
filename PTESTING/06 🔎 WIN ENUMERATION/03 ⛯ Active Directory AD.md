@@ -243,14 +243,14 @@ List Active Directory AD Users:
 #enumerate #ad #users #smb-enumeration
 
 ```shell
-crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD --users
-crackmapexec smb $TARGET_IP -u $USER -p $PASSWORD --users | grep "$TARGET_AD" | sed 1d | awk '{print $5}' | sed 's/[^ ]*\\//' | tail -n +2
+netexec smb $TARGET_IP -u $USER -p $PASSWORD --users
+netexec smb $TARGET_IP -u $USER -p $PASSWORD --users | grep "$TARGET_AD" | sed 1d | awk '{print $5}' | sed 's/[^ ]*\\//' | tail -n +2
 ```
 
 Password spraying with CME
 
 ```shell
-crackmapexec smb $TARGET_AD -u users -p $PASS --continue-on-success
+netexec smb $TARGET_AD -u users -p $PASS --continue-on-success
 ```
 
 Start collecting data for BloodHound:

