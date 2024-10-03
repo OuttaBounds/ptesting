@@ -19,6 +19,10 @@ zone transfer:
 dig axfr $TARGET_DOMAIN @$TARGET_IP
 ```
 ---
+---
+```bash
+subfinder -d $TARGET_DOMAIN -all -cs | tee domains.unf.txt | cut -d "," -f 1 > domains.txt
+```
 Add subdomain to a DNS zone:
 ---
 #nsupdate #subdomain #add-domain
