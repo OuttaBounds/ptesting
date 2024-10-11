@@ -1,5 +1,4 @@
 #FFUF #enumeration #dir-brute #web-directory  
-
 **FFUF DIR bruting:**
 ---
 #dir #directory #web-directory 

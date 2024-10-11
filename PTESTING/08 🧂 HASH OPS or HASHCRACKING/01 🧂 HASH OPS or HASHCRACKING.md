@@ -25,7 +25,6 @@ Get MD5 hash of $STRING
 ```shell
 echo -n $STRING  | md5sum
 ```
-
 Crack keepass ( .kdbx ) database files:
 ---
 ```bash

