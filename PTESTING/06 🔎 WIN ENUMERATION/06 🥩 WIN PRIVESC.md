@@ -88,6 +88,7 @@ Using RunasCs.exe to bypass UAC:
 ```
 Search for passwords inside the registry
 ---
+#search #registry
 ```powershell
 reg query HKLM /f password /t REG_SZ /s
 reg query HKCU /f password /t REG_SZ /s
