@@ -43,6 +43,10 @@ Generate user password for use in /etc/passwd
 ```shell
 openssl passwd -1 -salt salt password
 ```
+or omit salt
+```bash
+openssl passwd $PASSWORD
+```
 
 Get all users with history:
 
