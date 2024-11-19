@@ -1,12 +1,15 @@
 
 Extract SquashFS
 ---
-#binwalk
+#binwalk #fs-extract #squashfs
+
 ```bash
 binwalk $FIRMWARE_BIN
 ```
-copy offset in fw file ($SQFS_OFFSET)
+
+from output: copy offset in fw file ($SQFS_OFFSET)
 copy image file size ($SQFS_IMAGE_SIZE)
+
 ```bash
 dd if=$FIRMWARE_BIN of=squashfs.bin bs=1 skip=$SQFS_OFFSET count=$SQFS_IMAGE_SIZE
 #sanity check
@@ -15,6 +18,9 @@ unsquashfs squashfs.bin
 cd squashfs-root
 ```
 now modify and prepare image:
+
+#create-fw #squashfs
+
 ```bash
 mksquashfs squashfs-root modified-sqfs.bin -comp xz
 #make sure the compression is the same one eg. xz or zlib
