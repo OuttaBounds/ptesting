@@ -16,6 +16,8 @@ dd if=$FIRMWARE_BIN of=squashfs.bin bs=1 skip=$SQFS_OFFSET count=$SQFS_IMAGE_SIZ
 file squashfs.bin
 unsquashfs squashfs.bin
 cd squashfs-root
+#same with JFFS
+jefferson jffs.bin
 ```
 now modify and prepare image:
 
