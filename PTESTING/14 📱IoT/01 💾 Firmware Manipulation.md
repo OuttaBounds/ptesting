@@ -1,5 +1,5 @@
 
-Extract SquashFS
+Extract/repack SquashFS / JFFS2
 ---
 #binwalk #fs-extract #squashfs
 
