@@ -21,6 +21,8 @@ jefferson jffs2.bin
 #create the file
 #mkfs.jffs2 -lqn -e128 -s2048 -p0x10000000 -r jffs2_dir -o $JFFS2MOD.bin
 mkfs.jffs2 -l -r jffs2_dir -o $JFFS2MOD.bin -e 0x10000 --pad=$PREV_SIZE
+#or without compression and with no-clean marker
+mkfs.jffs2 -l -r jffs2_dir -o $JFFS2MOD.bin -e 0x10000 --pad=$PREV_SIZE --pagesize=4096 --disable-compressor=zlib -n
 ```
 now modify and prepare image:
 
