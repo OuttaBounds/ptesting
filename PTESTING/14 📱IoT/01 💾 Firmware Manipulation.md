@@ -19,7 +19,8 @@ cd squashfs-root
 #same with JFFS2
 jefferson jffs2.bin
 #create the file
-mkfs.jffs2 -lqn -e128 -s2048 -p0x10000000 -r jffs2_dir -o $JFFS2MOD.bin
+#mkfs.jffs2 -lqn -e128 -s2048 -p0x10000000 -r jffs2_dir -o $JFFS2MOD.bin
+mkfs.jffs2 -l -r jffs2_dir -o $JFFS2MOD.bin -e 0x10000 --pad=$PREV_SIZE --no-cleanmarkers
 ```
 now modify and prepare image:
 
