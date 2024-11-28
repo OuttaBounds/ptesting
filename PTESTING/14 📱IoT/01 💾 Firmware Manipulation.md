@@ -23,6 +23,8 @@ jefferson jffs2.bin
 mkfs.jffs2 -l -r jffs2_dir -o $JFFS2MOD.bin -e 0x10000 --pad=$PREV_SIZE
 #or without compression and with no-clean marker
 mkfs.jffs2 -l -r jffs2_dir -o $JFFS2MOD.bin --pad=$PREV_SIZE --pagesize=4096 --disable-compressor=zlib --no-cleanmarkers
+#without compression
+mkfs.jffs2 -l -r jffs2_dir -o $JFFS2MOD.bin -e 0x2000 -s 0x1000 --pad=$PREV_SIZE --disable-compressor=zlib
 ```
 now modify and prepare image:
 
