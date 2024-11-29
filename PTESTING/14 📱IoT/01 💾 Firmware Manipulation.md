@@ -7,8 +7,8 @@ Extract/repack SquashFS / JFFS2
 binwalk $FIRMWARE_BIN
 ```
 
-from output: copy offset in fw file ($SQFS_OFFSET)
-copy image file size ($SQFS_IMAGE_SIZE)
+from output: copy offset in fw file (\$SQFS_OFFSET)
+copy image file size (\$SQFS_IMAGE_SIZE)
 
 ```bash
 dd if=$FIRMWARE_BIN of=squashfs.bin bs=1 skip=$SQFS_OFFSET count=$SQFS_IMAGE_SIZE
