@@ -36,3 +36,7 @@ mksquashfs squashfs-root modified-sqfs.bin -comp xz
 cp $FIRMWARE_BIN $NEW_FW_BIN
 dd if=modified-sqfs.bin of=$NEW_FW_BIN bs=1 seek=$SQFS_OFFSET count=$SQFS_IMAGE_SIZE conv=notrunc
 ```
+
+
+add this to uboot:
+`setenv bootargs init=/bin/sh`
