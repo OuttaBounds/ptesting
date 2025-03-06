@@ -317,3 +317,14 @@ Invoke-CimMethod -CimSession $Session -ClassName Win32_Process -MethodName Creat
 ```powershell
 wmic /node:$TARGET_IP /user:$USER /password:$PASS process call create 'powershell -e JA....AA=='
 ```
+
+InvokeADCheck performs over 20 targeted checks across key security areas:
+---
+- **Account Vulnerabilities**: Inactive users, default administrator settings, and guest account status.
+- **Group Policy Risks**: Misconfigured [Group Policy](https://cybersecuritynews.com/active-directory-group-policy-bypassed/) Objects (GPOs) and exposed credentials in Group Policy Preferences (GPP).
+- **Delegation Flaws**: Kerberos delegation settings and unprotected service accounts.
+- **Domain Health**: Functional levels, tombstone lifetime, and backup status.
+
+```powershell
+Invoke-ADCheck -Checks UserAccountHealth -OutputTypes CLI, XLSX -OutputPath C:\Reports 
+```
