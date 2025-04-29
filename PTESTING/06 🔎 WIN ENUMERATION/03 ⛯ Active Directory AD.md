@@ -55,6 +55,7 @@ ldapsearch -v -x -b "DC=$TARGET_AD,DC=local" -H "ldap://$TARGET_IP" "(objectclas
 ```
 
 Using PowerView.ps1 and if LAPS is installed:
+
 ```powershell
 Get-AdmPwdPassword -ComputerName $(hostname)
 ```
