@@ -22,3 +22,9 @@ Send email using SMTP server and swaks:
 ```bash
 swaks -t $VICTIM@$TARGET_AD --from $USER@$TARGET_AD -ap --attach config.Library-ms --server $SMTP_SERVER --body body.txt --header "Subject: Interesting" --suppress-data
 ```
+
+MQTT:
+
+```bash
+nmap --script mqtt-subscribe -p 1883,8883 $TARGET_IP
+```
