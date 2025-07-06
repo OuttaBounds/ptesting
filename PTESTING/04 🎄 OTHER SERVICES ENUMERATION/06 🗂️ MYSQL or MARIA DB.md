@@ -1,4 +1,3 @@
-
 Connect to MYSQL server:
 ---
 #mysql #connect
