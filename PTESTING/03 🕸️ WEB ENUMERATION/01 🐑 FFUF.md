@@ -37,6 +37,7 @@ ffuf -u http://$TARGET_URL -w /usr/share/seclists/Discovery/DNS/subdomains-top1m
 ```
 **FFUF Brute force 2FA TOTP code auth:**
 ---
+
 #2fa #TOTP #bruteforce 
 
 ```bash
