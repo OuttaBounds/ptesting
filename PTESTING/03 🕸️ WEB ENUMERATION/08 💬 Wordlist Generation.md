@@ -2,7 +2,7 @@ Generate wordlist from web page
 ---
 #wordlist #generate #generation #cewl
 
-Crawl the site page 
+Crawl the site page:
 ```bash
 cewl $TARGET_URL > passwords
 ```
