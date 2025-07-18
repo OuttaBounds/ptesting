@@ -1,6 +1,7 @@
 Cross compiling on KALI:
 ---
 ```bash
+sudo apt install mingw-w64
 i686-w64-mingw32-gcc -o test.exe test.c
 ```
 Download file using PowerShell:
