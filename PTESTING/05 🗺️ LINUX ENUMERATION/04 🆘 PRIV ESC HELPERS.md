@@ -1,8 +1,7 @@
 GTFObins / LINUX
 
 [https://gtfobins.github.io/](https://gtfobins.github.io/)
-`LOLBAS / WINDOWS`
-[https://lolbas-project.github.io/](https://lolbas-project.github.io/)
+
 `Pwnkit`
 `dirty pipe`
 +w docker.sock
