@@ -29,6 +29,6 @@ Crack keepass ( .kdbx ) database files:
 ---
 ```bash
 keepass2john Database.kdbx > hashes
-#remove Database: from the start
+#remove everything up to and includign the first ":" ie. "Database:"
 hashcat -m 13400 hashes /usr/share/wordlists/rockyou.txt -r /usr/share/hashcat/rules/rockyou-30000.rule --force
 ```
