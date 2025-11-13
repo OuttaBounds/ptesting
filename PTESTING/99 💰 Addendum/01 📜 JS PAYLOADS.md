@@ -1,4 +1,3 @@
-
 XSS cookie stealing using char code bypass:
 ---
 #xss #charcode #bypass #cookies 
