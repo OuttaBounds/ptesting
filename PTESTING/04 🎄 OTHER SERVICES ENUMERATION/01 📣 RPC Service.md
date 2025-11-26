@@ -9,7 +9,6 @@ rpcclient -U "" -N -c enumdomusers $TARGET_IP
 rpcclient -U "" -N -c enumdomusers $TARGET_IP | grep -o 'user:\[[^]]*\]' | awk -F'[][]' '{print $2}'
 ```
 
-
 ```shell
 rpcclient -U "" $TARGET_IP
 ```
@@ -24,7 +23,6 @@ querydispinfo
 enumprivs
 enumprinters
 ```
-
 Change user password via RPC
 ---
 use net
