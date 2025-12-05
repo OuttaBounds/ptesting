@@ -8,6 +8,7 @@ Put IP after protocol or the CME crashes!
 
 Enumerate SAMBA shares without specifying user:
 #null-session 
+
 ```bash
 netexec smb $TARGET_IP -u '' -p '' --shares
 ```
