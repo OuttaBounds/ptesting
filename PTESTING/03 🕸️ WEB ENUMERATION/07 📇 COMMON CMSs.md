@@ -63,6 +63,7 @@ appearance -> editor > index.php > revshell
 Rev shell using WordPress(WP) plugin:
 ---
 create QwertyRocks.php
+
 ```php
 <?php
 /**

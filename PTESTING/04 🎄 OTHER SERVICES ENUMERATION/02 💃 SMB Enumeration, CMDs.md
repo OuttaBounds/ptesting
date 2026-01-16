@@ -13,7 +13,7 @@ Enumerate SAMBA shares without specifying user:
 netexec smb $TARGET_IP -u '' -p '' --shares
 ```
 
-or using "guest" user
+or using "guest" user:
 
 ```bash
 netexec smb $TARGET_IP -u 'guest' -p '' --shares
