@@ -85,3 +85,7 @@ or prepend command with:
 ```powershell
 powershell -command $CMD
 ```
+
+Patch review - PowerShell tool that interacts with Microsoft Security Response Center API and shows patch data:
+
+https://github.com/f-bader/MSRC-PatchReview
