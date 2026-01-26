@@ -7,9 +7,14 @@ Checklist for enumeration:
 ---
 #windows-enum
 
-```powershell
+```cmd
 whoami /groups
 whoami /priv
+```
+
+```powershell
+[Environment]::UserName
+$Env:UserName
 (Get-PSReadlineOption).HistorySavePath
 type (Get-PSReadlineOption).HistorySavePath
 Get-LocalUser
