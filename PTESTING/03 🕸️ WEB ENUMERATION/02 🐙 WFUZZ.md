@@ -9,7 +9,6 @@ wfuzz -H "Host: FUZZ.$TARGET_URL" --hc 302,400 -H "User-Agent: PENTEST" -c -z fi
 ```bash
 wfuzz -H "Host: FUZZ.$TARGET_URL" -H "User-Agent: PENTEST" --hh 11947 -c -z file,"/usr/share/seclists/Discovery/DNS/subdomains-top1million-5000.txt" $TARGET_URL
 ```
-
 GET REQUEST FOR FUZZING PARAMS:
 ---
 #fuzzing #params #WFUZZ 
