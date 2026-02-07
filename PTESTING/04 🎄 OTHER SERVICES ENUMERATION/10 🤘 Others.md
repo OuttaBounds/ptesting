@@ -1,4 +1,5 @@
 Mongo DB port 27017:
+#mongo
 ```sh
 mongo mongodb://10.129.189.148:27017
 ```
@@ -12,6 +13,7 @@ db.$COLLECTION.find().pretty()
 ```
 
 RSYNC:
+#rsync
 ```sh
 rsync --list-only $TARGET_IP::
 rsync --list-only $TARGET_IP::$DIR
