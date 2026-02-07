@@ -4,6 +4,7 @@
 EXPLOIT DB / SearchSploit:
 
 Find exploit for an application:
+#searchsploit
 ```shell
 searchsploit $APP_NAME
 ```
@@ -14,7 +15,7 @@ searchsploit -m $EXPLOIT_ID
 ```
 
 WORDLISTS:
-
+#rockyou #seclists
 ```
 /usr/share/wordlists/rockyou.txt
 ```
