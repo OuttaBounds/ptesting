@@ -115,7 +115,6 @@ Get running processes:
 ```powershell
 tasklist /SVC
 ```
-
 # Get installed patches:
 
 ```powershell
