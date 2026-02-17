@@ -22,6 +22,8 @@ Get-LocalGroup
 Get-LocalGroupMember "$GROUP"
 Get-ChildItem -Recurse
 systeminfo
+#get all the PowerShell variables in the current console
+Get-Variable | Out-String
 ipconfig /all
 route print
 netstat -ano
